@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conf</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class='container'>
+      <div id='header'>
+        <div class='row align-items-center p-5'>
+          <div class='col-md-9'>
+            RPPW.org
+          </div>
+          <div class='col-md-3'>
+            <button type='button' class='btn btn-light btn-lg btn-login shadow-sm'>REGISTER / LOGIN</button>
+          </div>
+        </div>
+      </div>
+      <div id='searchbar'>
+        <div class='row px-5 py-3'>
+          <div class='col-5'>
+            <form class="">
+              <div class='form-group'>
+                <input class="form-control rounded-pill search" type="search" placeholder="Search" aria-label="Search">
+              </div>
+            </form>
+          </div>
+          <div class='col-3 offset-md-4'>
+            <div class='form-group'>
+              <input class="form-control rounded-pill" type="text" placeholder="Timezone">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='menubar'>
+        <ul class="nav nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WORKSHOPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">RESEARCHERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">POSTERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SOCIAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div id='main' class='p-5'>
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>

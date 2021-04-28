@@ -1,0 +1,99 @@
+@import "../../../node_modules/bootstrap/scss/vendor/rfs";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+html * {
+  font-family: Verdana;
+}
+
+#header{
+  background-color: #FF502F;
+  // height: 5em;
+  // padding: 1em 0em 1.2em 1.8em;
+  color: #fff;
+  @include font-size(4rem);
+  font-weight: 700;
+}
+#searchbar{
+  background-color: #5BD1D7;
+  // padding: 1em 2em;
+}
+#menubar{
+ background-color: #FFF;
+ padding: 2em 2em;
+}
+
+// ------------------------------------------------------------------
+// NAV
+// ------------------------------------------------------------------
+
+.nav{
+  a{
+    color: #004D61;
+    @include rfs(2rem, border-radius);
+  }
+  .nav-link.active{
+    color: #004D61;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #004D61;
+    background-color: #eee;
+  }
+}
+
+
+// ------------------------------------------------------------------
+// FORMS
+// ------------------------------------------------------------------
+input.form-control.search{
+  color: #FFF;
+  background-color: #004D61;
+  border: 0;
+}
+input.form-control.search:focus{
+  color: #FFF;
+  background-color: #004D61;
+}
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+input.form-control::placeholder {
+  color: #DDD;
+  opacity: 1; /* Firefox */
+}
+/* Internet Explorer 10-11 */
+input.form-control:-ms-input-placeholder {
+  color: #DDD;
+}
+/* Microsoft Edge */
+input.form-control::-ms-input-placeholder {
+  color: #DDD;
+}
+
+button.btn-login{
+  width: 8.5em;
+  color: #004D61;
+  padding: 1em;
+  border: 0;
+  @include font-size(2rem);
+  font-weight: 700;
+  @include rfs(2rem, border-radius);
+}
+
+button.btn-login:hover{
+  background-color: #004D61;
+  color: #FF502F;
+  border: 0;
+}
+
+
+#main{
+  background-color: #ECEFF8;
+  h2{
+    // font-family: "Myriad Pro";
+    font-weight: bold;
+    margin: 1.2em 0;
+  }
+  p{
+    // font-family: "Myriad Pro";
+    @include font-size(1.1rem);
+  }
+}
