@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Program overview</h1>
+
+
+<% @workshops.each do |workshop| %>
+  <%= render partial: 'workshop', locals: {workshop: workshop} %>
+  <!-- <tr>
+    <td><%= workshop.name %></td>
+    <td><%= workshop.description %></td>
+    <td><%= workshop.zoom_link %></td>
+    <td><%= workshop.time %></td>
+    <td><%= link_to 'Show', workshop %></td>
+    <td><%= link_to 'Edit', edit_workshop_path(workshop) %></td>
+    <td><%= link_to 'Destroy', workshop, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr> -->
+<% end %>
+
+<br>
+
+<%= link_to 'New Workshop', new_workshop_path %>
