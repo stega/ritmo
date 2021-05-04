@@ -15,7 +15,9 @@
               <p class='job_title'><%= current_user.job_title %></p>
             </div>
             <div class='col-6'>
-              <%= image_tag current_user.image %>
+              <% if current_user.image.representable? %>
+                <%= image_tag current_user.image %>
+              <% end %>
             </div>
           </div>
         <% end %>
