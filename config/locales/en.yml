@@ -30,4 +30,11 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  helpers:
+    submit:
+      researcher:
+        create: "Create presenter"
+        update: "Update presenter"
+      workshop:
+        create: "Create"
+        update: "Update"

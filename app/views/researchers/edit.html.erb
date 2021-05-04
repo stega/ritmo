@@ -1,0 +1,9 @@
+<h1>Editing Presenter</h1>
+
+<%= render 'form', researcher: @researcher %>
+
+<br>
+
+<% if is_admin? %>
+  <%= link_to 'Delete presenter', @researcher, method: :delete, data: { confirm: 'Are you sure?' } %>
+<% end %>

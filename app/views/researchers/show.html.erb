@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+
+<div id='researcher'>
+  <div id='researcher-header'>
+    <div class='top-half text-center'>
+      <%= @researcher.name %>
+      <div class='row'>
+        <div class='col-sm-4 offset-sm-4 mt-4'>
+          <% if @researcher.image.representable? %>
+            <%= image_tag(@researcher.image, class:'img-thumbnail') %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class='bottom-half'>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <h3>ABOUT</h3>
+        </div>
+        <div class='col-sm-8'>
+          <%= @researcher.about %>
+        </div>
+      </div>
+      <div class='row mt-4'>
+        <div class='col-sm-4'>
+          <h3>TALKS / POSTERS</h3>
+        </div>
+        <div class='col-sm-8'>
+          <% @researcher.workshops.each do |workshop| %>
+            <p><%= link_to workshop.name, workshop_path(workshop) %></p>
+          <% end %>
+        </div>
+      </div>
+      <div class='row mt-4'>
+        <div class='col-sm-4'>
+          <h3>CONTACT</h3>
+        </div>
+        <div class='col-sm-8'>
+          <p>email: email@email.com</p>
+          <p>phone: +47 84439832</p>
+        </div>
+      </div>
+      <% if is_admin? %>
+        <div class='text-sm-end text-center mt-5'>
+          <%= link_to 'Edit', edit_researcher_path(@researcher), class:'btn-ritmo' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

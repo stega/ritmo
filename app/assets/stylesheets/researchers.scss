@@ -1,0 +1,79 @@
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.btn-nav{
+  color: #004D61;
+  padding: 1em;
+  border: 0;
+  background-color: white;
+  text-decoration: none;
+  @include font-size(1.2rem);
+  font-weight: 700;
+  @include rfs(1rem, border-radius);
+}
+
+.btn-nav:hover{
+  background-color: #004D61;
+  color: #FF502F;
+  border: 0;
+}
+
+#researchers{
+  margin-top: 0em;
+  color: #004D61;
+  // background-color: white;
+  padding: 3em;
+  padding-top: 0em;
+  // @include rfs(1rem, border-radius);
+
+  h1{
+    text-align: center;
+    @include font-size(1.7rem);
+    font-weight: bold;
+  }
+
+  .head{
+    color: #4f4f4f;
+    font-weight: 500;
+    @include font-size(1.1rem);
+    @include rfs(1rem, padding-bottom);
+    border-bottom: 3px solid #004D61;
+  }
+
+  .researcher{
+    margin-top: 1.6em;
+    a{
+      color: #004D61;
+      text-decoration: none;
+      // @include font-size(1.1rem);
+    }
+    a:hover{
+      color: #4f4f4f;
+    }
+  }
+}
+
+#researcher{
+  #researcher-header{
+    margin-bottom: 3em;
+    .top-half{
+      text-align: center;
+      color: white;
+      background-color: #004D61;
+      border-radius: 1em 1em 0 0;
+      padding: 2em;
+      @include font-size(1.8rem);
+      font-weight: bold;
+    }
+    .bottom-half{
+      padding: 3em;
+      background-color: white;
+      color: #004D61;
+      border-radius: 0 0 1em 1em;
+      @include font-size(1.1rem);
+      h3{
+        color: #4f4f4f;
+        @include font-size(1.2rem);
+      }
+    }
+  }
+}

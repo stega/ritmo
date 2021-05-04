@@ -1,0 +1,43 @@
+
+<div id='researchers' class='shadow-sm'>
+  <p id="notice"><%= notice %></p>
+
+  <div class='row head'>
+    <div class='col-md-3 d-none d-sm-block'>PRESENTER</div>
+    <div class='col-md-6 d-none d-sm-block'>ABOUT</div>
+    <div class='col-md-3 d-none d-sm-block text-center'>INFO</div>
+  </div>
+
+  <% @researchers.each do |researcher| %>
+    <div class='row researcher'>
+      <div class='col-md-3 text-center text-sm-start'><strong><%= researcher.name %></strong></div>
+      <div class='col-md-6 text-center text-sm-start d-none d-sm-block'><%= truncate(strip_tags(researcher.about.to_s), length:150) %></div>
+      <div class='col-md-3 text-center pt-sm-0 pt-2'>
+        <%= link_to researcher do %>
+          <i class="bi bi-person-circle"></i>
+          view profile
+        <% end %>
+        <% if is_admin? %>
+          <div class='mt-2'>
+            <small>
+              <%= link_to 'Edit', edit_researcher_path(researcher) %> :
+              <%= link_to 'Delete', researcher, method: :delete, data: { confirm: 'Are you sure?' } %>
+            </small>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <% if is_admin? %>
+    <div class='text-end'>
+      <%= link_to 'New Presenter', new_researcher_path, class:'btn-ritmo'%>
+    </div>
+  <% end %>
+
+</div>
+
