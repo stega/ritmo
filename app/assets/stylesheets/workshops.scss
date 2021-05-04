@@ -1,3 +1,138 @@
-// Place all the styles related to the workshops controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "../../../node_modules/bootstrap/scss/vendor/rfs";
+
+i.download{
+  font-size: 1.2rem !important;
+  vertical-align: -0.14em !important;
+}
+
+a:hover{
+  background-color: transparent;
+}
+
+h1.underlined{
+  @include font-size(1.7rem);
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #111;
+  margin-bottom: 2em;
+}
+
+.nav.dates{
+  button{
+    @include font-size(1.5rem);
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+    color: #004D61;
+  }
+  .nav-link.active{
+    color: black;
+  }
+  button:hover{
+    color: black;
+  }
+}
+
+.workshop{
+  border-top: 2px solid #111;
+  padding: 2em 0;
+  margin: 2em 0;
+  @include font-size(0.9rem);
+
+  a{ color: #004D61; }
+  h5.ws_title{
+    @include font-size(1.1rem);
+    font-weight: bold;
+  }
+
+  .tags{
+    .badge{
+      @include font-size(0.7rem);
+      font-weight: normal;
+      background-color: #fff !important;
+      color: #004D61;
+    }
+  }
+
+  a{
+    text-decoration: none;
+    .zoom{
+      background-color: #fff;
+      padding: 0.4em;
+      @include rfs(1rem, border-radius);
+      text-align: center;
+    }
+    i{
+      @include font-size(1.8rem);
+    }
+    .link_text{
+      vertical-align: 0.3em;
+      padding-left: 0.35em;
+    }
+  }
+  a:hover .zoom{
+    color: #5BD1D7;
+  }
+  .zoom:hover{
+    color: #5BD1D7;
+    background-color: #004D61;
+  }
+  a:hover{
+    color: black;
+  }
+}
+
+form{
+  .tags-label{
+    margin-right: 0.5em;
+  }
+  .tags{
+    label{
+      margin-left: 0.3em;
+      margin-right: 1.2em;
+    }
+  }
+}
+
+p.noworkshops{
+  text-align: center;
+  padding: 5em;
+}
+
+#workshop{
+  margin-bottom: 3em;
+  .top-half{
+    text-align: center;
+    color: white;
+    background-color: #004D61;
+    border-radius: 1em 1em 0 0;
+    padding: 2em;
+    @include font-size(1.8rem);
+    font-weight: bold;
+  }
+  .bottom-half{
+    padding: 3em;
+    background-color: white;
+    color: #004D61;
+    border-radius: 0 0 1em 1em;
+    @include font-size(1.1rem);
+    h3{
+      color: #4f4f4f;
+      @include font-size(1.2rem);
+    }
+    a{
+      color: #004D61;
+    }
+    a:hover{
+      color: #4f4f4f;
+    }
+    .tags{
+      .badge{
+        @include font-size(0.7rem);
+        font-weight: normal;
+        background-color: #aaa !important;
+        color: white;
+      }
+    }
+  }
+}

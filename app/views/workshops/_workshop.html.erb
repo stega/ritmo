@@ -1,1 +1,48 @@
-<%= workshop.name %>
+<div class='workshop'>
+  <div class='row'>
+    <div class='col-sm-3'>
+      <strong><%= workshop_time(workshop) %></strong>
+    </div>
+    <div class='col-sm-6'>
+      <h5 class='ws_title'><%= workshop.name %></h5>
+      <%= link_to workshop.researcher.name, researcher_path(workshop.researcher) %>
+      <p><%= workshop.description %></p>
+      <% if workshop.attachment.attached? %>
+        <%= link_to rails_blob_path(workshop.attachment, disposition: 'attachment') do %>
+          <i class='bi bi-cloud-arrow-down download'></i>
+          <%= workshop.attachment.filename %>
+        <% end %>
+      <% end %>
+      <p class='tags mt-3'>
+        <% workshop.tags.each do |tag| %>
+        <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+        <% end %>
+      </p>
+    </div>
+    <div class='col-sm-3 px-sm-5 mt-sm-0 mt-4'>
+      <h5 class='ws_title'>Join <%= workshop.session_type.downcase %></h5>
+      <br>
+
+      <%= link_to workshop.zoom_link do %>
+        <div class='zoom'>
+          <i class="bi bi-camera-video"></i>
+          <span class='link_text'>Zoom</span>
+        </div>
+      <% end %>
+      <br>
+      <%= link_to workshop.zoom_link do %>
+        <div class='zoom'>
+          <i class="bi bi-map"></i>
+          <span class='link_text'>Map</span>
+        </div>
+      <% end %>
+      <br>
+      <% if is_admin? %>
+        <div class='admin_links text-center mt-3'>
+          <%= link_to 'Edit', edit_workshop_path(workshop) %> :
+          <%= link_to 'Delete', workshop, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

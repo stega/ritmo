@@ -1,5 +1,6 @@
 @import "../../../node_modules/bootstrap/scss/vendor/rfs";
 @import "../../../node_modules/bootstrap/scss/mixins";
+@import "./actiontext.scss";
 
 html * {
   font-family: Verdana;
@@ -7,15 +8,16 @@ html * {
 
 #header{
   background-color: #FF502F;
-  // height: 5em;
-  // padding: 1em 0em 1.2em 1.8em;
   color: #fff;
   @include font-size(4rem);
   font-weight: 700;
+  .subheading{
+    @include font-size(0.8rem);
+    color: black;
+  }
 }
 #searchbar{
   background-color: #5BD1D7;
-  // padding: 1em 2em;
 }
 #menubar{
  background-color: #FFF;
@@ -70,7 +72,7 @@ input.form-control::-ms-input-placeholder {
   color: #DDD;
 }
 
-button.btn-login{
+input.btn-login{
   width: 8.5em;
   color: #004D61;
   padding: 1em;
@@ -80,12 +82,23 @@ button.btn-login{
   @include rfs(2rem, border-radius);
 }
 
-button.btn-login:hover{
+input.btn-login:hover{
   background-color: #004D61;
   color: #FF502F;
   border: 0;
 }
 
+.btn-ritmo{
+  color: #004D61;
+  background-color: #FBFBFB;
+  border: 1px solid #004D61;
+  padding: 15px;
+  text-decoration: none;
+}
+.btn-ritmo:hover{
+  color: #fff;
+  background-color: #FF502F;
+}
 
 #main{
   background-color: #ECEFF8;
@@ -99,3 +112,13 @@ button.btn-login:hover{
     @include font-size(1.1rem);
   }
 }
+
+#footer{
+  color: #ECEFF8;
+  background-color: #004D61;
+  padding: 2em 1em 0.8em 1em;
+  @include font-size(0.8rem);
+  text-align: center;
+}
+
+#notice{}

@@ -1,0 +1,43 @@
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+#user_profile{
+  // width: 100%;
+  color: #004D61;
+  background-color: white;
+
+  @include rfs(0.7rem, padding);
+  border: 0;
+  font-weight: 700;
+  line-height: 1.2em;
+  @include font-size(1.6rem);
+  @include rfs(2rem, border-radius);
+  img{
+    @include rfs(10rem, border-radius);
+    width: 100%;
+    border: 2px solid #004D61;
+  }
+  .job_title{
+    @include font-size(0.8rem);
+    font-weight: lighter;
+    color: #7D8088;
+    margin-top: 0.4em;
+  }
+}
+#user_profile:hover{
+  background-color: #004D61;
+  color: #FF502F;
+  border: 0;
+
+}
+a.btn-profile{
+  text-decoration: none;
+}
+
+#edit_user{
+  padding: 1em 5em;
+  h1{
+    @include font-size(1.6rem);
+    font-weight: bold;
+    padding-bottom: 1.6em;
+  }
+}

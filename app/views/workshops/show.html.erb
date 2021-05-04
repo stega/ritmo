@@ -1,24 +1,49 @@
-<p id="notice"><%= notice %></p>
+<div id='workshop'>
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @workshop.name %>
-</p>
+  <div class='top-half text-center'>
+    <%= @workshop.name %>
+  </div>
+  <div class='bottom-half'>
+    <div class='row'>
+      <div class='col-sm-4'>
+        <h3>ABOUT</h3>
+      </div>
+      <div class='col-sm-8'>
+        <%= @workshop.description %>
+        <p class='tags'>
+          <% @workshop.tags.each do |tag| %>
+          <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+          <% end %>
+        </p>
+      </div>
+    </div>
+    <div class='row mt-4'>
+      <div class='col-sm-4'>
+        <h3>DATE / TIME</h3>
+      </div>
+      <div class='col-sm-8'>
+        <strong><%= @workshop.date %> June</strong>
+        &nbsp;
 
-<p>
-  <strong>Description:</strong>
-  <%= @workshop.description %>
-</p>
-
-<p>
-  <strong>Zoom link:</strong>
-  <%= @workshop.zoom_link %>
-</p>
-
-<p>
-  <strong>Time:</strong>
-  <%= @workshop.time %>
-</p>
-
-<%= link_to 'Edit', edit_workshop_path(@workshop) %> |
-<%= link_to 'Back', workshops_path %>
+        <%= workshop_time(@workshop) %>
+      </div>
+    </div>
+    <div class='row mt-4'>
+      <div class='col-sm-4'>
+        <h3>ZOOM LINK</h3>
+      </div>
+      <div class='col-sm-8'>
+        <%= link_to 'Zoom link', @workshop.zoom_link %>
+      </div>
+    </div>
+    <div class='row mt-4'>
+      <div class='col-sm-4'>
+        <h3>MAP</h3>
+      </div>
+      <div class='col-sm-8'>
+        <%= link_to 'Map', @workshop.zoom_link %>
+      </div>
+    </div>
+  </div>
+</div>

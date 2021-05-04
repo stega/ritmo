@@ -3,7 +3,7 @@ class WorkshopsController < ApplicationController
 
   # GET /workshops or /workshops.json
   def index
-    @workshops = Workshop.all
+    @workshops = Workshop.all.order(:date, :time_start)
   end
 
   # GET /workshops/1 or /workshops/1.json
@@ -25,7 +25,8 @@ class WorkshopsController < ApplicationController
 
     respond_to do |format|
       if @workshop.save
-        format.html { redirect_to @workshop, notice: "Workshop was successfully created." }
+        @workshop.update tags: workshop_params[:tags].reject!(&:blank?)
+        format.html { redirect_to workshops_path, notice: "Workshop was successfully created." }
         format.json { render :show, status: :created, location: @workshop }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +39,8 @@ class WorkshopsController < ApplicationController
   def update
     respond_to do |format|
       if @workshop.update(workshop_params)
-        format.html { redirect_to @workshop, notice: "Workshop was successfully updated." }
+        @workshop.update tags: workshop_params[:tags].reject!(&:blank?)
+        format.html { redirect_to workshops_path, notice: "Workshop was successfully updated." }
         format.json { render :show, status: :ok, location: @workshop }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -64,6 +66,15 @@ class WorkshopsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def workshop_params
-      params.require(:workshop).permit(:name, :description, :zoom_link, :time)
+      params.require(:workshop).permit(:name,
+                                       :description,
+                                       :zoom_link,
+                                       :time_start,
+                                       :date,
+                                       :duration,
+                                       :session_type,
+                                       :attachment,
+                                       {:tags => []},
+                                       :researcher_id)
     end
 end

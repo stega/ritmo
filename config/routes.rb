@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   resources :conference, only: [:index]
   resources :social, only: [:index]
+  resources :users, only: [:edit, :update, :destroy]
 
   root to: 'conference#index'
 end

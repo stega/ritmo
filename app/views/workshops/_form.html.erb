@@ -11,27 +11,60 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <div class="field mb-3">
+    <%= form.label :name, class: 'form-label' %>
+    <%= form.text_field :name, class: 'form-control'%>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
+  <div class="field mb-3">
+    <%= form.label :session_type, 'Type', class: 'form-label' %>
+    <%= form.select :session_type, type_list(workshop.session_type), {}, {class: 'form-select'} %>
   </div>
 
-  <div class="field">
-    <%= form.label :zoom_link %>
-    <%= form.text_field :zoom_link %>
+  <div class="field mb-3">
+    <%= form.label :description, class: 'form-label' %>
+    <%= form.rich_text_area :description, class: 'form-control' %>
   </div>
 
-  <div class="field">
-    <%= form.label :time %>
-    <%= form.datetime_select :time %>
+  <div class="field mb-3">
+    <%= form.label :tags, 'Tags:', class: 'form-label tags-label' %>
+    <span class='tags'><%= form.collection_check_boxes :tags, tag_list, :to_s, :to_s %></span>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :attachment, class: 'form-label' %>
+    <%= form.file_field :attachment, class: 'form-control' %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :researcher, 'Presenter', class: 'form-label' %>
+    <%= form.collection_select(:researcher_id, Researcher.all, :id, :name, {}, {class: 'form-select'}) %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :zoom_link, class: 'form-label' %>
+    <%= form.text_field :zoom_link, class: 'form-control' %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :date, class: 'form-label' %>
+    <%= form.select :date, date_list(workshop.date), {}, {class: 'form-select'} %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :time_start, 'Time', class: 'form-label' %>
+    <%= form.time_select :time_start,
+                         {minute_step: 15},
+                         with_css_classes: {hour: 'form-select', minute: 'form-select'}%>
+  </div>
+
+  <div class="field mb-5">
+    <%= form.label :duration, class: 'form-label' %>
+    <%- ofs = options_for_select(['15 min', '30 min', '45 min', '1 hr', '2 hr'], workshop.duration) %>
+    <%= form.select :duration, ofs, {}, {class: 'form-select'} %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'btn-ritmo' %>
   </div>
 <% end %>

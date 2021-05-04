@@ -1,21 +1,65 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Program overview</h1>
+<!-- <h1 class='underlined'>Program overview</h1> -->
 
+<ul class="nav dates nav-fill">
+  <li class="nav-item">
+    <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">22 June</button>
 
-<% @workshops.each do |workshop| %>
-  <%= render partial: 'workshop', locals: {workshop: workshop} %>
-  <!-- <tr>
-    <td><%= workshop.name %></td>
-    <td><%= workshop.description %></td>
-    <td><%= workshop.zoom_link %></td>
-    <td><%= workshop.time %></td>
-    <td><%= link_to 'Show', workshop %></td>
-    <td><%= link_to 'Edit', edit_workshop_path(workshop) %></td>
-    <td><%= link_to 'Destroy', workshop, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr> -->
-<% end %>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false">23 June</button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" id="day3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab" aria-controls="day3" aria-selected="false">24 June</button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" id="day4-tab" data-bs-toggle="tab" data-bs-target="#day4" type="button" role="tab" aria-controls="day4" aria-selected="false">25 June</button>
+  </li>
+</ul>
+
+<div class="tab-content" id="workshops">
+  <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+    <% @workshops.where(date: 22).each do |workshop| %>
+      <%= render partial: 'workshop', locals: {workshop: workshop} %>
+    <% end %>
+    <% if @workshops.where(date: 22).count == 0 %>
+      <p class='noworkshops'>There are currently no presentations on this day.</p>
+    <% end %>
+  </div>
+
+  <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+    <% @workshops.where(date: 23).each do |workshop| %>
+      <%= render partial: 'workshop', locals: {workshop: workshop} %>
+    <% end %>
+    <% if @workshops.where(date: 23).count == 0 %>
+      <p class='noworkshops'>There are currently no presentations on this day.</p>
+    <% end %>
+  </div>
+  <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="day3-tab">
+    <% @workshops.where(date: 24).each do |workshop| %>
+      <%= render partial: 'workshop', locals: {workshop: workshop} %>
+    <% end %>
+    <% if @workshops.where(date: 24).count == 0 %>
+      <p class='noworkshops'>There are currently no presentations on this day.</p>
+    <% end %>
+  </div>
+  <div class="tab-pane fade" id="day4" role="tabpanel" aria-labelledby="day4-tab">
+    <% @workshops.where(date: 25).each do |workshop| %>
+      <%= render partial: 'workshop', locals: {workshop: workshop} %>
+    <% end %>
+    <% if @workshops.where(date: 25).count == 0 %>
+      <p class='noworkshops'>There are currently no presentations on this day.</p>
+    <% end %>
+  </div>
+</div>
 
 <br>
 
-<%= link_to 'New Workshop', new_workshop_path %>
+<% if is_admin? %>
+  <div class='text-end'>
+    <%= link_to 'New session', new_workshop_path, class: 'btn-ritmo' %>
+  </div>
+<% end %>
+
+<br>
