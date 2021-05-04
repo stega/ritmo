@@ -1,10 +1,28 @@
 <div id='header'>
-  <div class='row align-items-center p-5'>
-    <div class='col-md-8 py-2'>
+  <div class='row align-items-center p-md-5'>
+    <div class='col-md-8 py-2 text-md-start text-center'>
       RPPW.org
+      <div class='subheading d-block d-none d-md-block'>
+        Hybrid Conference, 22-25 Jun 2021 | Rhythm, perception and production workshop
+      </div>
     </div>
-    <div class='col-md-4'>
-      <button type='button' class='btn btn-light btn-lg btn-login shadow'>REGISTER / LOGIN</button>
+    <div class='col-md-4 pb-md-0 pb-4 px-sm-0 px-5 text-md-start text-center'>
+      <% if current_user %>
+        <%= link_to edit_user_path(current_user), class:'btn-profile' do %>
+          <div id='user_profile' class='shadow row align-items-center'>
+            <div class='col-6 text-start'>
+              <%= current_user.name %>
+              <p class='job_title'><%= current_user.job_title %></p>
+            </div>
+            <div class='col-6'>
+              <%= image_tag current_user.image %>
+            </div>
+          </div>
+        <% end %>
+      <% else %>
+        <%= button_to 'REGISTER / LOGIN', new_user_session_path, class:'btn btn-light btn-lg btn-login text-wrap shadow'%>
+      <% end %>
+      <!-- <button type='button' class='btn btn-light btn-lg btn-login shadow'>REGISTER / LOGIN</button> -->
     </div>
   </div>
 </div>
