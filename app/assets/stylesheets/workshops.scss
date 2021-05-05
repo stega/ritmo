@@ -83,6 +83,27 @@ h1.underlined{
   }
 }
 
+button.map{
+  color: #004D61;
+  background-color: #fff;
+  padding: 0.4em;
+  width: 100%;
+  @include rfs(1rem, border-radius);
+  text-align: center;
+  border: 0;
+  i{
+    @include font-size(1.8rem);
+  }
+  .link_text{
+    vertical-align: 0.3em;
+    padding-left: 0.35em;
+  }
+}
+button.map:hover{
+  color: #5BD1D7;
+  background-color: #004D61;
+}
+
 form{
   .tags-label{
     margin-right: 0.5em;

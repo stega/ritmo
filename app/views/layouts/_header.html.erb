@@ -6,25 +6,22 @@
         Hybrid Conference, 22-25 Jun 2021 | Rhythm, perception and production workshop
       </div>
     </div>
-    <div class='col-md-4 pb-md-0 pb-4 px-sm-0 px-5 text-md-start text-center'>
+    <div class='col-sm-4 pb-sm-0 pb-4 px-sm-0 px-5 text-sm-start text-center'>
       <% if current_user %>
         <%= link_to edit_user_path(current_user), class:'btn-profile' do %>
           <div id='user_profile' class='shadow row align-items-center'>
-            <div class='col-6 text-start'>
-              <%= current_user.name %>
+            <div class='col-6 text-start text-break'>
+              <%= user_name(current_user) %>
               <p class='job_title'><%= current_user.job_title %></p>
             </div>
-            <div class='col-6'>
-              <% if current_user.image.representable? %>
-                <%= image_tag current_user.image %>
-              <% end %>
+            <div class='col-6 text-center'>
+              <%= user_profile_pic(current_user) %>
             </div>
           </div>
         <% end %>
       <% else %>
         <%= button_to 'REGISTER / LOGIN', new_user_session_path, class:'btn btn-light btn-lg btn-login text-wrap shadow'%>
       <% end %>
-      <!-- <button type='button' class='btn btn-light btn-lg btn-login shadow'>REGISTER / LOGIN</button> -->
     </div>
   </div>
 </div>

@@ -8,7 +8,7 @@
       <%= link_to workshop.researcher.name, researcher_path(workshop.researcher) %>
       <p><%= workshop.description %></p>
       <% if workshop.attachment.attached? %>
-        <%= link_to rails_blob_path(workshop.attachment, disposition: 'attachment') do %>
+        <%= link_to rails_blob_path(workshop.attachment, disposition: :attachment) do %>
           <i class='bi bi-cloud-arrow-down download'></i>
           <%= workshop.attachment.filename %>
         <% end %>
@@ -30,11 +30,12 @@
         </div>
       <% end %>
       <br>
-      <%= link_to workshop.zoom_link do %>
-        <div class='zoom'>
+      <% if workshop.map.attached? && workshop.map.representable? %>
+        <%= render partial: 'map', locals: {map: workshop.map} %>
+        <button type="button" class="map" data-bs-toggle="modal" data-bs-target="#mapModal">
           <i class="bi bi-map"></i>
           <span class='link_text'>Map</span>
-        </div>
+        </button>
       <% end %>
       <br>
       <% if is_admin? %>

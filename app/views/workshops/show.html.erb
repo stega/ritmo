@@ -18,6 +18,19 @@
         </p>
       </div>
     </div>
+    <% if @workshop.attachment.attached? %>
+      <div class='row mt-4'>
+        <div class='col-sm-4'>
+          <h3>ATTACHMENT</h3>
+        </div>
+        <div class='col-sm-8'>
+          <%= link_to rails_blob_path(@workshop.attachment, disposition: :attachment) do %>
+            <i class='bi bi-cloud-arrow-down download'></i>
+            <%= @workshop.attachment.filename %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
     <div class='row mt-4'>
       <div class='col-sm-4'>
         <h3>DATE / TIME</h3>
@@ -42,7 +55,9 @@
         <h3>MAP</h3>
       </div>
       <div class='col-sm-8'>
-        <%= link_to 'Map', @workshop.zoom_link %>
+        <% if @workshop.map.attached? && @workshop.map.representable? %>
+          <%= image_tag url_for(@workshop.map), style:'width:100%; border: 1px solid #ccc;' %>
+        <% end %>
       </div>
     </div>
   </div>

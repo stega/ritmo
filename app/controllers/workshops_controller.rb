@@ -74,6 +74,7 @@ class WorkshopsController < ApplicationController
                                        :duration,
                                        :session_type,
                                        :attachment,
+                                       :map,
                                        {:tags => []},
                                        :researcher_id)
     end

@@ -2,7 +2,7 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
 
 #user_profile{
-  // width: 100%;
+  width: 100%;
   color: #004D61;
   background-color: white;
 
@@ -12,10 +12,13 @@
   line-height: 1.2em;
   @include font-size(1.6rem);
   @include rfs(2rem, border-radius);
-  img{
+  img.profile{
     @include rfs(10rem, border-radius);
     width: 100%;
     border: 2px solid #004D61;
+  }
+  img{
+    width: 80%;
   }
   .job_title{
     @include font-size(0.8rem);
@@ -35,10 +38,9 @@ a.btn-profile{
 }
 
 #edit_user{
-  padding: 1em 5em;
   h1{
     @include font-size(1.6rem);
     font-weight: bold;
-    padding-bottom: 1.6em;
+    // padding-bottom: 1.6em;
   }
 }

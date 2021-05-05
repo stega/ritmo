@@ -1,6 +1,6 @@
-<div id='edit_user'>
+<div id='edit_user' class='p-1 px-sm-5 py-sm-1'>
   <%= link_to 'Log out', destroy_user_session_path, method: :delete, class:'btn-ritmo float-end' %>
-  <h1>Editing your profile</h1>
+  <h1 class='underlined'>Editing your profile</h1>
 
   <%= form_with(model: @user) do |form| %>
     <% if @user.errors.any? %>
