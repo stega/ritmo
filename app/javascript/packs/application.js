@@ -10,7 +10,6 @@ import "channels"
 
 import 'bootstrap/dist/js/bootstrap'
 import "bootstrap/dist/css/bootstrap";
-import 'bootstrap-icons/font/bootstrap-icons.css'
 
 Rails.start()
 Turbolinks.start()
