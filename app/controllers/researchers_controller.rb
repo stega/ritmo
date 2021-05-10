@@ -3,7 +3,7 @@ class ResearchersController < ApplicationController
 
   # GET /researchers or /researchers.json
   def index
-    @researchers = Researcher.all
+    @researchers = Researcher.all.order(name: :asc)
   end
 
   # GET /researchers/1 or /researchers/1.json
