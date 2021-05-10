@@ -25,7 +25,6 @@ class WorkshopsController < ApplicationController
 
     respond_to do |format|
       if @workshop.save
-        set_date()
         @workshop.update tags: workshop_params[:tags].reject!(&:blank?)
         format.html { redirect_to workshops_path, notice: "Workshop was successfully created." }
         format.json { render :show, status: :created, location: @workshop }
