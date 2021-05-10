@@ -16,6 +16,7 @@ module ApplicationHelper
   end
 
   def user_name(user)
-    user.name || user.email
+    return user.email if user.name.blank?
+    user.name
   end
 end

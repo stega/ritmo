@@ -3,4 +3,5 @@ class Workshop < ApplicationRecord
   belongs_to :researcher
   has_one_attached :map
   has_one_attached :attachment
+
 end

@@ -1,7 +1,11 @@
 <div class='workshop'>
   <div class='row'>
     <div class='col-sm-3'>
-      <strong><%= workshop_time(workshop) %></strong>
+      <strong class='workshop-time'
+              data-start-date="<%= workshop_datetime_start(workshop) %>"
+              data-end-date="<%= workshop_datetime_end(workshop) %>" >
+              <%= workshop_time(workshop) %>
+      </strong>
     </div>
     <div class='col-sm-6'>
       <h5 class='ws_title'><%= workshop.name %></h5>
