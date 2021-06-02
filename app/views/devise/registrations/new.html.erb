@@ -22,6 +22,11 @@
       <%= f.password_field :password_confirmation, autocomplete: "new-password", class:'form-control' %>
     </div>
 
+    <div class="field">
+      <%= f.label :time_zone, class: 'form-label' %>
+      <%= f.time_zone_select :time_zone, nil, {default: browser_time_zone.name}, { class: 'form-select' } %>
+    </div>
+
     <div class="actions">
       <%= f.submit "Sign up", class:'btn-ritmo' %>
     </div>

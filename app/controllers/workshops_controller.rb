@@ -1,4 +1,5 @@
 class WorkshopsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_workshop, only: %i[ show edit update destroy ]
 
   # GET /workshops or /workshops.json

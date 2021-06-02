@@ -9,49 +9,8 @@
     </div>
     <div class='col-md-3 offset-md-4 col-sm-6'>
       <div class='form-group py-md-3 pb-3'>
-
-
-        <input class="form-control rounded-pill" id='tzone' type="text" placeholder="Timezone">
+        <input class="form-control rounded-pill" id='tzone' type="text" placeholder="Timezone" readonly value="Timezone: GMT<%= display_time_zone(current_user) %>">
       </div>
     </div>
   </div>
 </div>
-
-
-<script type="text/javascript">
-
-  // function convertTZ(date, tzString) {
-  //     return new Date(date.toLocaleString("en-US", {timeZone: tzString}));
-  // }
-
-  // function convert(s,e){
-  //   start_date = new Date(s);
-  //   end_date = new Date(e);
-  //   timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  //   converted_date_start = convertTZ(start_date, "Indian/Cocos");
-  //   converted_date_end = convertTZ(end_date, "Indian/Cocos");
-
-  //   start_time = converted_date_start.toTimeString().substring(0,5);
-  //   end_time = converted_date_end.toTimeString().substring(0,5);
-
-  //   return start_time + " - " + end_time;
-  // }
-
-  // function convert_all(){
-  //   var dates = document.querySelectorAll('.workshop-time');
-  //   for (var i = 0; i < dates.length; ++i) {
-  //       item = dates[i];
-  //       s = item.dataset.startDate;
-  //       e = item.dataset.endDate;
-  //       time_string = convert(s,e);
-  //       item.innerHTML = time_string;
-  //   }
-  // }
-  document.addEventListener("turbolinks:load", function() {
-  //   window.convert_all();
-    timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    let timezone_element = document.getElementById('tzone');
-    timezone_element.setAttribute('value', 'Timezone: ' + timezone);
-  })
-
-</script>

@@ -41,12 +41,4 @@ class UsersController < ApplicationController
                                    :time_zone,
                                    :admin)
     end
-
-    def set_time_zone(user)
-      time_zone = params.dig(:user, :time_zone)
-      if time_zone.present?
-        user.time_zone = ActiveSupport::TimeZone::MAPPING.key(time_zone)
-        user.save
-      end
-    end
 end

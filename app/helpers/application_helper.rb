@@ -19,4 +19,12 @@ module ApplicationHelper
     return user.email if user.name.blank?
     user.name
   end
+
+  def display_time_zone(user)
+    if current_user
+      Time.now.in_time_zone(current_user.time_zone).formatted_offset
+    else
+      '+02:00'
+    end
+  end
 end

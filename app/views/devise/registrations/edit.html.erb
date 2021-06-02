@@ -31,6 +31,11 @@
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 
+  <div class="field">
+    <%= f.label :time_zone, class: 'form-label' %>
+    <%= f.time_zone_select :time_zone, nil, {default: browser_time_zone.name}, { class: 'form-select' } %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Update" %>
   </div>
