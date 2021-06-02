@@ -17,7 +17,7 @@ module WorkshopsHelper
   end
 
   def workshop_time(workshop)
-    start = workshop.time_start.to_formatted_s(:time)
+    start = workshop.time_start.in_time_zone(current_user.time_zone).to_formatted_s(:time)
     endtime = end_time(workshop)
 
     return "#{start} - #{endtime.to_formatted_s(:time)}"
@@ -31,17 +31,18 @@ module WorkshopsHelper
   end
 
   def end_time(workshop)
+    time_start = workshop.time_start.in_time_zone(current_user.time_zone)
     case workshop.duration
     when '15 min'
-      end_time = workshop.time_start + 15.minutes
+      end_time = time_start + 15.minutes
     when '30 min'
-      end_time = workshop.time_start + 30.minutes
+      end_time = time_start + 30.minutes
     when '45 min'
-      end_time = workshop.time_start + 45.minutes
+      end_time = time_start + 45.minutes
     when '1 hr'
-      end_time = workshop.time_start + 1.hour
+      end_time = time_start + 1.hour
     when '2 hr'
-      end_time = workshop.time_start + 2.hour
+      end_time = time_start + 2.hour
     end
     return end_time
   end
