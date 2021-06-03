@@ -90,14 +90,16 @@ input.btn-login:hover{
 }
 
 .btn-ritmo{
-  color: #004D61;
+  color: #004D61 !important;
   background-color: #FBFBFB;
   border: 1px solid #004D61;
   padding: 15px;
+  padding: 1em 2em;
   text-decoration: none;
+  border-radius: 0.7em;
 }
 .btn-ritmo:hover{
-  color: #fff;
+  color: #fff !important;
   background-color: #FF502F;
 }
 
@@ -126,4 +128,26 @@ input.btn-login:hover{
 
 input#tzone{
   color: #777;
+}
+
+.btn.btn-search{
+  background-color: #004D61;
+  border-top-right-radius: 1.1em !important;
+  border-bottom-right-radius: 1.1em !important;
+  padding: 0 1em;
+}
+.btn.btn-search:hover{
+  color: #fff;
+  background-color: #FF502F;
+}
+input.search{
+ border-top-left-radius: 1.1em !important;
+ border-bottom-left-radius: 1.1em !important;
+ padding-left: 1.1em;
+}
+
+input[type=submit]{
+  color: #004D61;
+  padding: 1em 2em;
+  border-radius: 0.8em;
 }

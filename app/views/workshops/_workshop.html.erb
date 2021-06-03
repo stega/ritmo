@@ -6,6 +6,8 @@
               data-end-date="<%= workshop_datetime_end(workshop) %>" >
               <%= workshop_time(workshop) %>
       </strong>
+      <br>
+      <div class='text-muted'><%= link_to workshop.session_type, workshops_path(type:workshop.session_type) %></div>
     </div>
     <div class='col-sm-6'>
       <h5 class='ws_title'><%= workshop.name %></h5>
@@ -19,7 +21,9 @@
       <% end %>
       <p class='tags mt-3'>
         <% workshop.tags.each do |tag| %>
-        <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+          <%= link_to workshops_path(tag:tag) do %>
+            <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+          <% end %>
         <% end %>
       </p>
     </div>
@@ -33,7 +37,6 @@
           <span class='link_text'>Zoom</span>
         </div>
       <% end %>
-      <br>
       <% if workshop.map.attached? && workshop.map.representable? %>
         <%= render partial: 'map', locals: {map: workshop.map} %>
         <button type="button" class="map" data-bs-toggle="modal" data-bs-target="#mapModal">
@@ -41,7 +44,7 @@
           <span class='link_text'>Map</span>
         </button>
       <% end %>
-      <br>
+
       <% if is_admin? %>
         <div class='admin_links text-center mt-3'>
           <%= link_to 'Edit', edit_workshop_path(workshop) %> :

@@ -1,5 +1,8 @@
 <div class='pe-sm-5 mb-sm-4'>
-<%= link_to 'Log out', destroy_user_session_path, method: :delete, class:'btn-ritmo float-end' %>
+<%= link_to destroy_user_session_path, method: :delete, class:'btn-ritmo float-end' do %>
+  Log out
+  <i class='bi bi-box-arrow-in-right'></i>
+<% end %>
 </div>
 
 <div id='edit_user' class='p-1 px-sm-5 py-sm-1'>

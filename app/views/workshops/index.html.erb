@@ -1,20 +1,79 @@
 <p id="notice"><%= notice %></p>
 
-<!-- <h1 class='underlined'>Program overview</h1> -->
+<%- if params[:type] %>
+  <div class='filter-box'>
+    <%= link_to workshops_path, class:'filter rounded-pill' do %>
+      Viewing
+      <strong><%= params[:type].pluralize %></strong>
+      &nbsp;
+      &nbsp;
+      <i class='bi bi-x-circle'></i>
+    <% end %>
+  </div>
+<% end %>
+<%- if params[:tag] %>
+  <div class='filter-box'>
+    <%= link_to workshops_path, class:'filter rounded-pill' do %>
+      Viewing all events tagged with
+      <strong><%= params[:tag] %></strong>
+      &nbsp;
+      &nbsp;
+      <i class='bi bi-x-circle'></i>
+    <% end %>
+  </div>
+<% end %>
+<% if search_active %>
+  <div class='filter-box'>
+    <%= link_to workshops_path, class:'filter rounded-pill' do %>
+      Showing <%= @workshops.size %> results for
+      <strong><%= params[:search] %></strong>
+      &nbsp;
+      &nbsp;
+      <i class='bi bi-x-circle'></i>
+    <% end %>
+  </div>
+<% end %>
 
 <ul class="nav dates nav-fill">
   <li class="nav-item">
-    <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">22 June</button>
-
+    <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">
+      22 June
+      <% if filter_active && @workshops.where(date: 22).size > 0 %>
+        <span class="badge rounded-pill">
+          <%= @workshops.where(date: 22).size %>
+        </span>
+      <% end %>
+    </button>
   </li>
   <li class="nav-item">
-    <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false">23 June</button>
+    <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false">
+      23 June
+      <% if filter_active && @workshops.where(date: 23).size > 0 %>
+        <span class="badge rounded-pill">
+          <%= @workshops.where(date: 23).size %>
+        </span>
+      <% end %>
+    </button>
   </li>
   <li class="nav-item">
-    <button class="nav-link" id="day3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab" aria-controls="day3" aria-selected="false">24 June</button>
+    <button class="nav-link" id="day3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab" aria-controls="day3" aria-selected="false">
+      24 June
+      <% if filter_active && @workshops.where(date: 24).size > 0 %>
+        <span class="badge rounded-pill">
+          <%= @workshops.where(date: 24).size %>
+        </span>
+      <% end %>
+    </button>
   </li>
   <li class="nav-item">
-    <button class="nav-link" id="day4-tab" data-bs-toggle="tab" data-bs-target="#day4" type="button" role="tab" aria-controls="day4" aria-selected="false">25 June</button>
+    <button class="nav-link" id="day4-tab" data-bs-toggle="tab" data-bs-target="#day4" type="button" role="tab" aria-controls="day4" aria-selected="false">
+      25 June
+      <% if filter_active && @workshops.where(date: 25).size > 0 %>
+        <span class="badge rounded-pill">
+          <%= @workshops.where(date: 25).size %>
+        </span>
+      <% end %>
+    </button>
   </li>
 </ul>
 

@@ -60,5 +60,13 @@
         <% end %>
       </div>
     </div>
+    <div class='row mt-4'>
+      <% if is_admin? %>
+        <div class='admin_links text-center mt-3'>
+          <%= link_to 'Edit', edit_workshop_path(@workshop) %> :
+          <%= link_to 'Delete', @workshop, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>

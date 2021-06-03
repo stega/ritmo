@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   resources :social, only: [:index]
   resources :users, only: [:edit, :update, :destroy]
 
+  get '*path' => redirect('/')
   root to: 'conference#index'
 end

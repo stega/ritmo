@@ -38,3 +38,5 @@ en:
       workshop:
         create: "Create"
         update: "Update"
+      user:
+        update: "Update profile"

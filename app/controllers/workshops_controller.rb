@@ -1,10 +1,19 @@
 class WorkshopsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_workshop, only: %i[ show edit update destroy ]
+  before_action :authenticate_admin, except: %i[ index show ]
 
   # GET /workshops or /workshops.json
   def index
-    @workshops = Workshop.all.order(:date, :time_start)
+    if params[:type]
+      @workshops = Workshop.where(session_type: params[:type]).order(:date, :time_start)
+    elsif params[:tag]
+      @workshops = Workshop.where("? = ANY (tags)", params[:tag]).order(:date, :time_start)
+    elsif params[:search] && !params[:search].blank?
+      @workshops = Workshop.search_text(params[:search]).order(:date, :time_start)
+    else
+      @workshops = Workshop.all.order(:date, :time_start)
+    end
   end
 
   # GET /workshops/1 or /workshops/1.json

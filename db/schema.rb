@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_02_132950) do
+ActiveRecord::Schema.define(version: 2021_06_03_084502) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,7 +86,7 @@ ActiveRecord::Schema.define(version: 2021_06_02_132950) do
     t.time "time_start"
     t.integer "researcher_id"
     t.integer "date"
-    t.string "tags", default: [], array: true
+    t.text "tags", default: [], array: true
     t.string "duration"
     t.string "session_type"
     t.index ["researcher_id"], name: "index_workshops_on_researcher_id"

@@ -48,7 +48,7 @@ h1.underlined{
 
   .tags{
     .badge{
-      @include font-size(0.7rem);
+      @include font-size(0.8rem);
       font-weight: normal;
       background-color: #fff !important;
       color: #004D61;
@@ -58,10 +58,13 @@ h1.underlined{
   a{
     text-decoration: none;
     .zoom{
-      background-color: #fff;
       padding: 0.4em;
       @include rfs(1rem, border-radius);
       text-align: center;
+      background-color: #fff;
+      color: #004D61;
+      border: 1px solid #004D61;
+      font-weight: bold;
     }
     i{
       @include font-size(1.8rem);
@@ -71,26 +74,26 @@ h1.underlined{
       padding-left: 0.35em;
     }
   }
-  a:hover .zoom{
-    color: #5BD1D7;
-  }
   .zoom:hover{
-    color: #5BD1D7;
     background-color: #004D61;
+    color: #fff;
   }
   a:hover{
     color: black;
   }
 }
-
+.zoom{
+  margin-bottom: 0.8em;
+}
 button.map{
-  color: #004D61;
-  background-color: #fff;
   padding: 0.4em;
   width: 100%;
   @include rfs(1rem, border-radius);
   text-align: center;
-  border: 0;
+  background-color: #fff;
+  color: #004D61;
+  border: 1px solid #004D61;
+  font-weight: bold;
   i{
     @include font-size(1.8rem);
   }
@@ -100,8 +103,8 @@ button.map{
   }
 }
 button.map:hover{
-  color: #5BD1D7;
   background-color: #004D61;
+  color: #fff;
 }
 
 form{
@@ -157,4 +160,39 @@ p.noworkshops{
       }
     }
   }
+}
+
+// #5BD1D7 - blue
+// #FF502F - red
+// #004D61 - dark blue
+
+a.filter:hover{
+  background-color: #004D61;
+  color: #fff;
+}
+
+a.filter{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.8em 1.6em;
+  color: #004D61;
+  border: 2px solid #004D61;
+}
+.filter-box{
+  margin-bottom: 2em;
+}
+
+.dates .badge{
+  display: inline-block;
+  font-size: 0.6em;
+  margin-left: 0.6em;
+  background-color: #fff !important;
+  color: #004D61;
+  border: 2px solid #004D61;
+}
+
+.dates .badge:hover{
+ background-color: #004D61 !important;
+ color: #fff;
 }

@@ -46,4 +46,16 @@ module WorkshopsHelper
     end
     return end_time
   end
+
+  def make_snake(str)
+    str.downcase.gsub(/\s/, '_')
+  end
+
+  def search_active()
+    params[:search] && !params[:search].blank?
+  end
+
+  def filter_active()
+    params[:tag] || params[:type] || search_active
+  end
 end

@@ -1,6 +1,7 @@
 class ResearchersController < ApplicationController
   before_action :authenticate_user!
   before_action :set_researcher, only: %i[ show edit update destroy ]
+  before_action :authenticate_admin, except: %i[ index show ]
 
   # GET /researchers or /researchers.json
   def index

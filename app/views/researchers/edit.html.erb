@@ -5,5 +5,5 @@
 <br>
 
 <% if is_admin? %>
-  <%= link_to 'Delete presenter', @researcher, method: :delete, data: { confirm: 'Are you sure?' } %>
+  <%= link_to 'Delete presenter', @researcher, method: :delete, data: { confirm: 'Are you sure?' }, style:'color:red;' %>
 <% end %>
