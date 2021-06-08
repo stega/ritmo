@@ -125,7 +125,7 @@ Rails.application.configure do
     domain: "noddlepod.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: Rails.application.credentials.smtp[:user_name],
-    password: Rails.application.credentials.smtp[:password]
+    user_name: Rails.application.credentials[:smtp_user_name],
+    password: Rails.application.credentials[:smtp_password]
   }
 end
