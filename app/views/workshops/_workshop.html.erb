@@ -11,7 +11,7 @@
     </div>
     <div class='col-sm-6'>
       <h5 class='ws_title'><%= workshop.name %></h5>
-      <%= link_to workshop.researcher.name, researcher_path(workshop.researcher) %>
+      <%= link_to workshop.author.name, author_path(workshop.author) %>
       <p><%= workshop.description %></p>
       <% if workshop.attachment.attached? %>
         <%= link_to rails_blob_path(workshop.attachment, disposition: :attachment) do %>

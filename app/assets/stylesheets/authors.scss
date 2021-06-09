@@ -18,11 +18,11 @@
   border: 0;
 }
 
-#researchers{
+#authors{
   margin-top: 0em;
   color: #004D61;
   // background-color: white;
-  padding: 3em;
+  // padding: 3em;
   padding-top: 0em;
   // @include rfs(1rem, border-radius);
 
@@ -40,7 +40,7 @@
     border-bottom: 3px solid #004D61;
   }
 
-  .researcher{
+  .author{
     margin-top: 1.6em;
     a{
       color: #004D61;
@@ -53,8 +53,8 @@
   }
 }
 
-#researcher{
-  #researcher-header{
+#author{
+  #author-header{
     margin-bottom: 3em;
     .top-half{
       text-align: center;
@@ -76,5 +76,18 @@
         @include font-size(1.2rem);
       }
     }
+  }
+}
+
+ul.pagination{
+  a.page-link{
+    color: #004D61;
+  }
+  a.page-link:visited{
+    color: #004D61;
+  }
+  li.page-item.active a{
+    background-color: #fff !important;
+    border: 1px solid #004D61;
   }
 }

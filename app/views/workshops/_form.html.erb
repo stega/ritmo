@@ -42,8 +42,8 @@
   </div>
 
   <div class="field mb-3">
-    <%= form.label :researcher, 'Presenter', class: 'form-label' %>
-    <%= form.collection_select(:researcher_id, Researcher.all, :id, :name, {}, {class: 'form-select'}) %>
+    <%= form.label :author, 'Author', class: 'form-label' %>
+    <%= form.collection_select(:author_id, Researcher.all, :id, :name, {}, {class: 'form-select'}) %>
   </div>
 
   <div class="field mb-3">

@@ -1,9 +1,0 @@
-<h1 class='underlined'>Editing Presenter</h1>
-
-<%= render 'form', researcher: @researcher %>
-
-<br>
-
-<% if is_admin? %>
-  <%= link_to 'Delete presenter', @researcher, method: :delete, data: { confirm: 'Are you sure?' }, style:'color:red;' %>
-<% end %>

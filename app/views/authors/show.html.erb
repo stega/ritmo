@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 
-<div id='researcher'>
-  <div id='researcher-header'>
+<div id='author'>
+  <div id='author-header'>
     <div class='top-half text-center'>
-      <%= @researcher.name %>
+      <%= @author.name %>
       <div class='row'>
         <div class='col-sm-4 offset-sm-4 mt-4'>
-          <% if @researcher.image.representable? %>
-            <%= image_tag(@researcher.image, class:'img-thumbnail') %>
+          <% if @author.image.representable? %>
+            <%= image_tag(@author.image, class:'img-thumbnail') %>
           <% end %>
         </div>
       </div>
@@ -19,7 +19,7 @@
           <h3>ABOUT</h3>
         </div>
         <div class='col-sm-8'>
-          <%= @researcher.about %>
+          <%= @author.about %>
         </div>
       </div>
       <div class='row mt-4'>
@@ -27,7 +27,7 @@
           <h3>TALKS / POSTERS</h3>
         </div>
         <div class='col-sm-8'>
-          <% @researcher.workshops.each do |workshop| %>
+          <% @author.workshops.each do |workshop| %>
             <p><%= link_to workshop.name, workshop_path(workshop) %></p>
           <% end %>
         </div>
@@ -43,7 +43,7 @@
       </div>
       <% if is_admin? %>
         <div class='text-sm-end text-center mt-5'>
-          <%= link_to 'Edit', edit_researcher_path(@researcher), class:'btn-ritmo' %>
+          <%= link_to 'Edit', edit_author_path(@author), class:'btn-ritmo' %>
         </div>
       <% end %>
     </div>

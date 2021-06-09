@@ -86,6 +86,6 @@ class WorkshopsController < ApplicationController
                                        :attachment,
                                        :map,
                                        {:tags => []},
-                                       :researcher_id)
+                                       :author_id)
     end
 end

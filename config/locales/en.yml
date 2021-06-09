@@ -32,9 +32,9 @@
 en:
   helpers:
     submit:
-      researcher:
-        create: "Create presenter"
-        update: "Update presenter"
+      author:
+        create: "Create author"
+        update: "Update author"
       workshop:
         create: "Create"
         update: "Update"

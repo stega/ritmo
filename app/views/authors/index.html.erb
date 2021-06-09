@@ -1,0 +1,42 @@
+
+<div id='authors' class='p-sm-3'>
+  <p id="notice"><%= notice %></p>
+
+  <div class='row head'>
+    <div class='col-md-3 d-none d-sm-block'>PRESENTER</div>
+    <div class='col-md-6 d-none d-sm-block'>ABOUT</div>
+    <div class='col-md-3 d-none d-sm-block text-center'>INFO</div>
+  </div>
+
+  <% @authors.each do |author| %>
+    <div class='row author'>
+      <div class='col-md-3 text-center text-sm-start'><strong><%= author.name %></strong></div>
+      <div class='col-md-6 text-center text-sm-start d-none d-sm-block'><%= truncate(strip_tags(author.about.to_s), length:150) %></div>
+      <div class='col-md-3 text-center pt-sm-0 pt-2'>
+        <%= link_to author do %>
+          <i class="bi bi-person-circle"></i>
+          view profile
+        <% end %>
+        <% if is_admin? %>
+          <div class='mt-2'>
+            <small>
+              <%= link_to 'Edit', edit_author_path(author) %> :
+              <%= link_to 'Delete', author, method: :delete, data: { confirm: 'Are you sure?' } %>
+            </small>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+  <div class='text-center mt-3 mb-5'>
+    <!-- <%== pagy_bootstrap_nav(@pagy) %> -->
+    <%== pagy_bootstrap_combo_nav_js(@pagy) %>
+  </div>
+  <% if is_admin? %>
+    <div class='text-end mb-5 mt-5'>
+      <%= link_to 'New Author', new_author_path, class:'btn-ritmo'%>
+    </div>
+  <% end %>
+
+</div>
+
