@@ -1,0 +1,56 @@
+<div class='event'>
+  <div class='row'>
+    <div class='col-sm-3'>
+      <strong class='event-time'
+              data-start-date="<%= event_datetime_start(event) %>"
+              data-end-date="<%= event_datetime_end(event) %>" >
+              <%= event_time(event) %>
+      </strong>
+      <br>
+      <div class='text-muted'><%= link_to event.session_type, events_path(type:event.session_type) %></div>
+    </div>
+    <div class='col-sm-6'>
+      <h5 class='ws_title'><%= event.name %></h5>
+      <%= link_to event.author.name, author_path(event.author) %>
+      <p><%= event.description %></p>
+      <% if event.attachment.attached? %>
+        <%= link_to rails_blob_path(event.attachment, disposition: :attachment) do %>
+          <i class='bi bi-cloud-arrow-down download'></i>
+          <%= event.attachment.filename %>
+        <% end %>
+      <% end %>
+      <p class='tags mt-3'>
+        <% event.tags.each do |tag| %>
+          <%= link_to events_path(tag:tag) do %>
+            <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+          <% end %>
+        <% end %>
+      </p>
+    </div>
+    <div class='col-sm-3 px-sm-5 mt-sm-0 mt-4'>
+      <h5 class='ws_title'>Join <%= event.session_type.downcase %></h5>
+      <br>
+
+      <%= link_to event.zoom_link do %>
+        <div class='zoom'>
+          <i class="bi bi-camera-video"></i>
+          <span class='link_text'>Zoom</span>
+        </div>
+      <% end %>
+      <% if event.map.attached? && event.map.representable? %>
+        <%= render partial: 'map', locals: {map: event.map} %>
+        <button type="button" class="map" data-bs-toggle="modal" data-bs-target="#mapModal">
+          <i class="bi bi-map fs-4"></i>
+          <span class='link_text'>Map</span>
+        </button>
+      <% end %>
+
+      <% if is_admin? %>
+        <div class='admin_links text-center mt-3'>
+          <%= link_to 'Edit', edit_event_path(event) %> :
+          <%= link_to 'Delete', event, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

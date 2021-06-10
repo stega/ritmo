@@ -15,30 +15,54 @@
     </div>
     <div class='bottom-half'>
       <div class='row'>
-        <div class='col-sm-4'>
-          <h3>ABOUT</h3>
+        <div class='col-sm-4 d-none d-sm-block'>
+          <h3>AFFILIATION</h3>
         </div>
         <div class='col-sm-8'>
-          <%= @author.about %>
+          <%= @author.affiliation %>
         </div>
       </div>
+      <div class='row mb-3'>
+        <div class='col-sm-4'>
+        </div>
+        <div class='col-sm-8'>
+          <%= @author.country %>
+        </div>
+      </div>
+      <% if @author.webpage %>
+        <div class='row'>
+          <div class='col-sm-4 d-none d-sm-block'>
+            <h3>WEBSITE</h3>
+          </div>
+          <div class='col-sm-8'>
+            <%= link_to @author.webpage do %>
+              <i class='bi bi-globe'></i>
+              View website
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+      <% if @author.email %>
+        <div class='row'>
+          <div class='col-sm-4 d-none d-sm-block'>
+            <h3>EMAIL</h3>
+          </div>
+          <div class='col-sm-8'>
+            <%= mail_to @author.email do %>
+              <i class='bi bi-envelope'></i>
+              Send email
+            <% end %>
+          </div>
+        </div>
+      <% end %>
       <div class='row mt-4'>
         <div class='col-sm-4'>
           <h3>TALKS / POSTERS</h3>
         </div>
         <div class='col-sm-8'>
-          <% @author.workshops.each do |workshop| %>
-            <p><%= link_to workshop.name, workshop_path(workshop) %></p>
+          <% @author.events.each do |event| %>
+            <p><%= link_to event.name, event_path(event) %></p>
           <% end %>
-        </div>
-      </div>
-      <div class='row mt-4'>
-        <div class='col-sm-4'>
-          <h3>CONTACT</h3>
-        </div>
-        <div class='col-sm-8'>
-          <p>email: email@email.com</p>
-          <p>phone: +47 84439832</p>
         </div>
       </div>
       <% if is_admin? %>

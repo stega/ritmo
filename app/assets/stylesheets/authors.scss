@@ -77,6 +77,13 @@
       }
     }
   }
+  a{
+    color: #004D61;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
 }
 
 ul.pagination{
@@ -87,7 +94,7 @@ ul.pagination{
     color: #004D61;
   }
   li.page-item.active a{
-    background-color: #fff !important;
+    background-color: #004D61 !important;
     border: 1px solid #004D61;
   }
 }

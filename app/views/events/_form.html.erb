@@ -1,10 +1,10 @@
-<%= form_with(model: workshop) do |form| %>
-  <% if workshop.errors.any? %>
+<%= form_with(model: event) do |form| %>
+  <% if event.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(workshop.errors.count, "error") %> prohibited this workshop from being saved:</h2>
+      <h2><%= pluralize(event.errors.count, "error") %> prohibited this event from being saved:</h2>
 
       <ul>
-        <% workshop.errors.each do |error| %>
+        <% event.errors.each do |error| %>
           <li><%= error.full_message %></li>
         <% end %>
       </ul>
@@ -18,7 +18,7 @@
 
   <div class="field mb-3">
     <%= form.label :session_type, 'Type', class: 'form-label' %>
-    <%= form.select :session_type, type_list(workshop.session_type), {}, {class: 'form-select'} %>
+    <%= form.select :session_type, type_list(event.session_type), {}, {class: 'form-select'} %>
   </div>
 
   <div class="field mb-3">
@@ -43,7 +43,7 @@
 
   <div class="field mb-3">
     <%= form.label :author, 'Author', class: 'form-label' %>
-    <%= form.collection_select(:author_id, Researcher.all, :id, :name, {}, {class: 'form-select'}) %>
+    <%= form.collection_select(:author_id, Author.all, :id, :name, {}, {class: 'form-select'}) %>
   </div>
 
   <div class="field mb-3">
@@ -53,7 +53,7 @@
 
   <div class="field mb-3">
     <%= form.label :date, class: 'form-label' %>
-    <%= form.select :date, date_list(workshop.date), {}, {class: 'form-select'} %>
+    <%= form.select :date, date_list(event.date), {}, {class: 'form-select'} %>
   </div>
 
   <div class="field mb-3">
@@ -65,7 +65,7 @@
 
   <div class="field mb-5">
     <%= form.label :duration, class: 'form-label' %>
-    <%- ofs = options_for_select(['15 min', '30 min', '45 min', '1 hr', '2 hr'], workshop.duration) %>
+    <%- ofs = options_for_select(['15 min', '30 min', '45 min', '1 hr', '2 hr'], event.duration) %>
     <%= form.select :duration, ofs, {}, {class: 'form-select'} %>
   </div>
 

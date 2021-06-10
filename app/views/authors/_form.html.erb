@@ -1,7 +1,7 @@
 <%= form_with(model: author) do |form| %>
   <% if author.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(author.errors.count, "error") %> prohibited this presenter from being saved:</h2>
+      <h2><%= pluralize(author.errors.count, "error") %> prohibited this author from being saved:</h2>
 
       <ul>
         <% author.errors.each do |error| %>
@@ -17,22 +17,22 @@
   </div>
 
   <div class="field mb-3">
-    <%= form.label :about, class: 'form-label' %>
-    <%= form.rich_text_area :about, class: 'form-control' %>
+    <%= form.label :affiliation, class: 'form-label' %>
+    <%= form.text_field :affiliation, class: 'form-control' %>
   </div>
 
   <div class="field mb-3">
-    <%= form.label :phone, class: 'form-label' %>
-    <%= form.telephone_field :phone, class: 'form-control' %>
+    <%= form.label :country, class: 'form-label' %>
+    <%= form.text_field :country, class: 'form-control' %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :webpage, class: 'form-label' %>
+    <%= form.url_field :webpage, class: 'form-control' %>
   </div>
   <div class="field mb-3">
     <%= form.label :email, class: 'form-label' %>
     <%= form.email_field :email, class: 'form-control' %>
-  </div>
-
-  <div class="field mb-5">
-    <%= form.label :image, class: 'form-label' %>
-    <%= form.file_field :image, class: 'form-control' %>
   </div>
 
   <div class="actions">

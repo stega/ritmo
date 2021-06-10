@@ -1,5 +1,4 @@
 class AuthorsController < ApplicationController
-  include Pagy::Backend
 
   before_action :authenticate_user!
   before_action :set_author, only: %i[ show edit update destroy ]
@@ -7,8 +6,7 @@ class AuthorsController < ApplicationController
 
   # GET /authors or /authors.json
   def index
-    @pagy, @authors = pagy(Author.all.order(name: :asc))
-    # @authors = Author.all.order(name: :asc)
+    @authors = Author.all.order(name: :asc).page params[:page]
   end
 
   # GET /authors/1 or /authors/1.json

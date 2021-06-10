@@ -34,7 +34,7 @@ h1.underlined{
   }
 }
 
-.workshop{
+.event{
   border-top: 2px solid #111;
   padding: 2em 0;
   margin: 2em 0;
@@ -119,12 +119,12 @@ form{
   }
 }
 
-p.noworkshops{
+p.noevents{
   text-align: center;
   padding: 5em;
 }
 
-#workshop{
+#event{
   margin-bottom: 3em;
   .top-half{
     text-align: center;

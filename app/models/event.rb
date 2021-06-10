@@ -1,6 +1,6 @@
-class Workshop < ApplicationRecord
-  has_rich_text :description
-  belongs_to :author
+class Event < ApplicationRecord
+  has_rich_text :abstract
+  has_and_belongs_to_many :authors
   has_one_attached :map
   has_one_attached :attachment
 
