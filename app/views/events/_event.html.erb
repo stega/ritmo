@@ -7,7 +7,7 @@
               <%= event_time(event) %>
       </strong>
       <br>
-      <div class='text-muted'><%= link_to event.session_type, events_path(type:event.session_type) %></div>
+      <div class='text-muted'><%= link_to event.event_type, events_path(type:event.event_type) %></div>
     </div>
     <div class='col-sm-6'>
       <h5 class='ws_title'><%= event.name %></h5>
@@ -28,7 +28,7 @@
       </p>
     </div>
     <div class='col-sm-3 px-sm-5 mt-sm-0 mt-4'>
-      <h5 class='ws_title'>Join <%= event.session_type.downcase %></h5>
+      <h5 class='ws_title'>Join <%= event.event_type.downcase %></h5>
       <br>
 
       <%= link_to event.zoom_link do %>

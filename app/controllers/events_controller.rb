@@ -6,7 +6,7 @@ class EventsController < ApplicationController
   # GET /events or /events.json
   def index
     if params[:type]
-      @events = Event.where(session_type: params[:type]).order(:date, :time_start)
+      @events = Event.where(event_type: params[:type]).order(:date, :time_start)
     elsif params[:tag]
       @events = Event.where("? = ANY (tags)", params[:tag]).order(:date, :time_start)
     elsif params[:search] && !params[:search].blank?
@@ -82,7 +82,7 @@ class EventsController < ApplicationController
                                        :time_start,
                                        :date,
                                        :duration,
-                                       :session_type,
+                                       :event_type,
                                        :attachment,
                                        :map,
                                        {:tags => []},

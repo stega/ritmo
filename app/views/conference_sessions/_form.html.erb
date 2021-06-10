@@ -1,0 +1,48 @@
+<%= form_with(model: @conference_session) do |form| %>
+  <% if @conference_session.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@conference_session.errors.count, "error") %> prohibited this session from being saved:</h2>
+
+      <ul>
+        <% @conference_session.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field mb-3">
+    <%= form.label :name, class: 'form-label' %>
+    <%= form.text_field :name, class: 'form-control'%>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :type, 'Type', class: 'form-label' %>
+    <%= form.select :type, type_list(@conference_session.session_type), {}, {class: 'form-select'} %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :chair, class: 'form-label' %>
+    <%= form.text_field :chair, class: 'form-control' %>
+  </div>
+
+
+  <div class="field mb-3">
+    <%= form.label :start, class: 'form-label' %>
+    <%= form.datetime_select :start,
+                             {minute_step: 5},
+                             {class: ''} %>
+  </div>
+
+  <div class="field mb-3">
+    <%= form.label :end, class: 'form-label' %>
+    <%= form.datetime_select :end,
+                             {minute_step: 5},
+                             {class: ''} %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit class: 'btn-ritmo' %>
+  </div>
+<% end %>

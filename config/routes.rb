@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
-  resources :authors
+  resources :programme, only: [:index]
+  resources :conference_sessions
   resources :events
-  devise_for :users
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :authors
 
   resources :conference, only: [:index]
   resources :social, only: [:index]
   resources :users, only: [:edit, :update, :destroy]
+  devise_for :users
 
   get '*path' => redirect('/')
   root to: 'conference#index'

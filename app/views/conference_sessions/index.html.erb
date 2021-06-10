@@ -1,0 +1,13 @@
+<ul class='list-group'>
+  <% ConferenceSession.all.order(start: :asc).each do |cs| %>
+    <%= link_to edit_conference_session_path(cs), class:"list-group-item list-group-item-action d-flex justify-content-between align-items-start" do %>
+      <div class="ms-2 me-auto">
+        <strong><%= cs.name %></strong>
+        <% if !cs.chair.blank? %>
+          - <%= cs.chair %>
+        <% end %>
+      </div>
+      <%= cs.start.to_formatted_s(:short) %>
+    <% end -%>
+  <% end %>
+</ul>
