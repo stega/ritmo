@@ -4,12 +4,16 @@
   <div class='top-half text-center'>
     <%= @event.title %>
   </div>
-  <div class='bottom-half'>
+  <div class='bottom-half p-sm-5 p-3'>
+    <div class='ratio'>
+      <iframe src=<%= @event.vortex_link %> frameBorder="0" allowfullscreen></iframe>
+    </div>
+    <br>
     <div class='row'>
-      <div class='col-sm-3'>
+      <div class='col-sm-4'>
         <h3>ABSTRACT</h3>
       </div>
-      <div class='col-sm-9'>
+      <div class='col-sm-8'>
         <%= @event.abstract %>
         <p class='tags'>
           <% @event.keywords.each do |kw| %>
@@ -19,10 +23,10 @@
       </div>
     </div>
     <div class='row'>
-      <div class='col-sm-3'>
+      <div class='col-sm-4'>
         <h3>AUTHORS</h3>
       </div>
-      <div class='col-sm-9'>
+      <div class='col-sm-8'>
         <p class=''>
           <% @event.authors.each do |author| %>
             <%= link_to author.name, author_path(author) %><br>
@@ -32,10 +36,10 @@
     </div>
     <% if @event.attachment.attached? %>
       <div class='row mt-4'>
-        <div class='col-sm-3'>
+        <div class='col-sm-4'>
           <h3>ATTACHMENT</h3>
         </div>
-        <div class='col-sm-9'>
+        <div class='col-sm-8'>
           <%= link_to rails_blob_path(@event.attachment, disposition: :attachment) do %>
             <i class='bi bi-cloud-arrow-down download'></i>
             <%= @event.attachment.filename %>
@@ -44,34 +48,26 @@
       </div>
     <% end %>
     <div class='row mt-4'>
-      <div class='col-sm-3'>
+      <div class='col-sm-4'>
         <h3>SESSION</h3>
       </div>
-      <div class='col-sm-9'>
+      <div class='col-sm-8'>
         <strong><%= @event.conference_session.name %></strong>
       </div>
     </div>
     <div class='row mt-4'>
-      <div class='col-sm-3'>
+      <div class='col-sm-4'>
         <h3>DATE / TIME</h3>
       </div>
-      <div class='col-sm-9'>
+      <div class='col-sm-8'>
         <strong><%= @event.conference_session.start.to_formatted_s(:short) %></strong>
       </div>
     </div>
     <div class='row mt-4'>
-      <div class='col-sm-3'>
-        <h3>VIDEO LINK</h3>
-      </div>
-      <div class='col-sm-9'>
-        <%= link_to 'Video link', @event.youtube_link %>
-      </div>
-    </div>
-    <div class='row mt-4'>
-      <div class='col-sm-3'>
+      <div class='col-sm-4'>
         <h3>MAP</h3>
       </div>
-      <div class='col-sm-9'>
+      <div class='col-sm-8'>
         <% if @event.map.attached? && @event.map.representable? %>
           <%= image_tag url_for(@event.map), style:'width:100%; border: 1px solid #ccc;' %>
         <% end %>

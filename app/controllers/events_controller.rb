@@ -28,8 +28,8 @@ class EventsController < ApplicationController
 
     respond_to do |format|
       if @event.save
-        @event.update tags: event_params[:tags].reject!(&:blank?)
-        format.html { redirect_to events_path, notice: "Event was successfully created." }
+        # @event.update keywords: event_params[:tags].reject!(&:blank?)
+        format.html { redirect_to event_path(@event), notice: "Event was successfully created." }
         format.json { render :show, status: :created, location: @event }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -42,8 +42,8 @@ class EventsController < ApplicationController
   def update
     respond_to do |format|
       if @event.update(event_params)
-        @event.update tags: event_params[:tags].reject!(&:blank?)
-        format.html { redirect_to events_path, notice: "Event was successfully updated." }
+        # @event.update tags: event_params[:tags].reject!(&:blank?)
+        format.html { redirect_to event_path(@event), notice: "Event was successfully updated." }
         format.json { render :show, status: :ok, location: @event }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -69,16 +69,15 @@ class EventsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def event_params
-      params.require(:event).permit(:name,
-                                       :description,
-                                       :zoom_link,
-                                       :time_start,
-                                       :date,
-                                       :duration,
-                                       :event_type,
-                                       :attachment,
-                                       :map,
-                                       {:tags => []},
-                                       :author_id)
+      params.require(:event).permit(:title,
+                                    :abstract,
+                                    :youtube_link,
+                                    :vortex_link,
+                                    :event_type,
+                                    :attachment,
+                                    :easy_chair,
+                                    :map,
+                                    :conference_session_id,
+                                    {:keywords => []})
     end
 end
