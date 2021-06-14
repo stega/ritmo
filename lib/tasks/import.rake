@@ -18,6 +18,7 @@ namespace :import do
   task :talks => :environment do
     require 'csv'
     Event.delete_all
+    AuthorEvent.delete_all
     CSV.foreach("ritmo_data/talk_details.csv", {:col_sep => ";"}) do |row|
       next if row[2].blank? || row[2] == 'Session name'
 
@@ -39,10 +40,16 @@ namespace :import do
       # add authors to event
       as = row[4]
       as.gsub!(' and ', ', ')
+      order_num = 1
       as.split(', ').each do |a|
         author = Author.find_by name: a
         if !author.nil?
-          event.authors << author
+          ae = AuthorEvent.new
+          ae.author_id = author.id
+          ae.event_id = event.id
+          ae.order = order_num
+          ae.save
+          order_num += 1
         end
       end
     end

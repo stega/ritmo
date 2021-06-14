@@ -1,6 +1,7 @@
 class Event < ApplicationRecord
   belongs_to :conference_session
-  has_and_belongs_to_many :authors, join_table: 'authors_events'
+  has_many :author_events
+  has_many :authors, -> { order 'author_events.order ASC' }, through: :author_events
   has_one_attached :map
   has_one_attached :attachment
 
