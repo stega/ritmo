@@ -29,9 +29,9 @@ h1.underlined{
   .nav-link.active{
     color: black;
   }
-  button:hover{
-    color: black;
-  }
+  // button:hover{
+  //   color: black;
+  // }
 }
 
 .event{
@@ -73,13 +73,6 @@ h1.underlined{
       vertical-align: 0.3em;
       padding-left: 0.35em;
     }
-  }
-  .zoom:hover{
-    background-color: #004D61;
-    color: #fff;
-  }
-  a:hover{
-    color: black;
   }
 }
 .zoom{

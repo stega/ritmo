@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :programme, only: [:index]
   resources :conference_sessions
   resources :events
@@ -7,7 +8,6 @@ Rails.application.routes.draw do
   resources :conference, only: [:index]
   resources :social, only: [:index]
   resources :users, only: [:edit, :update, :destroy]
-  devise_for :users
 
   get '*path' => redirect('/')
   root to: 'conference#index'

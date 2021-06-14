@@ -1,0 +1,54 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/vendor/rfs";
+#programme{
+  .session{
+    margin: 1em 0;
+    color: #fff;
+    background-color: #004D61;
+    border-radius: 0.4em 0.4em 0 0;
+    padding: 1em;
+    margin-bottom: 0;
+
+    h2.session_name{
+      font-size: 1.4em;
+      margin-top: 0;
+      margin-bottom: 0.6em;
+    }
+    p.chair{
+      font-size: 1em;
+    }
+  }
+  .events{
+    padding: 1.4em 1em;
+    border: 1px solid #004D61;
+    border-radius: 0 0 0.4em 0.4em;
+    border-top: 0;
+    margin-top: 0;
+    background-color:#fff;
+    h3{
+      font-size: 1.1em;
+      font-weight: 700;
+    }
+    a{
+      color: #004D61;
+    }
+    a:hover{
+      color: #4f4f4f;
+      background-color: #eee;
+    }
+    .tags{
+      .badge{
+        @include font-size(0.7rem);
+        font-weight: normal;
+        background-color: #aaa !important;
+        color: white;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover{
+        background-color: #fff;
+      }
+    }
+  }
+}

@@ -12,23 +12,13 @@
   <% end %>
 
   <div class="field mb-3">
-    <%= form.label :name, class: 'form-label' %>
-    <%= form.text_field :name, class: 'form-control'%>
+    <%= form.label :title, class: 'form-label' %>
+    <%= form.text_field :title, class: 'form-control'%>
   </div>
 
   <div class="field mb-3">
-    <%= form.label :event_type, 'Type', class: 'form-label' %>
-    <%= form.select :event_type, type_list(event.event_type), {}, {class: 'form-select'} %>
-  </div>
-
-  <div class="field mb-3">
-    <%= form.label :description, class: 'form-label' %>
-    <%= form.rich_text_area :description, class: 'form-control' %>
-  </div>
-
-  <div class="field mb-3">
-    <%= form.label :tags, 'Tags:', class: 'form-label tags-label' %>
-    <span class='tags'><%= form.collection_check_boxes :tags, tag_list, :to_s, :to_s %></span>
+    <%= form.label :abstract, class: 'form-label' %>
+    <%= form.rich_text_area :abstract, class: 'form-control' %>
   </div>
 
   <div class="field mb-3">
@@ -42,31 +32,8 @@
   </div>
 
   <div class="field mb-3">
-    <%= form.label :author, 'Author', class: 'form-label' %>
-    <%= form.collection_select(:author_id, Author.all, :id, :name, {}, {class: 'form-select'}) %>
-  </div>
-
-  <div class="field mb-3">
-    <%= form.label :zoom_link, class: 'form-label' %>
-    <%= form.text_field :zoom_link, class: 'form-control' %>
-  </div>
-
-  <div class="field mb-3">
-    <%= form.label :date, class: 'form-label' %>
-    <%= form.select :date, date_list(event.date), {}, {class: 'form-select'} %>
-  </div>
-
-  <div class="field mb-3">
-    <%= form.label :time_start, 'Time', class: 'form-label' %>
-    <%= form.time_select :time_start,
-                         {minute_step: 15},
-                         with_css_classes: {hour: 'form-select', minute: 'form-select'}%>
-  </div>
-
-  <div class="field mb-5">
-    <%= form.label :duration, class: 'form-label' %>
-    <%- ofs = options_for_select(['15 min', '30 min', '45 min', '1 hr', '2 hr'], event.duration) %>
-    <%= form.select :duration, ofs, {}, {class: 'form-select'} %>
+    <%= form.label :youtube_link, class: 'form-label' %>
+    <%= form.text_field :youtube_link, class: 'form-control' %>
   </div>
 
   <div class="actions">

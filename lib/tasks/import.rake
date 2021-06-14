@@ -17,7 +17,6 @@ namespace :import do
   desc "Import talk data"
   task :talks => :environment do
     require 'csv'
-    # Author.delete_all
     Event.delete_all
     CSV.foreach("ritmo_data/talk_details.csv", {:col_sep => ";"}) do |row|
       next if row[2].blank? || row[2] == 'Session name'

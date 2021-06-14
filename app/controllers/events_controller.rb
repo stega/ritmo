@@ -3,17 +3,10 @@ class EventsController < ApplicationController
   before_action :set_event, only: %i[ show edit update destroy ]
   before_action :authenticate_admin, except: %i[ index show ]
 
+
   # GET /events or /events.json
   def index
-    if params[:type]
-      @events = Event.where(event_type: params[:type]).order(:date, :time_start)
-    elsif params[:tag]
-      @events = Event.where("? = ANY (tags)", params[:tag]).order(:date, :time_start)
-    elsif params[:search] && !params[:search].blank?
-      @events = Event.search_text(params[:search]).order(:date, :time_start)
-    else
-      @events = Event.all.order(:date, :time_start)
-    end
+    @events = Event.all
   end
 
   # GET /events/1 or /events/1.json

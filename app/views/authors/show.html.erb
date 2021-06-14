@@ -61,7 +61,7 @@
         </div>
         <div class='col-sm-8'>
           <% @author.events.each do |event| %>
-            <p><%= link_to event.name, event_path(event) %></p>
+            <p><%= link_to event.title, event_path(event) %></p>
           <% end %>
         </div>
       </div>

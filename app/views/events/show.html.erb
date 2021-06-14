@@ -2,28 +2,40 @@
   <p id="notice"><%= notice %></p>
 
   <div class='top-half text-center'>
-    <%= @event.name %>
+    <%= @event.title %>
   </div>
   <div class='bottom-half'>
     <div class='row'>
-      <div class='col-sm-4'>
-        <h3>ABOUT</h3>
+      <div class='col-sm-3'>
+        <h3>ABSTRACT</h3>
       </div>
-      <div class='col-sm-8'>
-        <%= @event.description %>
+      <div class='col-sm-9'>
+        <%= @event.abstract %>
         <p class='tags'>
-          <% @event.tags.each do |tag| %>
-          <span class="badge rounded-pill bg-secondary"><%= tag %></span>
+          <% @event.keywords.each do |kw| %>
+          <span class="badge rounded-pill bg-secondary"><%= kw %></span>
+          <% end %>
+        </p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-sm-3'>
+        <h3>AUTHORS</h3>
+      </div>
+      <div class='col-sm-9'>
+        <p class=''>
+          <% @event.authors.each do |author| %>
+            <%= link_to author.name, author_path(author) %><br>
           <% end %>
         </p>
       </div>
     </div>
     <% if @event.attachment.attached? %>
       <div class='row mt-4'>
-        <div class='col-sm-4'>
+        <div class='col-sm-3'>
           <h3>ATTACHMENT</h3>
         </div>
-        <div class='col-sm-8'>
+        <div class='col-sm-9'>
           <%= link_to rails_blob_path(@event.attachment, disposition: :attachment) do %>
             <i class='bi bi-cloud-arrow-down download'></i>
             <%= @event.attachment.filename %>
@@ -32,29 +44,34 @@
       </div>
     <% end %>
     <div class='row mt-4'>
-      <div class='col-sm-4'>
+      <div class='col-sm-3'>
+        <h3>SESSION</h3>
+      </div>
+      <div class='col-sm-9'>
+        <strong><%= @event.conference_session.name %></strong>
+      </div>
+    </div>
+    <div class='row mt-4'>
+      <div class='col-sm-3'>
         <h3>DATE / TIME</h3>
       </div>
-      <div class='col-sm-8'>
-        <strong><%= @event.date %> June</strong>
-        &nbsp;
-
-        <%= event_time(@event) %>
+      <div class='col-sm-9'>
+        <strong><%= @event.conference_session.start.to_formatted_s(:short) %></strong>
       </div>
     </div>
     <div class='row mt-4'>
-      <div class='col-sm-4'>
-        <h3>ZOOM LINK</h3>
+      <div class='col-sm-3'>
+        <h3>VIDEO LINK</h3>
       </div>
-      <div class='col-sm-8'>
-        <%= link_to 'Zoom link', @event.zoom_link %>
+      <div class='col-sm-9'>
+        <%= link_to 'Video link', @event.youtube_link %>
       </div>
     </div>
     <div class='row mt-4'>
-      <div class='col-sm-4'>
+      <div class='col-sm-3'>
         <h3>MAP</h3>
       </div>
-      <div class='col-sm-8'>
+      <div class='col-sm-9'>
         <% if @event.map.attached? && @event.map.representable? %>
           <%= image_tag url_for(@event.map), style:'width:100%; border: 1px solid #ccc;' %>
         <% end %>

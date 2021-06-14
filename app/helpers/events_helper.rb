@@ -1,4 +1,5 @@
 module EventsHelper
+
   def tag_list
     ['Entrainment', 'Music Performance', 'SMS', 'Speech', 'Medical Intervention']
   end
