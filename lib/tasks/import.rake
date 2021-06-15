@@ -1,6 +1,8 @@
 namespace :import do
   desc "Import everything"
   task :all => :environment do
+    Event.delete_all
+    AuthorEvent.delete_all
     Rake::Task["import:authors"].invoke
     Rake::Task["import:sessions"].invoke
     Rake::Task["import:talks"].invoke
