@@ -63,4 +63,8 @@ module EventsHelper
   def extract_yt_id(event)
     event.youtube_link.split('/').last
   end
+
+  def vortex_embed(event)
+    event.vortex_link.gsub('view-as-webpage', 'video-embed')
+  end
 end

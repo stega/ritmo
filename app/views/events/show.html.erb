@@ -5,11 +5,11 @@
     <%= @event.title %>
   </div>
   <div class='bottom-half p-sm-5 p-3'>
-    <div class='ratio'>
+    <div class='ratio ratio-16x9'>
       <% if @event.youtube_link %>
-        <iframe src="https://www.youtube-nocookie.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <% elsif @event.vortex_link %>
-        <iframe src=<%= @event.vortex_link %> frameBorder="0" allowfullscreen></iframe>
+        <iframe src=<%= vortex_embed(@event) %> frameBorder="0" allowfullscreen></iframe>
       <% end %>
     </div>
     <br>
