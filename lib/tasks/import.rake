@@ -3,7 +3,7 @@ namespace :import do
   task :authors => :environment do
     require 'csv'
     Author.delete_all
-    CSV.foreach("ritmo_data/author_details.csv", {:col_sep => ";"}) do |row|
+    CSV.foreach("ritmo_data/authors.csv", {:col_sep => ";"}) do |row|
       a = Author.new
       a.name        = "#{row[1]} #{row[2]}"
       a.email       = row[3]
@@ -17,17 +17,21 @@ namespace :import do
   desc "Import talk data"
   task :talks => :environment do
     require 'csv'
-    Event.delete_all
-    AuthorEvent.delete_all
-    CSV.foreach("ritmo_data/talk_details.csv", {:col_sep => ";"}) do |row|
+    Event.where(event_type: 'talk').delete_all
+    event_ids = Event.where(event_type: 'talk').pluck(:id)
+    AuthorEvent.where('event_id IN (?)', event_ids).delete_all
+
+    CSV.foreach("ritmo_data/talks.csv", {:col_sep => ";"}) do |row|
       next if row[2].blank? || row[2] == 'Session name'
 
-      event = Event.new
-      event.title = row[5]
-      event.easy_chair = row[1]
-      event.title = row[5]
-      event.abstract = row[7]
-      session = ConferenceSession.find_by(name: row[2])
+      event              = Event.new
+      event.title        = row[5].strip
+      event.easy_chair   = row[1].strip
+      event.abstract     = row[7].strip
+      event.youtube_link = row[8]&.strip
+      event.vortex_link  = row[9]&.strip
+      event.event_type   = "talk"
+      session = ConferenceSession.find_by(name: row[2].strip)
       puts "cant find session #{row[2]}" if session.nil?
       event.conference_session = session
 
@@ -39,6 +43,52 @@ namespace :import do
 
       # add authors to event
       as = row[4]
+      as.gsub!(' and ', ', ')
+      order_num = 1
+      as.split(', ').each do |a|
+        author = Author.find_by name: a
+        if !author.nil?
+          ae = AuthorEvent.new
+          ae.author_id = author.id
+          ae.event_id = event.id
+          ae.order = order_num
+          ae.save
+          order_num += 1
+        end
+      end
+    end
+  end
+
+  desc "Import poster data"
+  task :posters => :environment do
+    require 'csv'
+    Event.where(event_type: 'poster').delete_all
+    event_ids = Event.where(event_type: 'poster').pluck(:id)
+    AuthorEvent.where('event_id IN (?)', event_ids).delete_all
+
+    CSV.foreach("ritmo_data/posters.csv", {:col_sep => ";"}) do |row|
+      next if row[1].blank? || row[1] == 'Poster Session'
+
+      event              = Event.new
+      event.title        = row[4]
+      event.easy_chair   = row[0]
+      event.abstract     = row[6]
+      event.youtube_link = row[7]
+      event.vortex_link  = row[8]
+      event.event_type   = "poster"
+      event.poster_order = row[2]
+      session = ConferenceSession.find_by(name: "Posters #{row[1].strip}")
+      puts "cant find session Posters #{row[1]}" if session.nil?
+      event.conference_session = session
+
+      row[5].split("\n").each do |kw|
+        event.keywords << kw
+      end
+
+      event.save!
+
+      # add authors to event
+      as = row[3]
       as.gsub!(' and ', ', ')
       order_num = 1
       as.split(', ').each do |a|

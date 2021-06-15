@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_14_112714) do
+ActiveRecord::Schema.define(version: 2021_06_15_074424) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -90,6 +90,8 @@ ActiveRecord::Schema.define(version: 2021_06_14_112714) do
     t.integer "easy_chair"
     t.string "vortex_link"
     t.bigint "conference_session_id"
+    t.string "poster_session"
+    t.integer "poster_order"
     t.index ["conference_session_id"], name: "index_events_on_conference_session_id"
   end
 

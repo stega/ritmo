@@ -6,7 +6,11 @@
   </div>
   <div class='bottom-half p-sm-5 p-3'>
     <div class='ratio'>
-      <iframe src=<%= @event.vortex_link %> frameBorder="0" allowfullscreen></iframe>
+      <% if @event.youtube_link %>
+        <iframe src="https://www.youtube-nocookie.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <% elsif @event.vortex_link %>
+        <iframe src=<%= @event.vortex_link %> frameBorder="0" allowfullscreen></iframe>
+      <% end %>
     </div>
     <br>
     <div class='row'>

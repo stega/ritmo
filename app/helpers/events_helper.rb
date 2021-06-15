@@ -59,4 +59,8 @@ module EventsHelper
   def filter_active()
     params[:tag] || params[:type] || search_active
   end
+
+  def extract_yt_id(event)
+    event.youtube_link.split('/').last
+  end
 end

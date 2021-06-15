@@ -1,0 +1,395 @@
+EasyChair #;first name;last name;email;country;affiliation;Web page;corresponding?
+1;Andrea;Schiavio;andrea.schiavio@gmail.com;Austria;University of Graz;;✔
+1;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Aarhus University;;
+1;Renee;Timmers;r.timmers@sheffield.ac.uk;United Kingdom;The University of Sheffield;;
+2;Zohreh;Vaziri;zova137@gmail.com;Iran;Kerman medical university;http://www.zova.ir;✔
+2;Siamak;Haj Azim Zanjani;siamak.h.a.z@gmail.com;Iran;Shahid Rajaee university;https://siamakhajazim.ir/;
+3;Olivier;Senn;olivier.senn@hslu.ch;Switzerland;Hochschule Luzern - Musik;;✔
+3;Dawn;Rose;dawn.rose@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+3;Toni;Bechtold;toni.bechtold@hslu.ch;Switzerland;Hochschule Luzern - Musik, University of Birmingham;;
+3;Lorenz;Kilchenmann;lorenz.kilchenmann@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+3;Florian;Hoesl;florian.hoesl@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+3;Rafael;Jerjen;rafael.jerjen@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+3;Antonio;Baldassarre;antonio.baldassarre@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+3;Elena;Alessandri;elena.alessandri@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
+4;Mehrdad;Bahadori;mehrdad.bahadori@univr.it;Italy;University of Verona;;✔
+4;Paola;Cesari;paola.cesari@univr.it;Italy;University of Verona;;
+5;Dawn;Rose;dawn.rose@hslu.ch;Switzerland;Lucerne University of Applied Sciences and Arts;https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=4367;✔
+5;Daniel;Müllensiefen;D.Mullensiefen@gold.ac.uk;United Kingdom;Goldsmiths, University of London;https://www.gold.ac.uk/psychology/staff/mullensiefen/;
+5;Peter;Lovatt;peter.lovatt@movementinpractice.com;United Kingdom;Movement In Practice;https://www.peterlovatt.com/dr-dance/;
+5;Guido;Orgs;G.Orgs@gold.ac.uk;United Kingdom;Goldsmiths, University of London;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
+6;Michael;Schutz;schutz@mcmaster.ca;Canada;McMaster University;http://www.maplelab.net;✔
+6;Fiona;Manning;fiona.c.manning@gmail.com;Canada;McMaster University (alum);;✔
+7;Adam;Safron;asafron@gmail.com;United States;Indiana University;https://kinseyinstitute.org/about/profiles/asafron.php;✔
+8;Ana;Clemente;ana.c.magan@gmail.com;Spain;University of the Balearic Islands;https://evocog.org/ana-clemente/;✔
+8;Frances;Board;fran.board@thesoundagency.com;United Kingdom;Goldsmiths University of London;https://www.thesoundagency.com/team/fran-board/;
+8;Marcus T.;Pearce;marcus.pearce@qmul.ac.uk;United Kingdom;Queen Mary University of London;http://webprojects.eecs.qmul.ac.uk/marcusp/;
+8;Guido;Orgs;G.Orgs@gold.ac.uk;United Kingdom;Goldsmiths University of London;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
+9;Jonathan;Cannon;jcan@mit.edu;United States;MIT;https://joncannon.net;✔
+9;Aniruddh;Patel;a.patel@tufts.edu;United States;Tufts University;;
+10;Jonathan;Cannon;jcan@mit.edu;United States;MIT;https://joncannon.net;✔
+11;Véronique;Martel;veronique.martel.6@umontreal.ca;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;✔
+11;Marie-Élaine;Lagrois;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
+11;Michael;Weiss;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
+11;Anne-Marie;Bissonnette;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
+11;Isabelle;Peretz;isabelle.peretz@umontreal.ca;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
+12;Elias;Gram-Nilsen;eliasg@student.imv.uio.no;Norway;University of Oslo;;✔
+12;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;Norway;University of Oslo;;✔
+13;Nori;Jacoby;nori.jacoby@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+13;Rainer;Polak;rainer.polak@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+13;Justin;London;jlondon@carleton.edu;United States;Carleton College;;✔
+14;Kjell Andreas;Oddekalv;k.a.oddekalv@imv.uio.no;Norway;University of Oslo;;✔
+15;Sandra;Solli;sandra.solli@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
+15;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
+15;Anne-Kristin;Solbakk;a.k.solbakk@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
+15;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
+16;Maja;Foldal;maja.foldal@gmail.com;Norway;University of Oslo;;✔
+16;Sabine;Leske;;Norway;University of Oslo;;
+16;Alejandro;Blenkmann;;Norway;University of Oslo;;
+16;Tor;Endestad;;Norway;University of Oslo;;
+16;Anne-Kristin;Solbakk;;Norway;University of Oslo;;
+17;Tysen;Dauer;tdauer@research.baycrest.org;Canada;Rotman Research Institute;;✔
+17;Björn;Herrmann;bherrmann@research.baycrest.org;Canada;Rotman Research Institute, University of Toronto;;✔
+18;Teresa;Borowski;borowsk1@uic.edu;United States;University of Illinois - Chicago;;✔
+18;Timothy;Carsel;timothy.carsel@gmail.com;United States;TopBloc;;
+18;Alexander;Demos;ademos@uic.edu;United States;University of Illinois - Chicago;;
+19;Alex;Ludwig;aludwig@berklee.edu;United States;Berklee College of Music;http://alexludwig.net;✔
+20;Rui;Ma;13661384500@163.com;China;Beijing City University;;✔
+21;Ece;Kaya;ece.kaya@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+21;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+22;Jeremy;Marozeau;jemaroz@dtu.dk;Denmark;Technical University of Denmark;;✔
+22;Tanmayee;Pathre;t.u.pathre@tue.nl;Netherlands;Eindhoven University of Technology;;
+23;Anna;Kasdan;anna.v.kasdan@vanderbilt.edu;United States;Vanderbilt University;http://annakasdan.com;✔
+23;Fabrizio;Pizzagalli;fpizzagalli@gmail.com;Italy;Università di Torino;;
+23;Alexander;Chern;aychern@gmail.com;United States;New York-Presbyterian/Weill Cornell Medical Center;;
+23;Alyssa;Scartozzi;alyssa.scartozzi@vumc.org;United States;Vanderbilt University Medical Center;;
+23;Andrea;Burgess;;United States;Vanderbilt University;;
+23;Sonja;Kotz;sonja.cimon@googlemail.com;Netherlands;Maastricht University;;
+23;Stephen;Wilson;smwilsonau@gmail.com;United States;Vanderbilt University Medical Center;;
+23;Reyna;Gordon;reyna.gordon@vanderbilt.edu;United States;Vanderbilt University Medical Center;;
+24;Thomas;Kaplan;t.m.kaplan@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;✔
+24;Jonathan;Cannon;jcan@mit.edu;United States;Department of Brain and Cognitive Science, Massachusetts Institute of Technology;;
+24;Lorenzo;Jamone;l.jamone@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;
+24;Marcus;Pearce;marcus.pearce@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;
+25;Dongho;Kwak;d.d.kwak@imv.uio.no;Norway;RITMO, University of Oslo;;✔
+26;Christopher;Corcoran;chris.c@gmx.de;Denmark;University of Cambridge;https://www.mus.cam.ac.uk/directory/christopher-corcoran;✔
+26;Klaus;Frieler;kgf@omniversum.de;Germany;Hochschule für Musik “Franz Liszt” Weimar;http://www.mu-on.org/frieler/;✔
+27;Erica;Flaten;flatene@mcmaster.ca;Canada;McMaster University;;✔
+27;Laurel J;Trainor;ljt@mcmaster.ca;Canada;McMaster University;https://trainorlab.mcmaster.ca/;✔
+28;Heidi;Bliddal;heidi@bliddal.net;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;✔
+28;Christian;Bech Christensen;cbc@ece.au.dk;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;
+28;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University & The Royal Academy of Music Aarhus/Aalborg, Denmark;;
+28;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University & The Royal Academy of Music Aarhus/Aalborg, Denmark;;
+28;Preben;Kidmose;pki@ece.au.dk;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;
+29;Andrew;Chang;c.andrew123@gmail.com;United States;New York University;;✔
+29;Xiangbin;Teng;xiangbin.teng@gmail.com;Germany;Max Planck Institute for Human Development;;
+29;M. Florencia;Assaneo;fassaneo@gmail.com;Mexico;Universidad Nacional Autónoma de México;;
+29;David;Poeppel;dp101@nyu.edu;United States;New York University, Max Planck Institute for Empirical Aesthetics;;
+30;Lauren;Fink;lauren.fink@ae.mpg.de;Germany;"University of California, Davis; Max Planck Institute for Empirical Aesthetics";https://lkfink.github.io/;✔
+30;Prescott;Alexander;pcalexander@ucdavis.edu;United States;University of California, Davis;;
+30;Petr;Janata;pjanata@ucdavis.edu;United States;University of California, Davis;https://atonal.ucdavis.edu/;
+31;Bernd;Härpfer;bernd@haerpfer.net;Germany;free researcher;;✔
+31;Dirk;Handreke;mail@dirkhandreke.com;Germany;Institute for Musicology and Music Informatics, University of Music Karlsruhe;;✔
+32;Srishti;Nayak;srishti.nayak@vumc.org;United States;Vanderbilt University Medical Center;;✔
+32;Daniel;Gustavson;daniel.e.gustavson@vumc.org;United States;Vanderbilt University Medical Center;;
+32;Youjia;Wang;youjia.wang.1@vumc.org;United States;Vanderbilt University Medical Center;;
+32;Jennifer;Below;jennifer.e.below@vumc.org;United States;Vanderbilt University Medical Center;;
+32;Reyna;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University Medical Center;;
+32;Cyrille;Magne;cyrille.magne@mtsu.edu;United States;Middle Tennessee State University;;
+33;Elodie;Augier;elodieaugier.neuropsychologue@live.fr;France;Cabinet de neuropsychologie Eolys - Puces du Canal;;
+33;Naila;Boudiaf;naila.boudiaf@gmail.com;France;Philips France;;
+33;Christian;Graff;Christian.Graff@univ-grenoble-alpes.fr;France;Univ. Grenoble Alpes;;✔
+34;Robert;Hofmann;hofmann@mdw.ac.at;Austria;mdw – University of Music and Performing Arts Vienna;;✔
+35;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo, Norway;;✔
+35;Martin;Langerød;martin.langerod@gmail.com;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo, Norway;;
+35;Kristian;Nymoen;krisny@ifi.uio.no;Norway;Department of Informatics, University of Oslo, Norway;;
+35;Justin;London;JLONDON@carleton.edu;United States;Carleton College;;✔
+36;Haley;Kragness;haley.kragness@utoronto.ca;Canada;University of Toronto;;✔
+36;Idila;Yogeswaran;idila.yogeswaran@mail.utoronto.ca;Canada;University of Toronto;;✔
+36;Laura;Cirelli;laura.cirelli@utoronto.ca;Canada;University of Toronto;;✔
+37;Haley;Kragness;haley.kragness@utoronto.ca;Canada;University of Toronto;;✔
+37;Laura;Cirelli;laura.cirelli@utoronto.ca;Canada;University of Toronto;;✔
+38;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;http://www.mcgill.ca/spl/;✔
+38;Alexander;Demos;ademos@uic.edu;United States;University of Illinois at Chicago;;
+39;Francesco;Ganis;fganis20@student.aau.dk;Denmark;Aalborg University;;✔
+39;Sofia;Dahl;sof@create.aau.dk;Denmark;Aalborg University;;✔
+39;Guilherme Schmidt;Câmara;g.s.camara@imv.uio.no;Norway;University of Oslo;;✔
+39;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;;✔
+40;Vivien;Marmelat;vivien.marmelat@gmail.com;United States;University of Nebraska at Omaha;;✔
+40;Ryan;Meidinger;rmeidinger@unomaha.edu;United States;University of Nebraska at Omaha;;
+40;Brian;Ricks;bricks@unomaha.edu;United States;University of Nebraska at Omaha;;
+41;Mariusz;Kozak;m.kozak@columbia.edu;United States;Columbia University;;✔
+42;Laura;Bishop;laura.bishop@imv.uio.no;Norway;University of Oslo;http://lbishop.ca;✔
+42;Alexander Refsum;Jensenius;a.r.jensenius@imv.uio.no;Norway;University of Oslo;http://www.arj.no;
+42;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;University of Oslo;;
+43;Manuel;Anglada-Tort;manuel.anglada-tort@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/manuel-anglada-tort.html;✔
+43;Peter;Harrison;peter.harrison@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/dr-peter-harrison.html;
+43;Nori;Jacoby;nori.jacoby@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/nori-jacoby.html;
+44;J. Riikka;Ahokas;j.riikka.ahokas@jyu.fi;Finland;University of Jyväskylä;https://www.jyu.fi/hytk/fi/laitokset/mutku/henkilokunta/copy_of_tohtorikoulutettavat/ahokas-jenni-riikka;✔
+45;Zachary;Melton;zmelto2@uic.edu;United States;University of Illinois-Chicago;;✔
+45;Roger;Chaffin;roger.chaffin@uconn.edu;United States;University of Connecticut;;
+45;Kayleigh;Kangas-Dick;kmk2219@tc.columbia.edu;United States;Teacher's College Columbia University;;
+45;Kerry;Marsh;kerry.l.marsh@uconn.edu;United States;University of Connecticut;;
+45;Alexander;Demos;ademos@uic.edu;United States;University of Illinois-Chicago;;
+46;Eniko;Ladanyi;eniko.ladanyi@vumc.org;United States;Vanderbilt University Medical Center;https://enikoladanyi.com;✔
+46;Catherine;Bush;catherine.bush@vumc.org;United States;Vanderbilt University Medical Center;;
+46;Youjia;Wang;youjia.wang.1@vumc.org;United States;Vanderbilt University Medical Center;;
+46;Tiffany G.;Woynaroski;tiffany.g.woynaroski@vumc.org;United States;Vanderbilt University Medical Center;;
+46;Miriam D.;Lense;miriam.lense@vumc.org;United States;Vanderbilt University Medical Center;;
+46;Reyna L.;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University Medical Center;;
+47;Fred;Hosken;fredhosken@u.northwestern.edu;United States;Northwestern University;;✔
+48;Olivia;Lucas;olivialucas1@lsu.edu;United States;Louisiana State University;;✔
+49;Randall;Harlow;randallharlow@hotmail.com;United States;University of Northern Iowa;http://randallharlow.net;✔
+50;Ragnhild;Brøvig-Hanssen;ragnhiba@imv.uio.no;Norway;University of Oslo;https://www.uio.no/ritmo/english/people/tenured/ragnhiba/;✔
+50;Bjørnar;Sandvik;bjornar.sandvik@imv.uio.no;Norway;University of Oslo;https://www.uio.no/ritmo/english/people/phd-fellows/bjoresan/;✔
+50;Jon Marius;Aareskjold-Drecker;jon.m.aareskjold-drecker@uia.no;Norway;"UiT The Arctic University of Norway; University of Agder";https://uit.no/ansatte/person?p_document_id=93949;✔
+51;Merve;Akca;merve.akca@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;✔
+51;Laura;Bishop;laura.bishop@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
+51;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
+51;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
+52;Mattia;Rosso;mattia.rosso@ugent.be;Belgium;IPEM Institute for Systematic Musicology;https://research.flw.ugent.be/nl/mattia.rosso;✔
+52;Marc;Leman;marc.leman@ugent.be;Belgium;IPEM Institute for Systematic Musicology;;
+52;Lousin;Moumdijan;lousin.moumdjan@ugent.be;Belgium;IPEM Institute for Systematic Musicology;;✔
+53;Toni Amadeus;Bechtold;toni.bechtold@hslu.ch;Switzerland;"University of Birmingham, United Kingdom; Lucerne University of Applied Sciences and Arts, Switzerland";;✔
+53;Maria A.G.;Witek;m.a.g.witek@bham.ac.uk;United Kingdom;University of Birmingham, United Kingdom;;
+54;Birgitta;Burger;birgitta.burger@uni-hamburg.de;Germany;University of Hamburg;;✔
+54;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Germany;University of Hamburg;;
+55;Chris;Stover;chrisstover.718@gmail.com;Australia;Griffith University;;✔
+56;Fleur L.;Bouwer;fleurbouwer@hotmail.com;Netherlands;University of Amsterdam;http://www.fleurbouwer.com;✔
+56;Johannes J.;Fahrenfort;fahrenfort.work@gmail.com;Netherlands;University of Amsterdam;http://www.fahrenfort.com;
+56;Heleen A.;Slagter;h.a.slagter@vu.nl;Netherlands;Vrije Universiteit Amsterdam;http://www.heleenslagter.com;
+57;Vegard;Volehaugen;vegard.volehaugen@gmail.com;Norway;University of Oslo;;✔
+57;Sabine;Leske;;Germany;University of Oslo;;
+57;Alejandro;Blenkmann;;Argentina;University of Oslo;;
+58;Nicholas;Browitt;nicholjb@student.sv.uio.no;Norway;University of Oslo;;✔
+58;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;University of Oslo;;✔
+59;Ole Adrian;Heggli;oleheggli@gmail.com;Denmark;Center for Music in the Brain, Aarhus University;;✔
+59;Ivana;Konvalinka;ivako@dtu.dk;Denmark;SINe Lab, Technical University of Denmark;;
+59;Morten L.;Kringelbach;morten.kringelbach@psych.ox.ac.uk;United Kingdom;Center for Music in the Brain, Aarhus University & Center for Eudaimonia and Human Flourishing, University of Oxford;;
+59;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+60;Connor;Spiech;connor.spiech@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;https://www.uio.no/ritmo/english/people/phd-fellows/connors/index.html;✔
+60;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
+60;Georgios;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
+60;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
+60;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
+61;Benjamin;Morillon;bnmorillon@gmail.com;France;Aix Marseille U., Inserm, Institut de Neurosciences des Systèmes;https://scholar.google.com/citations?user=lBwWtFUAAAAJ;✔
+61;Arnaud;Zalta;arnaud.zalta@hotmail.fr;France;Aix-Marseille University;;
+62;Xinyue;Wang;xinyue.wang@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/wang.html;✔
+62;Birgitta;Burger;birgitta.burger@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/burger.html;
+62;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/woellner.html;
+63;Aleksander;Tidemann;aleksati@student.imv.uio.no;Norway;University of Oslo;https://github.com/AleksanderTidemann/hf-interactive-analysis;✔
+63;Olivier;Lartillot;olivier.lartillot@imv.uio.no;France;University of Oslo;https://www.hf.uio.no/imv/english/people/aca/temporary/oliviel/;✔
+63;Mats;Johansson;mats.s.johansson@usn.no;Norway;Universitetet i Sør-Øst Norge;https://www.usn.no/om-usn/kontakt-oss/ansatte/mats-sigvard-johansson;✔
+64;Matt;Moore;matt.d.moore@outlook.com;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+64;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+65;Min;Li;susanlee029@gmail.com;United Kingdom;University of Birmingham;https://www.birmingham.ac.uk/schools/psychology/people/dr-students/li-min.aspx;✔
+65;Dominic;Ward;dom@deeuu.me;United Kingdom;Birmingham City University;;
+65;Ryan;Stables;Ryan.Stables@bcu.ac.uk;United Kingdom;Birmingham City University;;
+65;;Chua;W.Chua.1@bham.ac.uk;United Kingdom;University of Birmingham;;
+65;;Howe;Joanne.Howe@nottingham.ac.uk;United Kingdom;University of Nottingham;;
+65;;Quinn;k.quinn@depaul.edu;United States;DePaul University;;
+65;Alan;Wing;a.m.wing@bham.ac.uk;United Kingdom;University of Birmingham;;
+66;Rolf Inge;Godøy;r.i.godoy@imv.uio.no;Norway;RITMO, University of Oslo;https://www.uio.no/ritmo/english/people/tenured/rolfig/index.html;✔
+67;Sara;D'Amario;damario@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;✔
+67;Anna;Niemand;niemand@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;
+67;Werner;Goebl;goebl@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;
+67;Laura;Bishop;laura.bishop@imv.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;http://www.uio.no;
+68;Aleksandra;Koprowska;alkopro@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;✔
+68;Maja;Serman;maja.serman@wsa.com;Germany;WSAudiology;;
+68;Torsten;Dau;tdau@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;
+68;Jeremy;Marozeau;jemaroz@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;
+69;Daniel;Cameron;camerd7@mcmaster.ca;Canada;McMaster University;;✔
+69;Chantal;Carrillo;carrilcj@mcmaster.ca;Canada;McMaster University;;
+69;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
+70;Carlos Eduardo;Cancino-Chacón;carlos_eduardo.cancino_chacon@jku.at;Austria;Johannes Kepler University Linz;http://carloscancinochacon.com;✔
+70;Silvan;Peter;silvan.peter@jku.at;Austria;Johannes Kepler University Linz;;✔
+70;Emmanouil;Karystinaios;emmanouil.karystinaios@jku.at;Austria;Johannes Kepler University Linz;;✔
+70;Gerhard;Widmer;gerhard.widmer@jku.at;Austria;Johannes Kepler University Linz;http://www.cp.jku.at/people/widmer;✔
+71;Guilherme;Schmidt Câmara;g.s.camara@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
+71;George;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
+71;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
+72;Sinead;Rocha;sineadrocha@gmail.com;United Kingdom;University of Cambridge;;✔
+72;Adam;Attaheri;aa974@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Aine;Ni Choisdealbha;an552@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Perrine;Brusini;P.Brusini@liverpool.ac.uk;United Kingdom;University of Liverpool;;
+72;Sheila;Flanagan;saf31@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Natasha;Mead;nf262@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Panagiotis;Boutris;pb698@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Samuel;Gibbon;sg853@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Helen;Olawole-Scott;hss34@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Christina;Grey;cg670@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Isabel;Williams;iw289@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Henna;Ahmed;hka24@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Emma;Macrae;ejm212@cam.ac.uk;United Kingdom;University of Cambridge;;
+72;Usha;Goswami;ucg10@cam.ac.uk;United Kingdom;University of Cambridge;;
+73;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
+73;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+73;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+73;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+74;Jorg;De Winne;jorg.dewinne@ugent.be;Belgium;Ghent University;;✔
+74;Paul;Devos;p.devos@ugent.be;Belgium;Ghent University;;
+74;Marc;Leman;marc.leman@ugent.be;Belgium;Ghent University;;
+74;Dick;Botteldooren;dick.botteldooren@ugent.be;Belgium;Ghent University;;
+75;Marc;Leman;Marc.Leman@ugent.be;Belgium;Ghent University;;✔
+76;Olivia Xin;Wen;olivia.wen@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
+76;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;
+77;Nicolas;Pironio;npironio@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;✔
+77;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://liaa.dc.uba.ar;
+77;Martin;Miguel;mmiguel@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://mmiguel.liaa.dc.uba.ar;✔
+78;Courtney;Hilton;courtneyhilton@g.harvard.edu;United States;Harvard University;;✔
+78;Micah;Goldwater;micah.goldwater@sydney.edu.au;Australia;The University of Sydney;;✔
+79;Anastasiya;Paltarzhitskaya;navukapobach@gmail.com;Russia;Institute for Cognitive Neuroscience;;✔
+80;Martin;Miguel;mmiguel@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://mmiguel.liaa.dc.uba.ar;✔
+80;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://liaa.dc.uba.ar;
+81;Alan;Wing;a.m.wing@bham.ac.uk;United Kingdom;University of Birmingham;;✔
+81;Ryan;Stables;ryan.stables@bcu.ac.uk;United Kingdom;Birmingham City University;;
+81;Mark;Elliott;m.t.elliott@warwick.ac.uk;United Kingdom;University of Warwick;;
+81;Maria;Witek;M.A.G.Witek@bham.ac.uk;United Kingdom;University of Birmingham;;
+81;Massimiliano;Di Luca;M.DiLuca@bham.ac.uk;United Kingdom;University of Birmingham;;
+82;Rebecca;Scheurich;rebecca.scheurich@mail.mcgill.ca;Canada;McGill University;;
+82;Ella;Sahlas;ella.sahlas@mail.mcgill.ca;Canada;McGill University;;
+82;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;;✔
+83;Noam;Lederman;noam.lederman@open.ac.uk;United Kingdom;The Open University;http://www.noamlederman.com;✔
+83;Simon;Holland;simon.holland@open.ac.uk;United Kingdom;The Open University;;
+83;Paul;Mulholland;paul.mulholland@open.ac.uk;United Kingdom;The Open University;;
+84;Adrian Simen;Holm;adriansh@uio.no;Norway;University of Oslo;;✔
+84;Maja Dyhre;Foldal;maja.foldal@gmail.com;Norway;University of Oslo;;✔
+84;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;University of Oslo;;✔
+85;Anna;Fiveash;anna.fiveash@inserm.fr;France;Lyon Neuroscience Research Center;https://www.researchgate.net/profile/Anna_Fiveash;✔
+85;Simone;Dalla Bella;simone.dalla.bella@umontreal.ca;Canada;University of Montreal;;✔
+85;Reyna;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University;;✔
+85;Barbara;Tillmann;barbara.tillmann@cnrs.fr;France;Lyon Neuroscience Research Center;;✔
+86;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
+86;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+86;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+86;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+87;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;UCL;;✔
+87;Kyle;Jasmin;k.jasmin@bbk.ac.uk;United Kingdom;Birbeck;;
+88;Troby Ka-Yan;Lui;kayan.lui@uni-luebeck.de;Germany;University of Lübeck;;✔
+88;Jonas;Obleser;jonas.obleser@uni-luebeck.de;Germany;University of Lübeck;;
+88;Malte;Wöstmann;malte.woestmann@uni-luebeck.de;Germany;University of Lübeck;;
+89;Ji Chul;Kim;jichulkim21@gmail.com;United States;University of Connecticut;;✔
+89;Edward W.;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
+90;Alexis;MacIntyre;a.macintyre.17@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;✔
+90;Ian;Cross;ic108@cam.ac.uk;United Kingdom;University of Cambridge;;
+90;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;
+91;Mari Romarheim;Haugen;m.r.haugen@imv.uio.no;Norway;University of Oslo;http://people.uio.no/marrh;✔
+91;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;http://people.uio.no/anneda;✔
+92;Alexis;Deighton MacIntyre;a.macintyre.17@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;✔
+92;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;
+93;Valentin;Begel;valentin.begel@mcgill.ca;Canada;McGill University;https://www.researchgate.net/;✔
+93;Alexander P.;Demos;ademos@uic.edu;United States;University of Illinois at Chicago;https://www.alexanderdemos.org/;
+93;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;https://www.mcgill.ca/spl/palmer;✔
+94;Andrea;Ravignani;andrea.ravignani@gmail.com;Netherlands;Max Planck Institute for Psycholinguistics;;✔
+95;Anders;Friberg;afriberg@kth.se;Sweden;Speech, Music, and Hearing, EECS, Royal Institute of Technology (KTH);;✔
+95;Torbjörn;Gulz;gulz@kth.se;Sweden;Media Technology and Interaction Design, EECS, Royal Institute of Technology (KTH);;✔
+95;Claes;Wettebrandt;info@studioblue.se;Sweden;Studio Blue, Stockholm, Sweden;;✔
+96;Thomas;Wolf;wolft@ceu.edu;Austria;Central European University;;✔
+96;Natalie;Sebanz;sebanzn@ceu.edu;Austria;CEU;;
+96;Günther;Knoblich;knoblichg@ceu.edu;Austria;CEU;;
+97;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
+97;Ji Chul;Kim;jichulkim21@gmail.com;United States;University of Connecticut;https://www.tonaldynamics.com;✔
+98;Tristan;Loria;tristan.defrancesco.loria@mail.utoronto.ca;Canada;Music and Health Research Collaboratory;;✔
+98;Aiyun;Huang;aiyun.huang@utoronto.ca;Canada;University of Toronto Faculty of Music;;
+98;Tara;Henechowicz;tara.henechowicz@mail.utoronto.ca;Canada;Music and Health Research Collaboratory;;
+98;Michael;Thaut;michael.thaut@utoronto.ca;Canada;Music and Health Research Collaboratory;;✔
+99;Leigh;Vanhandel;leigh.vanhandel@ubc.ca;Canada;University of British Columbia;https://blogs.ubc.ca/drvan/;✔
+99;Zachary;Lookenbill;lookenb1@msu.edu;United States;Michigan State University;;
+99;Gerardo;Lopez;lopezge1@msu.edu;United States;Michigan State University;;
+99;J. Devin;McAuley;dmcauley@msu.edu;United States;Michigan State University;;
+100;Rebecca;Schaefer;r.s.schaefer@fsw.leidenuniv.nl;Netherlands;Leiden University;;✔
+100;Benjamin;Schultz;ben.schultz@unimelb.edu.au;Australia;University of Melbourne;;
+101;Tor;Halmrast;torhalm@online.no;Norway;University of Oslo/Musicology, and COWI, Oslo;https://tor.halmrast.no;✔
+102;Prisca;Hsu;phsu26@uwo.ca;Canada;Western University;;
+102;Emily;Ready;eready2@uwo.ca;Canada;Western University;;✔
+102;Jessica;Grahn;jgrahn@uwo.ca;Canada;Western University;;✔
+103;Tor;Halmrast;torhalm@online.no;Norway;University of Oslo/Musicology, and COWI, Oslo;https://tor.halmrast.no;✔
+104;Tor;Endestad;tendesta@uio.no;Norway;University of Oslo;https://www.sv.uio.no/psi/english/people/aca/tendesta/;✔
+104;Adrian Simen;Holm;a.s.holm@imv.uio.no;Norway;University of Oslo;;
+104;Sara;Nossen;saranossen@gmail.com;Norway;University of Oslo;;
+104;Emilie;Holte;emiliho@student.sv.uio.no;Norway;University of Oslo;;
+104;Anne Kristin;Solbakk;annesolbakk@gmail.com;Norway;University of Oslo;;
+104;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;;✔
+105;Yi;Wei;yi.wei@uconn.edu;United States;University of Connecticut;;✔
+105;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
+106;Emily A.;Wood;woode1@mcmaster.ca;Canada;McMaster University;;✔
+106;Dobromir;Dotov;dotovd@mcmaster.ca;Canada;McMaster University;;
+106;Andrew;Chang;ac8888@nyu.edu;United States;New York University;;
+106;Dan;Bosynak;bosnyak@mcmaster.ca;Canada;McMaster University;;
+106;Lucas;Klein;kleinl1@mcmaster.ca;Canada;McMaster University;;
+106;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
+107;Lana;Delasanta;lana.delasanta@uconn.edu;United States;University of Connecticut;https://musicdynamicslab.uconn.edu/graduate-students/;✔
+107;Dobri;Dotov;dobri.dotov@yandex.com;Canada;McMaster University;;
+107;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;
+107;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
+109;Sara;Nossen;sara.nossen@psykologi.uio.no;Norway;University of Oslo;;✔
+110;Signe;Hagner;signe@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
+110;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
+110;Peter;Vuust;petervuust@gmail.com;Denmark;Center for Music in the Brain, Aarhus University;;
+111;Harjo;de Poel;h.j.de.poel@umcg.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);http://www.rug.nl/staff/h.j.de.poel/;✔
+111;Dobri;Dotov;dotovd@mcmaster.ca;Canada;LIVElab, McMaster University;;
+111;Marije;Harmsen;m.harmsen.5@student.rug.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
+111;Liset;van der Hulst;e.g.van.der.hulst@student.rug.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
+111;Claudine;Lamoth;c.j.c.lamoth@umcg.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
+112;Dana;Swarbrick;dana.swarbrick@imv.uio.no;Norway;RITMO, University of Oslo;;✔
+112;Cagri;Erdem;cagri.erdem@imv.uio.no;Norway;RITMO, University of Oslo;;
+112;Finn;Upham;finn.upham@mail.mcgill.ca;Norway;RITMO, University of Oslo;;
+112;Kayla;Burnim;kayla.burnim@imv.uio.no;Norway;RITMO, University of Oslo;;
+112;Alexander;Refsum Jensenius;a.r.jensenius@imv.uio.no;Norway;RITMO, University of Oslo;;
+113;Torbjörn;Gulz;torbjorn.gulz@kmh.se;Sweden;Royal College of Music Stockholm;http://kmh.se;✔
+113;Andre;Holzapfel;holzap@kth.se;Sweden;KTH Royal Institute of Technology;http://kth.se;
+114;Tzu-Han Zoe;Cheng;tzcheng@ucsd.edu;United States;UC SanDiego;;✔
+114;John;Iversen;jiversen@ucsd.edu;United States;UC SanDiego;;
+115;Sami Vasileios;Amiris;sami.amiris@gmail.com;Greece;National and Kapodistrian University of Athens, American College of Greece;http://www.phosduo.com/sami-amiris/;✔
+116;Tomas;Lenc;tomas.lenc@uclouvain.be;Belgium;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;;✔
+116;Peter E.;Keller;p.keller@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;
+116;Manuel;Varlet;m.varlet@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;
+116;Sylvie;Nozaradan;sylvie.nozaradan@uclouvain.be;Belgium;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;;
+117;Olivia;Boorom;olivia.boorom@vumc.org;United States;Vanderbilt University Medical Center;;✔
+117;Valerie;Muñoz;valalmunoz@gmail.com;United States;Vanderbilt University Medical Center;;
+117;Camila;Alviar Guzman;malviarguzman@ucmerced.edu;United States;University of California, Merced;;
+117;Christopher;Kello;ckello@ucmerced.edu;United States;University of California, Merced;;
+117;Miriam;Lense;miriam.lense@vumc.org;United States;Vanderbilt University Medical Center;;✔
+118;Julien;Laroche;lajulienroche@gmail.com;Italy;CTNSC, Istituto Italiano di Tecnologia;;✔
+118;Alice;Tomassini;alice.tomassini@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
+118;Luciano;Fadiga;luciano.fadiga@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
+118;Antonio;Camurri;antonio.camurri@unige.it;Italy;DIBRIS, Universita degli studi di Genova;;
+118;Gualtiero;Volpe;gualtiero.volpe@unige.it;Italy;DIBRIS, Universita degli studi di Genova;;
+118;Alessandro;D'Ausilio;Alessandro.Dausilio@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
+119;Olivier;Lartillot;olivier.lartillot@imv.uio.no;Norway;RITMO, University of Oslo;;✔
+119;Mats Sigvard;Johansson;Mats.S.Johansson@usn.no;Norway;University of South-Eastern Norway;;✔
+120;Ryan;Meidinger;rmeidinger@unomaha.edu;United States;University of Nebraska at Omaha;;✔
+120;Vivien;Marmelat;vivien.marmelat@gmail.com;United States;University of Nebraska at Omaha;;✔
+121;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Aarhus University;;✔
+121;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Aarhus University;;✔
+121;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Aarhus University;;✔
+121;Peter;Vuust;pv@musikkons.dk;Denmark;Aarhus University;;✔
+122;Arild;Stenberg;as446@cam.ac.uk;United Kingdom;Centre for Music and Science, University of Cambridge;https://cms.mus.cam.ac.uk;✔
+122;Ian;Cross;ic108@cam.ac.uk;United Kingdom;Centre for Music and Science, University of Cambridge;https://cms.mus.cam.ac.uk;✔
+123;Reyna;Gordon;reyna.gordon@vanderbilt.edu;United States;Vanderbilt University Medical Center;;✔
+123;Else;Eising;else.eising@mpi.nl;Netherlands;Max Planck Institute for Psycholinguistics;;
+123;Maria;Niarchou;maria.niarchou@vumc.org;United States;Vanderbilt University Medical Center;;
+123;;Research Team;lnoblin@23andme.com;United States;23andMe, Inc.;;
+123;;Genlang Qtl-Gwas Working Group;martina.bernhard@mpi.nl;United States;GenLang Consortium;;
+123;Lea;Davis;lea.k.davis@gmail.com;United States;Vanderbilt University Medical Center;;
+123;Nancy;Cox;nancy.j.cox@vumc.org;United States;Vanderbilt University Medical Center;;
+123;Simon;Fisher;Simon.Fisher@mpi.nl;United States;Max Planck Institute for Psycholinguistics;;
+124;Joshua;Hoddinott;jhoddin@uwo.ca;Canada;University of Western Ontario;;✔
+124;Jessica;Grahn;jgrahn@uwo.ca;Canada;University of Western Ontario;;
+125;George;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo;;✔
+126;Elizabeth;Acosta;eam.acosta24@gmail.com;United States;Independent;;✔
+127;Zachary;Lookenbill;lookenb1@msu.edu;United States;Michigan State University;;✔
+127;Leigh;Vanhandel;leigh.vanhandel@ubc.ca;Canada;University of British Columbia;;
+128;Kathryn;Franich;kfranich@udel.edu;United States;University of Delaware;http://katiefranich.com;✔
+129;Dobromir;Dotov;dotovd@mcmaster.ca;Canada;LIVELab, Psychology, Neuroscience and Behaviour, McMaster University;;✔
+129;Abraham;Betancourt;azahel90@gmail.com;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;
+129;Jorge;Gámez;jorge.gamez@gmail.com;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;
+129;Hugo;Merchant;hugomerchant@unam.mx;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;✔
+130;Yuka;Saito;saito.yuka.l3@elms.hokudai.ac.jp;Japan;Hokkaido University;;✔
+130;Jun;Kawahara;jkawa@let.hokudai.ac.jp;Japan;Hokkaido University;;
+131;Niels Chr.;Hansen;nchansen@aias.au.dk;Denmark;Aarhus Institute of Advanced Studies & Center for Music in the Brain, Aarhus University;https://scholar.google.com/citations?user=8QK8HagAAAAJ;✔
+131;Carolyn;Ee;C.Ee@westernsydney.edu.au;Australia;NICM Health Research Institute, Western Sydney University;;
+131;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg;http://www.petervuust.dk/;
+131;Peter;Keller;p.keller@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour, and Development, Western Sydney University;http://pkpublications.weebly.com/#;✔
+132;Gunnar;Norrman;gunnar.norrman@biling.su.se;Sweden;Stockholm University;;✔
+133;Richard;Parncutt;parncutt@uni-graz.at;Austria;Centre for Systematic Musicology, University of Graz;https://homepage.uni-graz.at/de/richard.parncutt/;✔
