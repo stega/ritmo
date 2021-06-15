@@ -122,6 +122,12 @@ input.btn-login:hover{
   padding: 2em 1em 0.8em 1em;
   @include font-size(0.8rem);
   text-align: center;
+  a{
+    color: #fff;
+  }
+  a:hover{
+    color: #111;
+  }
 }
 
 #notice{}
