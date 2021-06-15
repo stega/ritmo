@@ -5,28 +5,25 @@
     <%= @event.title %>
   </div>
   <div class='bottom-half p-sm-5 p-3'>
-    <div class='ratio ratio-16x9'>
-      <% if @event.youtube_link %>
-        <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <% elsif @event.vortex_link %>
-        <iframe src=<%= vortex_embed(@event) %> frameBorder="0" allowfullscreen></iframe>
-      <% end %>
-    </div>
+    <% if @event.youtube_link || @event.vortex_link %>
+      <div class='ratio ratio-16x9'>
+        <% if @event.youtube_link %>
+          <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <% elsif @event.vortex_link %>
+          <iframe src=<%= vortex_embed(@event) %> frameBorder="0" allowfullscreen></iframe>
+        <% end %>
+      </div>
+    <% end -%>
     <br>
-    <div class='row'>
+    <div class='row mt-4'>
       <div class='col-sm-4'>
-        <h3>ABSTRACT</h3>
+        <h3>ZOOM</h3>
       </div>
       <div class='col-sm-8'>
-        <%= @event.abstract %>
-        <p class='tags'>
-          <% @event.keywords.each do |kw| %>
-          <span class="badge rounded-pill bg-secondary"><%= kw %></span>
-          <% end %>
-        </p>
+        <strong><%= link_to @event.zoom_link, @event.zoom_link %></strong>
       </div>
     </div>
-    <div class='row'>
+    <div class='row mt-4'>
       <div class='col-sm-4'>
         <h3>AUTHORS</h3>
       </div>
@@ -69,12 +66,15 @@
     </div>
     <div class='row mt-4'>
       <div class='col-sm-4'>
-        <h3>MAP</h3>
+        <h3>ABSTRACT</h3>
       </div>
       <div class='col-sm-8'>
-        <% if @event.map.attached? && @event.map.representable? %>
-          <%= image_tag url_for(@event.map), style:'width:100%; border: 1px solid #ccc;' %>
-        <% end %>
+        <%= @event.abstract %>
+        <p class='tags'>
+          <% @event.keywords.each do |kw| %>
+          <span class="badge rounded-pill bg-secondary"><%= kw %></span>
+          <% end %>
+        </p>
       </div>
     </div>
     <div class='row mt-4'>

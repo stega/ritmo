@@ -27,14 +27,20 @@
   </div>
 
   <div class="field mb-3">
-    <%= form.label :map, class: 'form-label' %>
-    <%= form.file_field :map, class: 'form-control' %>
+    <%= form.label :vortex_link, class: 'form-label' %>
+    <%= form.text_field :vortex_link, class: 'form-control' %>
   </div>
 
   <div class="field mb-3">
     <%= form.label :youtube_link, class: 'form-label' %>
     <%= form.text_field :youtube_link, class: 'form-control' %>
   </div>
+
+  <div class="field mb-3">
+    <%= form.label :zoom_link, class: 'form-label' %>
+    <%= form.text_field :zoom_link, class: 'form-control' %>
+  </div>
+
 
   <div class="actions">
     <%= form.submit class: 'btn-ritmo' %>

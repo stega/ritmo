@@ -27,9 +27,9 @@
               <h3 class=''><%= event.title %></h3>
             </div>
             <div class='col-sm-2'>
-              <%= link_to event_path(event) do %>
-                View details
-                <!-- <i class='bi bi-arrow-right-circle'></i> -->
+              <%= link_to event_path(event), class:'btn-profile' do %>
+                View
+                <i class='bi bi-arrow-right-circle'></i>
               <% end %>
             </div>
           </div>

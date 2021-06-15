@@ -76,7 +76,7 @@ class EventsController < ApplicationController
                                     :event_type,
                                     :attachment,
                                     :easy_chair,
-                                    :map,
+                                    :zoom_link,
                                     :conference_session_id,
                                     {:keywords => []})
     end
