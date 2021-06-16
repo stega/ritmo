@@ -15,6 +15,7 @@ namespace :import do
     require 'csv'
     Author.delete_all
     CSV.foreach("ritmo_data/authors.csv", {:col_sep => ";"}) do |row|
+      next if Author.find_by(email: row[3])
       a = Author.new
       a.name        = "#{row[1]} #{row[2]}"
       a.email       = row[3]
