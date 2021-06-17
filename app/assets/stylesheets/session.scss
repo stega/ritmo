@@ -1,0 +1,18 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+a.btn-join{
+  width: 100%;
+  color: #004D61;
+  padding: 1em 1.2em;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid #003543;
+  @include rfs(1rem, border-radius);
+  text-decoration: none;
+}
+a:hover.btn-join{
+  background-color: #FF502F !important;
+  border: 1px solid #b23820;
+  color: #fff;
+}

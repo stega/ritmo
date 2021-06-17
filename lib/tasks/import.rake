@@ -8,6 +8,8 @@ namespace :import do
     Rake::Task["import:talks"].invoke
     Rake::Task["import:posters"].invoke
     Rake::Task["import:keynotes"].invoke
+    Rake::Task["import:social"].invoke
+    Rake::Task["import:concerts"].invoke
   end
 
   desc "Import author data"
@@ -124,6 +126,58 @@ namespace :import do
     end
   end
 
+  desc "Import concert data"
+  task :concerts => :environment do
+    Event.where(event_type: 'concert').delete_all
+    event_ids = Event.where(event_type: 'concert').pluck(:id)
+    AuthorEvent.where('event_id IN (?)', event_ids).delete_all
+
+    # CONCERT 1
+    event              = Event.new
+    event.title        = "Fibres Out of Line"
+    event.abstract     = "Fibres Out of Line is an interactive art installation and performance for the 2021 Rhythm Perception and Production Workshop (RPPW). Visitors can watch the performance, and subsequently interact with the installation, all remotely via Zoom."
+    event.youtube_link = ""
+    event.event_type   = "concert"
+    event.conference_session = ConferenceSession.find_by(name: "Concert 1")
+    event.save!
+
+    # CONCERT 2
+    event              = Event.new
+    event.title        = "N-place: telematic études for physically distant networked music performance"
+    event.abstract     = "N-place is a platform for telematic embodied music performance in a shared distributed acoustic space. Three geographically distant spaces are brought closer by means of network technologies, motion capture, and spatial audio. The movements of musicians in Berlin, Oslo, and Stockholm are tracked live, as they perform together via the low-latency audio connection. Their movement in space is used to render and ambisonics 360° sound stage that places the sound of each musician in a shared sound stage. This will be experienced by the musicians as well as by the audience attending the live stream, as the spatial sound will be encoded in a binaural rendering suitable for stereo headphones. N-place is developed in an effort of creating a shared distributed place where musicians and audiences can experience live music from multiple remote locations."
+    event.youtube_link = ""
+    event.event_type   = "concert"
+    event.conference_session = ConferenceSession.find_by(name: "Concert 2")
+    event.save!
+
+    # CONCERT 3
+    event              = Event.new
+    event.title        = "Scandinavian fiddle music"
+    event.abstract     = "Norwegian musician and composer Anne Hytta is a performer of the traditional music of Telemark on Hardanger fiddle, and of her own new composed and improvised music. The Hardanger fiddle has sympathetic strings and its own repertoire of traditional tunes. Her background is deeply founded in the highly distinctive playing style of the repertoire of traditional tunes for the Hardanger fiddle, and from this basis, she composes and performs her own music. She has created her own solo performance Draumsyn and Gjennom dagen consisting of new compositions for Hardanger fiddle, viola d’amore and medieval vielle. The music was released on the German label Carpe Diem in January 2014 to great reviews both in Norwegian and foreign press. In 2006, 2007 and 2009 Anne Hytta received the Norwegian Government Grants for younger artists. She received the Norwegian Folk Music Award for a best solo album in 2006, 2011 and 2017, and the Norwegian Grammy (Spellemannprisen) in the open category in 2015 for Slagr album “Short stories” and in the category of traditional music in 2017 for the solo album “Strimur”."
+    event.youtube_link = ""
+    event.event_type   = "concert"
+    event.conference_session = ConferenceSession.find_by(name: "Concert 3")
+    event.save!
+    a = Author.new
+    a.name = "Anne Hytta"
+    a.country = "Anne Hytta is a performer of the hardanger fiddle. She composes and performs her own music in her solo production Draumsyn"
+    a.webpage = "http://www.annehytta.com"
+    a.save!
+    event.authors << a
+  end
+
+  desc "Import social data"
+  task :social => :environment do
+    3.times do |num|
+      event              = Event.new
+      event.title        = "Social event"
+      event.event_type   = "social"
+      event.zoom_link    = ""
+      event.conference_session = ConferenceSession.where(name: 'Zoom social')[num]
+      event.save!
+    end
+  end
+
   desc "Import keynote data"
   task :keynotes => :environment do
     Event.where(event_type: 'keynote').delete_all
@@ -193,7 +247,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-22 21:00'),
       end:          Time.zone.parse('2021-06-22 22:00'))
     ConferenceSession.create(
-      name:         "Concert",
+      name:         "Concert 1",
       chair:        "",
       session_type: "Concert",
       start:        Time.zone.parse('2021-06-22 21:40'),
@@ -291,7 +345,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-24 21:00'),
       end:          Time.zone.parse('2021-06-24 22:00'))
     ConferenceSession.create(
-      name:         "Concert (Network Performance)",
+      name:         "Concert 2",
       chair:        "",
       session_type: "Concert",
       start:        Time.zone.parse('2021-06-24 21:40'),
@@ -343,7 +397,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-25 21:00'),
       end:          Time.zone.parse('2021-06-25 22:00'))
     ConferenceSession.create(
-      name:         "Concert (Scandinavian fiddle music by Anne Hytta)",
+      name:         "Concert 3",
       chair:        "",
       session_type: "Concert",
       start:        Time.zone.parse('2021-06-25 21:40'),

@@ -3,7 +3,7 @@
       <div class='col-sm-2 pb-2'>
         <%= session_time(conf_session) %>
       </div>
-      <div class='col-sm-10'>
+      <div class='col-sm-6'>
         <h2 class='session_name'>
           <% if conf_session.session_type == 'Talks' %>
             Talks:
@@ -15,6 +15,15 @@
         <% end %>
         </p>
       </div>
+      <% if conf_session.events.first %>
+        <% if conf_session.session_type == 'Talks' || conf_session.session_type == 'Posters' %>
+          <div class='col-sm-4 pt-4 pb-4 text-sm-end'>
+            <%= link_to conf_session.events.first.zoom_link, class:'btn-join me-sm-3', target: '_blank' do %>
+              Join on Zoom
+            <% end %>
+          </div>
+        <% end -%>
+      <% end %>
   </div>
 </div>
 
@@ -32,18 +41,22 @@
                 <i class='bi bi-arrow-right-circle'></i>
               <% end %>
             </div>
+            <% if !conf_session.session_type == 'Social' %>
+            <% end -%>
           </div>
-          Authors:
-          <% event.authors.each do |author| %>
-            <%= link_to author.name, author_path(author) %>
-          <% end %>
-          <p class='tags mt-3'>
-            <% event.keywords.each do |kw| %>
-              <%= link_to programme_index_path(tag:kw) do %>
-                <span class="badge rounded-pill bg-secondary"><%= kw %></span>
-              <% end %>
+          <% if event.authors.size > 0 %>
+            Authors:
+            <% event.authors.each do |author| %>
+              <%= link_to author.name, author_path(author) %>
             <% end %>
-          </p>
+            <p class='tags mt-3'>
+              <% event.keywords.each do |kw| %>
+                <%= link_to programme_index_path(tag:kw) do %>
+                  <span class="badge rounded-pill bg-secondary"><%= kw %></span>
+                <% end %>
+              <% end %>
+            </p>
+          <% end -%>
         </div>
       </div>
       <br>
