@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!, only: %i[ show edit update destroy ]
   before_action :set_user, only: %i[ edit update destroy ]
 
   def edit
@@ -6,6 +7,7 @@ class UsersController < ApplicationController
   end
 
   def update
+    redirect_to root_path unless current_user == @user
     respond_to do |format|
       if @user.update(user_params)
         format.html { redirect_to root_path, notice: "Your profile was successfully updated." }
@@ -18,6 +20,7 @@ class UsersController < ApplicationController
   end
 
   def destroy
+    redirect_to root_path unless current_user == @user
     @user.destroy
     respond_to do |format|
       format.html { redirect_to root_url, notice: "User was successfully destroyed." }
@@ -35,10 +38,7 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:name,
                                    :email,
-                                   :job_title,
                                    :image,
-                                   :about,
-                                   :time_zone,
-                                   :admin)
+                                   :time_zone)
     end
 end
