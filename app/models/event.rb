@@ -13,6 +13,9 @@ class Event < ApplicationRecord
                   associated_against: {
                     rich_text_abstract: [:body]
                   },
+                  associated_against: {
+                    authors: [:name]
+                  },
                   using: {
                     tsearch: { dictionary: "english", prefix: true }
                   }
