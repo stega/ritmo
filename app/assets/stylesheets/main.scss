@@ -168,3 +168,11 @@ a:hover{
   background-color: #ddd;
   color: #666;
 }
+.badge a{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.badge a:hover{
+  background-color: #aaa !important;
+}

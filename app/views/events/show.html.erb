@@ -70,9 +70,13 @@
       </div>
       <div class='col-sm-8'>
         <%= @event.abstract %>
-        <p class='tags'>
+        <p class='tags mt-3'>
           <% @event.keywords.each do |kw| %>
-          <span class="badge rounded-pill bg-secondary"><%= kw %></span>
+            <span class="badge rounded-pill bg-secondary">
+              <%= link_to programme_index_path(tag:kw) do %>
+                <%= kw %>
+              <% end %>
+            </span>
           <% end %>
         </p>
       </div>

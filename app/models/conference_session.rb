@@ -18,8 +18,8 @@ class ConferenceSession < ApplicationRecord
     joins(:events).sum{|cs| cs.events.size}
   end
 
-  def self.search(search_term)
-    ids = Event.search_text(search_term).pluck(:id)
-    joins(:events).where('events.id IN (?)', ids)
+  def self.search(search_term, day)
+    ids = Event.for_date(day).search_text(search_term).pluck(:id)
+    includes(:events).joins(:events).where('events.id IN (?)', ids)
   end
 end

@@ -80,24 +80,40 @@
 <div id='programme'>
   <div class="tab-content" id="programme">
     <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
-      <% @d1_sessions.each do |conf_session| %>
-          <%= render partial: 'session', locals: {conf_session: conf_session} %>
+      <% if @d1_sessions.size == 0 %>
+        <p class='text-center m-5'>There are no events that match your search happening on this day.</p>
+      <% else %>
+        <% @d1_sessions.each do |conf_session| %>
+            <%= render partial: 'session', locals: {conf_session: conf_session} %>
+        <% end %>
       <% end %>
     </div>
     <div class="tab-pane fade show" id="day2" role="tabpanel" aria-labelledby="day2-tab">
-      <% @d2_sessions.each do |conf_session| %>
-          <%= render partial: 'session', locals: {conf_session: conf_session} %>
-      <% end %>
+      <% if @d2_sessions.size == 0 %>
+        <p class='text-center m-5'>There are no events that match your search happening on this day.</p>
+      <% else %>
+        <% @d2_sessions.each do |conf_session| %>
+            <%= render partial: 'session', locals: {conf_session: conf_session} %>
+        <% end %>
+      <% end -%>
     </div>
     <div class="tab-pane fade show" id="day3" role="tabpanel" aria-labelledby="day3-tab">
-      <% @d3_sessions.each do |conf_session| %>
-          <%= render partial: 'session', locals: {conf_session: conf_session} %>
-      <% end %>
+      <% if @d3_sessions.size == 0 %>
+        <p class='text-center m-5'>There are no events that match your search happening on this day.</p>
+      <% else %>
+        <% @d3_sessions.each do |conf_session| %>
+            <%= render partial: 'session', locals: {conf_session: conf_session} %>
+        <% end %>
+      <% end -%>
     </div>
     <div class="tab-pane fade show" id="day4" role="tabpanel" aria-labelledby="day4-tab">
-      <% @d4_sessions.each do |conf_session| %>
-          <%= render partial: 'session', locals: {conf_session: conf_session} %>
-      <% end %>
+      <% if @d4_sessions.size == 0 %>
+        <p class='text-center m-5'>There are no events that match your search happening on this day.</p>
+      <% else %>
+        <% @d4_sessions.each do |conf_session| %>
+            <%= render partial: 'session', locals: {conf_session: conf_session} %>
+        <% end %>
+      <% end -%>
     </div>
   </div>
 </div>

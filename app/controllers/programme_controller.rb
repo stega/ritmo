@@ -13,10 +13,10 @@ class ProgrammeController < ApplicationController
       @d3_sessions = ConferenceSession.for_date(24).filter_by_kw(params[:tag])
       @d4_sessions = ConferenceSession.for_date(25).filter_by_kw(params[:tag])
     elsif params[:search] && !params[:search].blank?
-      @d1_sessions = ConferenceSession.for_date(22).search(params[:search])
-      @d2_sessions = ConferenceSession.for_date(23).search(params[:search])
-      @d3_sessions = ConferenceSession.for_date(24).search(params[:search])
-      @d4_sessions = ConferenceSession.for_date(25).search(params[:search])
+      @d1_sessions = ConferenceSession.for_date(22).search(params[:search], 22)
+      @d2_sessions = ConferenceSession.for_date(23).search(params[:search], 23)
+      @d3_sessions = ConferenceSession.for_date(24).search(params[:search], 24)
+      @d4_sessions = ConferenceSession.for_date(25).search(params[:search], 25)
     else
       @d1_sessions = ConferenceSession.for_date(22)
       @d2_sessions = ConferenceSession.for_date(23)
