@@ -14,19 +14,22 @@
       </div>
     </div>
     <div class='bottom-half'>
-      <div class='row'>
+      <% if @author.country %>
+        <div class='row mb-3'>
+          <div class='col-sm-4 d-none d-sm-block'>
+            <h3>BIO</h3>
+          </div>
+          <div class='col-sm-8'>
+            <%= @author.country %>
+          </div>
+        </div>
+      <% end %>
+      <div class='row mb-3'>
         <div class='col-sm-4 d-none d-sm-block'>
           <h3>AFFILIATION</h3>
         </div>
         <div class='col-sm-8'>
           <%= @author.affiliation %>
-        </div>
-      </div>
-      <div class='row mb-3'>
-        <div class='col-sm-4'>
-        </div>
-        <div class='col-sm-8'>
-          <%= @author.country %>
         </div>
       </div>
       <% if @author.webpage %>
@@ -61,7 +64,20 @@
         </div>
         <div class='col-sm-8'>
           <% @author.events.each do |event| %>
-            <p><%= link_to event.title, event_path(event) %></p>
+            <p>
+              <%= link_to event.title, event_path(event) %>
+              <% if event.event_type == 'Talks' %>
+                <span class='badge event-type'>
+                  <i class='bi bi-film'></i>
+                  talk
+                </span>
+              <% elsif event.event_type == 'Posters' %>
+                <span class='badge event-type'>
+                  <i class='bi bi-easel'></i>
+                  poster session
+                </span>
+              <% end %>
+            </p>
           <% end %>
         </div>
       </div>

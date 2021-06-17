@@ -15,14 +15,19 @@ namespace :import do
     require 'csv'
     Author.delete_all
     CSV.foreach("ritmo_data/authors.csv", {:col_sep => ";"}) do |row|
-      next if Author.find_by(email: row[3])
-      a = Author.new
-      a.name        = "#{row[1]} #{row[2]}"
-      a.email       = row[3]
-      a.country     = row[4]
-      a.affiliation = row[5]
-      a.webpage     = row[6]
-      a.save
+      if Author.find_by(name: "#{row[1]} #{row[2]}")
+        a = Author.find_by(name: "#{row[1]} #{row[2]}")
+        a.update(country: row[5]) if !row[5].blank?
+        a.update(webpage: row[6]) if !row[6].blank?
+      else
+        a = Author.new
+        a.name        = "#{row[1]} #{row[2]}"
+        a.email       = row[3]
+        a.affiliation = row[4]
+        a.country     = row[5]
+        a.webpage     = row[6]
+        a.save
+      end
     end
   end
 
@@ -43,6 +48,7 @@ namespace :import do
       event.youtube_link = row[8]&.strip
       event.vortex_link  = row[9]&.strip
       event.event_type   = "talk"
+      event.zoom_link    = "FIXED ZOOM LINK"
       session = ConferenceSession.find_by(name: row[2].strip)
       puts "cant find session #{row[2]}" if session.nil?
       event.conference_session = session
@@ -87,6 +93,7 @@ namespace :import do
       event.abstract     = row[6]
       event.youtube_link = row[7]
       event.vortex_link  = row[8]
+      event.zoom_link    = row[9]&.strip
       event.event_type   = "poster"
       event.poster_order = row[2]
       session = ConferenceSession.find_by(name: "Posters #{row[1].strip}")
