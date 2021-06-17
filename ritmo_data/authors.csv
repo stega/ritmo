@@ -1,395 +1,397 @@
-EasyChair #;first name;last name;email;country;affiliation;Web page;corresponding?
-1;Andrea;Schiavio;andrea.schiavio@gmail.com;Austria;University of Graz;;✔
-1;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Aarhus University;;
-1;Renee;Timmers;r.timmers@sheffield.ac.uk;United Kingdom;The University of Sheffield;;
-2;Zohreh;Vaziri;zova137@gmail.com;Iran;Kerman medical university;http://www.zova.ir;✔
-2;Siamak;Haj Azim Zanjani;siamak.h.a.z@gmail.com;Iran;Shahid Rajaee university;https://siamakhajazim.ir/;
-3;Olivier;Senn;olivier.senn@hslu.ch;Switzerland;Hochschule Luzern - Musik;;✔
-3;Dawn;Rose;dawn.rose@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-3;Toni;Bechtold;toni.bechtold@hslu.ch;Switzerland;Hochschule Luzern - Musik, University of Birmingham;;
-3;Lorenz;Kilchenmann;lorenz.kilchenmann@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-3;Florian;Hoesl;florian.hoesl@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-3;Rafael;Jerjen;rafael.jerjen@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-3;Antonio;Baldassarre;antonio.baldassarre@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-3;Elena;Alessandri;elena.alessandri@hslu.ch;Switzerland;Hochschule Luzern - Musik;;
-4;Mehrdad;Bahadori;mehrdad.bahadori@univr.it;Italy;University of Verona;;✔
-4;Paola;Cesari;paola.cesari@univr.it;Italy;University of Verona;;
-5;Dawn;Rose;dawn.rose@hslu.ch;Switzerland;Lucerne University of Applied Sciences and Arts;https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=4367;✔
-5;Daniel;Müllensiefen;D.Mullensiefen@gold.ac.uk;United Kingdom;Goldsmiths, University of London;https://www.gold.ac.uk/psychology/staff/mullensiefen/;
-5;Peter;Lovatt;peter.lovatt@movementinpractice.com;United Kingdom;Movement In Practice;https://www.peterlovatt.com/dr-dance/;
-5;Guido;Orgs;G.Orgs@gold.ac.uk;United Kingdom;Goldsmiths, University of London;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
-6;Michael;Schutz;schutz@mcmaster.ca;Canada;McMaster University;http://www.maplelab.net;✔
-6;Fiona;Manning;fiona.c.manning@gmail.com;Canada;McMaster University (alum);;✔
-7;Adam;Safron;asafron@gmail.com;United States;Indiana University;https://kinseyinstitute.org/about/profiles/asafron.php;✔
-8;Ana;Clemente;ana.c.magan@gmail.com;Spain;University of the Balearic Islands;https://evocog.org/ana-clemente/;✔
-8;Frances;Board;fran.board@thesoundagency.com;United Kingdom;Goldsmiths University of London;https://www.thesoundagency.com/team/fran-board/;
-8;Marcus T.;Pearce;marcus.pearce@qmul.ac.uk;United Kingdom;Queen Mary University of London;http://webprojects.eecs.qmul.ac.uk/marcusp/;
-8;Guido;Orgs;G.Orgs@gold.ac.uk;United Kingdom;Goldsmiths University of London;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
-9;Jonathan;Cannon;jcan@mit.edu;United States;MIT;https://joncannon.net;✔
-9;Aniruddh;Patel;a.patel@tufts.edu;United States;Tufts University;;
-10;Jonathan;Cannon;jcan@mit.edu;United States;MIT;https://joncannon.net;✔
-11;Véronique;Martel;veronique.martel.6@umontreal.ca;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;✔
-11;Marie-Élaine;Lagrois;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
-11;Michael;Weiss;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
-11;Anne-Marie;Bissonnette;;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
-11;Isabelle;Peretz;isabelle.peretz@umontreal.ca;Canada;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;
-12;Elias;Gram-Nilsen;eliasg@student.imv.uio.no;Norway;University of Oslo;;✔
-12;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;Norway;University of Oslo;;✔
-13;Nori;Jacoby;nori.jacoby@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-13;Rainer;Polak;rainer.polak@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-13;Justin;London;jlondon@carleton.edu;United States;Carleton College;;✔
-14;Kjell Andreas;Oddekalv;k.a.oddekalv@imv.uio.no;Norway;University of Oslo;;✔
-15;Sandra;Solli;sandra.solli@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
-15;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
-15;Anne-Kristin;Solbakk;a.k.solbakk@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
-15;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;✔
-16;Maja;Foldal;maja.foldal@gmail.com;Norway;University of Oslo;;✔
-16;Sabine;Leske;;Norway;University of Oslo;;
-16;Alejandro;Blenkmann;;Norway;University of Oslo;;
-16;Tor;Endestad;;Norway;University of Oslo;;
-16;Anne-Kristin;Solbakk;;Norway;University of Oslo;;
-17;Tysen;Dauer;tdauer@research.baycrest.org;Canada;Rotman Research Institute;;✔
-17;Björn;Herrmann;bherrmann@research.baycrest.org;Canada;Rotman Research Institute, University of Toronto;;✔
-18;Teresa;Borowski;borowsk1@uic.edu;United States;University of Illinois - Chicago;;✔
-18;Timothy;Carsel;timothy.carsel@gmail.com;United States;TopBloc;;
-18;Alexander;Demos;ademos@uic.edu;United States;University of Illinois - Chicago;;
-19;Alex;Ludwig;aludwig@berklee.edu;United States;Berklee College of Music;http://alexludwig.net;✔
-20;Rui;Ma;13661384500@163.com;China;Beijing City University;;✔
-21;Ece;Kaya;ece.kaya@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-21;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-22;Jeremy;Marozeau;jemaroz@dtu.dk;Denmark;Technical University of Denmark;;✔
-22;Tanmayee;Pathre;t.u.pathre@tue.nl;Netherlands;Eindhoven University of Technology;;
-23;Anna;Kasdan;anna.v.kasdan@vanderbilt.edu;United States;Vanderbilt University;http://annakasdan.com;✔
-23;Fabrizio;Pizzagalli;fpizzagalli@gmail.com;Italy;Università di Torino;;
-23;Alexander;Chern;aychern@gmail.com;United States;New York-Presbyterian/Weill Cornell Medical Center;;
-23;Alyssa;Scartozzi;alyssa.scartozzi@vumc.org;United States;Vanderbilt University Medical Center;;
-23;Andrea;Burgess;;United States;Vanderbilt University;;
-23;Sonja;Kotz;sonja.cimon@googlemail.com;Netherlands;Maastricht University;;
-23;Stephen;Wilson;smwilsonau@gmail.com;United States;Vanderbilt University Medical Center;;
-23;Reyna;Gordon;reyna.gordon@vanderbilt.edu;United States;Vanderbilt University Medical Center;;
-24;Thomas;Kaplan;t.m.kaplan@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;✔
-24;Jonathan;Cannon;jcan@mit.edu;United States;Department of Brain and Cognitive Science, Massachusetts Institute of Technology;;
-24;Lorenzo;Jamone;l.jamone@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;
-24;Marcus;Pearce;marcus.pearce@qmul.ac.uk;United Kingdom;Cognitive Science Research Group, Queen Mary University of London;;
-25;Dongho;Kwak;d.d.kwak@imv.uio.no;Norway;RITMO, University of Oslo;;✔
-26;Christopher;Corcoran;chris.c@gmx.de;Denmark;University of Cambridge;https://www.mus.cam.ac.uk/directory/christopher-corcoran;✔
-26;Klaus;Frieler;kgf@omniversum.de;Germany;Hochschule für Musik “Franz Liszt” Weimar;http://www.mu-on.org/frieler/;✔
-27;Erica;Flaten;flatene@mcmaster.ca;Canada;McMaster University;;✔
-27;Laurel J;Trainor;ljt@mcmaster.ca;Canada;McMaster University;https://trainorlab.mcmaster.ca/;✔
-28;Heidi;Bliddal;heidi@bliddal.net;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;✔
-28;Christian;Bech Christensen;cbc@ece.au.dk;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;
-28;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University & The Royal Academy of Music Aarhus/Aalborg, Denmark;;
-28;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University & The Royal Academy of Music Aarhus/Aalborg, Denmark;;
-28;Preben;Kidmose;pki@ece.au.dk;Denmark;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;
-29;Andrew;Chang;c.andrew123@gmail.com;United States;New York University;;✔
-29;Xiangbin;Teng;xiangbin.teng@gmail.com;Germany;Max Planck Institute for Human Development;;
-29;M. Florencia;Assaneo;fassaneo@gmail.com;Mexico;Universidad Nacional Autónoma de México;;
-29;David;Poeppel;dp101@nyu.edu;United States;New York University, Max Planck Institute for Empirical Aesthetics;;
-30;Lauren;Fink;lauren.fink@ae.mpg.de;Germany;"University of California, Davis; Max Planck Institute for Empirical Aesthetics";https://lkfink.github.io/;✔
-30;Prescott;Alexander;pcalexander@ucdavis.edu;United States;University of California, Davis;;
-30;Petr;Janata;pjanata@ucdavis.edu;United States;University of California, Davis;https://atonal.ucdavis.edu/;
-31;Bernd;Härpfer;bernd@haerpfer.net;Germany;free researcher;;✔
-31;Dirk;Handreke;mail@dirkhandreke.com;Germany;Institute for Musicology and Music Informatics, University of Music Karlsruhe;;✔
-32;Srishti;Nayak;srishti.nayak@vumc.org;United States;Vanderbilt University Medical Center;;✔
-32;Daniel;Gustavson;daniel.e.gustavson@vumc.org;United States;Vanderbilt University Medical Center;;
-32;Youjia;Wang;youjia.wang.1@vumc.org;United States;Vanderbilt University Medical Center;;
-32;Jennifer;Below;jennifer.e.below@vumc.org;United States;Vanderbilt University Medical Center;;
-32;Reyna;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University Medical Center;;
-32;Cyrille;Magne;cyrille.magne@mtsu.edu;United States;Middle Tennessee State University;;
-33;Elodie;Augier;elodieaugier.neuropsychologue@live.fr;France;Cabinet de neuropsychologie Eolys - Puces du Canal;;
-33;Naila;Boudiaf;naila.boudiaf@gmail.com;France;Philips France;;
-33;Christian;Graff;Christian.Graff@univ-grenoble-alpes.fr;France;Univ. Grenoble Alpes;;✔
-34;Robert;Hofmann;hofmann@mdw.ac.at;Austria;mdw – University of Music and Performing Arts Vienna;;✔
-35;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo, Norway;;✔
-35;Martin;Langerød;martin.langerod@gmail.com;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo, Norway;;
-35;Kristian;Nymoen;krisny@ifi.uio.no;Norway;Department of Informatics, University of Oslo, Norway;;
-35;Justin;London;JLONDON@carleton.edu;United States;Carleton College;;✔
-36;Haley;Kragness;haley.kragness@utoronto.ca;Canada;University of Toronto;;✔
-36;Idila;Yogeswaran;idila.yogeswaran@mail.utoronto.ca;Canada;University of Toronto;;✔
-36;Laura;Cirelli;laura.cirelli@utoronto.ca;Canada;University of Toronto;;✔
-37;Haley;Kragness;haley.kragness@utoronto.ca;Canada;University of Toronto;;✔
-37;Laura;Cirelli;laura.cirelli@utoronto.ca;Canada;University of Toronto;;✔
-38;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;http://www.mcgill.ca/spl/;✔
-38;Alexander;Demos;ademos@uic.edu;United States;University of Illinois at Chicago;;
-39;Francesco;Ganis;fganis20@student.aau.dk;Denmark;Aalborg University;;✔
-39;Sofia;Dahl;sof@create.aau.dk;Denmark;Aalborg University;;✔
-39;Guilherme Schmidt;Câmara;g.s.camara@imv.uio.no;Norway;University of Oslo;;✔
-39;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;;✔
-40;Vivien;Marmelat;vivien.marmelat@gmail.com;United States;University of Nebraska at Omaha;;✔
-40;Ryan;Meidinger;rmeidinger@unomaha.edu;United States;University of Nebraska at Omaha;;
-40;Brian;Ricks;bricks@unomaha.edu;United States;University of Nebraska at Omaha;;
-41;Mariusz;Kozak;m.kozak@columbia.edu;United States;Columbia University;;✔
-42;Laura;Bishop;laura.bishop@imv.uio.no;Norway;University of Oslo;http://lbishop.ca;✔
-42;Alexander Refsum;Jensenius;a.r.jensenius@imv.uio.no;Norway;University of Oslo;http://www.arj.no;
-42;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;University of Oslo;;
-43;Manuel;Anglada-Tort;manuel.anglada-tort@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/manuel-anglada-tort.html;✔
-43;Peter;Harrison;peter.harrison@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/dr-peter-harrison.html;
-43;Nori;Jacoby;nori.jacoby@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;https://www.aesthetics.mpg.de/en/the-institute/people/nori-jacoby.html;
-44;J. Riikka;Ahokas;j.riikka.ahokas@jyu.fi;Finland;University of Jyväskylä;https://www.jyu.fi/hytk/fi/laitokset/mutku/henkilokunta/copy_of_tohtorikoulutettavat/ahokas-jenni-riikka;✔
-45;Zachary;Melton;zmelto2@uic.edu;United States;University of Illinois-Chicago;;✔
-45;Roger;Chaffin;roger.chaffin@uconn.edu;United States;University of Connecticut;;
-45;Kayleigh;Kangas-Dick;kmk2219@tc.columbia.edu;United States;Teacher's College Columbia University;;
-45;Kerry;Marsh;kerry.l.marsh@uconn.edu;United States;University of Connecticut;;
-45;Alexander;Demos;ademos@uic.edu;United States;University of Illinois-Chicago;;
-46;Eniko;Ladanyi;eniko.ladanyi@vumc.org;United States;Vanderbilt University Medical Center;https://enikoladanyi.com;✔
-46;Catherine;Bush;catherine.bush@vumc.org;United States;Vanderbilt University Medical Center;;
-46;Youjia;Wang;youjia.wang.1@vumc.org;United States;Vanderbilt University Medical Center;;
-46;Tiffany G.;Woynaroski;tiffany.g.woynaroski@vumc.org;United States;Vanderbilt University Medical Center;;
-46;Miriam D.;Lense;miriam.lense@vumc.org;United States;Vanderbilt University Medical Center;;
-46;Reyna L.;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University Medical Center;;
-47;Fred;Hosken;fredhosken@u.northwestern.edu;United States;Northwestern University;;✔
-48;Olivia;Lucas;olivialucas1@lsu.edu;United States;Louisiana State University;;✔
-49;Randall;Harlow;randallharlow@hotmail.com;United States;University of Northern Iowa;http://randallharlow.net;✔
-50;Ragnhild;Brøvig-Hanssen;ragnhiba@imv.uio.no;Norway;University of Oslo;https://www.uio.no/ritmo/english/people/tenured/ragnhiba/;✔
-50;Bjørnar;Sandvik;bjornar.sandvik@imv.uio.no;Norway;University of Oslo;https://www.uio.no/ritmo/english/people/phd-fellows/bjoresan/;✔
-50;Jon Marius;Aareskjold-Drecker;jon.m.aareskjold-drecker@uia.no;Norway;"UiT The Arctic University of Norway; University of Agder";https://uit.no/ansatte/person?p_document_id=93949;✔
-51;Merve;Akca;merve.akca@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;✔
-51;Laura;Bishop;laura.bishop@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
-51;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
-51;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;
-52;Mattia;Rosso;mattia.rosso@ugent.be;Belgium;IPEM Institute for Systematic Musicology;https://research.flw.ugent.be/nl/mattia.rosso;✔
-52;Marc;Leman;marc.leman@ugent.be;Belgium;IPEM Institute for Systematic Musicology;;
-52;Lousin;Moumdijan;lousin.moumdjan@ugent.be;Belgium;IPEM Institute for Systematic Musicology;;✔
-53;Toni Amadeus;Bechtold;toni.bechtold@hslu.ch;Switzerland;"University of Birmingham, United Kingdom; Lucerne University of Applied Sciences and Arts, Switzerland";;✔
-53;Maria A.G.;Witek;m.a.g.witek@bham.ac.uk;United Kingdom;University of Birmingham, United Kingdom;;
-54;Birgitta;Burger;birgitta.burger@uni-hamburg.de;Germany;University of Hamburg;;✔
-54;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Germany;University of Hamburg;;
-55;Chris;Stover;chrisstover.718@gmail.com;Australia;Griffith University;;✔
-56;Fleur L.;Bouwer;fleurbouwer@hotmail.com;Netherlands;University of Amsterdam;http://www.fleurbouwer.com;✔
-56;Johannes J.;Fahrenfort;fahrenfort.work@gmail.com;Netherlands;University of Amsterdam;http://www.fahrenfort.com;
-56;Heleen A.;Slagter;h.a.slagter@vu.nl;Netherlands;Vrije Universiteit Amsterdam;http://www.heleenslagter.com;
-57;Vegard;Volehaugen;vegard.volehaugen@gmail.com;Norway;University of Oslo;;✔
-57;Sabine;Leske;;Germany;University of Oslo;;
-57;Alejandro;Blenkmann;;Argentina;University of Oslo;;
-58;Nicholas;Browitt;nicholjb@student.sv.uio.no;Norway;University of Oslo;;✔
-58;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;University of Oslo;;✔
-59;Ole Adrian;Heggli;oleheggli@gmail.com;Denmark;Center for Music in the Brain, Aarhus University;;✔
-59;Ivana;Konvalinka;ivako@dtu.dk;Denmark;SINe Lab, Technical University of Denmark;;
-59;Morten L.;Kringelbach;morten.kringelbach@psych.ox.ac.uk;United Kingdom;Center for Music in the Brain, Aarhus University & Center for Eudaimonia and Human Flourishing, University of Oxford;;
-59;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-60;Connor;Spiech;connor.spiech@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;https://www.uio.no/ritmo/english/people/phd-fellows/connors/index.html;✔
-60;Bruno;Laeng;bruno.laeng@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
-60;Georgios;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
-60;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
-60;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;✔
-61;Benjamin;Morillon;bnmorillon@gmail.com;France;Aix Marseille U., Inserm, Institut de Neurosciences des Systèmes;https://scholar.google.com/citations?user=lBwWtFUAAAAJ;✔
-61;Arnaud;Zalta;arnaud.zalta@hotmail.fr;France;Aix-Marseille University;;
-62;Xinyue;Wang;xinyue.wang@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/wang.html;✔
-62;Birgitta;Burger;birgitta.burger@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/burger.html;
-62;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Germany;Institute for Systematic Musicology, Universität Hamburg;https://www.slomo.uni-hamburg.de/team/woellner.html;
-63;Aleksander;Tidemann;aleksati@student.imv.uio.no;Norway;University of Oslo;https://github.com/AleksanderTidemann/hf-interactive-analysis;✔
-63;Olivier;Lartillot;olivier.lartillot@imv.uio.no;France;University of Oslo;https://www.hf.uio.no/imv/english/people/aca/temporary/oliviel/;✔
-63;Mats;Johansson;mats.s.johansson@usn.no;Norway;Universitetet i Sør-Øst Norge;https://www.usn.no/om-usn/kontakt-oss/ansatte/mats-sigvard-johansson;✔
-64;Matt;Moore;matt.d.moore@outlook.com;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-64;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-65;Min;Li;susanlee029@gmail.com;United Kingdom;University of Birmingham;https://www.birmingham.ac.uk/schools/psychology/people/dr-students/li-min.aspx;✔
-65;Dominic;Ward;dom@deeuu.me;United Kingdom;Birmingham City University;;
-65;Ryan;Stables;Ryan.Stables@bcu.ac.uk;United Kingdom;Birmingham City University;;
-65;;Chua;W.Chua.1@bham.ac.uk;United Kingdom;University of Birmingham;;
-65;;Howe;Joanne.Howe@nottingham.ac.uk;United Kingdom;University of Nottingham;;
-65;;Quinn;k.quinn@depaul.edu;United States;DePaul University;;
-65;Alan;Wing;a.m.wing@bham.ac.uk;United Kingdom;University of Birmingham;;
-66;Rolf Inge;Godøy;r.i.godoy@imv.uio.no;Norway;RITMO, University of Oslo;https://www.uio.no/ritmo/english/people/tenured/rolfig/index.html;✔
-67;Sara;D'Amario;damario@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;✔
-67;Anna;Niemand;niemand@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;
-67;Werner;Goebl;goebl@mdw.ac.at;Austria;Department of Music Acoustics, University of Music and Performing Arts, Vienna;http://www.mdw.ac.at;
-67;Laura;Bishop;laura.bishop@imv.uio.no;Norway;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;http://www.uio.no;
-68;Aleksandra;Koprowska;alkopro@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;✔
-68;Maja;Serman;maja.serman@wsa.com;Germany;WSAudiology;;
-68;Torsten;Dau;tdau@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;
-68;Jeremy;Marozeau;jemaroz@dtu.dk;Denmark;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;
-69;Daniel;Cameron;camerd7@mcmaster.ca;Canada;McMaster University;;✔
-69;Chantal;Carrillo;carrilcj@mcmaster.ca;Canada;McMaster University;;
-69;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
-70;Carlos Eduardo;Cancino-Chacón;carlos_eduardo.cancino_chacon@jku.at;Austria;Johannes Kepler University Linz;http://carloscancinochacon.com;✔
-70;Silvan;Peter;silvan.peter@jku.at;Austria;Johannes Kepler University Linz;;✔
-70;Emmanouil;Karystinaios;emmanouil.karystinaios@jku.at;Austria;Johannes Kepler University Linz;;✔
-70;Gerhard;Widmer;gerhard.widmer@jku.at;Austria;Johannes Kepler University Linz;http://www.cp.jku.at/people/widmer;✔
-71;Guilherme;Schmidt Câmara;g.s.camara@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
-71;George;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
-71;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;✔
-72;Sinead;Rocha;sineadrocha@gmail.com;United Kingdom;University of Cambridge;;✔
-72;Adam;Attaheri;aa974@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Aine;Ni Choisdealbha;an552@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Perrine;Brusini;P.Brusini@liverpool.ac.uk;United Kingdom;University of Liverpool;;
-72;Sheila;Flanagan;saf31@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Natasha;Mead;nf262@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Panagiotis;Boutris;pb698@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Samuel;Gibbon;sg853@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Helen;Olawole-Scott;hss34@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Christina;Grey;cg670@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Isabel;Williams;iw289@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Henna;Ahmed;hka24@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Emma;Macrae;ejm212@cam.ac.uk;United Kingdom;University of Cambridge;;
-72;Usha;Goswami;ucg10@cam.ac.uk;United Kingdom;University of Cambridge;;
-73;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
-73;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-73;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-73;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-74;Jorg;De Winne;jorg.dewinne@ugent.be;Belgium;Ghent University;;✔
-74;Paul;Devos;p.devos@ugent.be;Belgium;Ghent University;;
-74;Marc;Leman;marc.leman@ugent.be;Belgium;Ghent University;;
-74;Dick;Botteldooren;dick.botteldooren@ugent.be;Belgium;Ghent University;;
-75;Marc;Leman;Marc.Leman@ugent.be;Belgium;Ghent University;;✔
-76;Olivia Xin;Wen;olivia.wen@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;✔
-76;Molly;Henry;molly.henry@ae.mpg.de;Germany;Max Planck Institute for Empirical Aesthetics;;
-77;Nicolas;Pironio;npironio@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;✔
-77;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://liaa.dc.uba.ar;
-77;Martin;Miguel;mmiguel@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://mmiguel.liaa.dc.uba.ar;✔
-78;Courtney;Hilton;courtneyhilton@g.harvard.edu;United States;Harvard University;;✔
-78;Micah;Goldwater;micah.goldwater@sydney.edu.au;Australia;The University of Sydney;;✔
-79;Anastasiya;Paltarzhitskaya;navukapobach@gmail.com;Russia;Institute for Cognitive Neuroscience;;✔
-80;Martin;Miguel;mmiguel@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://mmiguel.liaa.dc.uba.ar;✔
-80;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;Argentina;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";http://liaa.dc.uba.ar;
-81;Alan;Wing;a.m.wing@bham.ac.uk;United Kingdom;University of Birmingham;;✔
-81;Ryan;Stables;ryan.stables@bcu.ac.uk;United Kingdom;Birmingham City University;;
-81;Mark;Elliott;m.t.elliott@warwick.ac.uk;United Kingdom;University of Warwick;;
-81;Maria;Witek;M.A.G.Witek@bham.ac.uk;United Kingdom;University of Birmingham;;
-81;Massimiliano;Di Luca;M.DiLuca@bham.ac.uk;United Kingdom;University of Birmingham;;
-82;Rebecca;Scheurich;rebecca.scheurich@mail.mcgill.ca;Canada;McGill University;;
-82;Ella;Sahlas;ella.sahlas@mail.mcgill.ca;Canada;McGill University;;
-82;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;;✔
-83;Noam;Lederman;noam.lederman@open.ac.uk;United Kingdom;The Open University;http://www.noamlederman.com;✔
-83;Simon;Holland;simon.holland@open.ac.uk;United Kingdom;The Open University;;
-83;Paul;Mulholland;paul.mulholland@open.ac.uk;United Kingdom;The Open University;;
-84;Adrian Simen;Holm;adriansh@uio.no;Norway;University of Oslo;;✔
-84;Maja Dyhre;Foldal;maja.foldal@gmail.com;Norway;University of Oslo;;✔
-84;Tor;Endestad;tor.endestad@psykologi.uio.no;Norway;University of Oslo;;✔
-85;Anna;Fiveash;anna.fiveash@inserm.fr;France;Lyon Neuroscience Research Center;https://www.researchgate.net/profile/Anna_Fiveash;✔
-85;Simone;Dalla Bella;simone.dalla.bella@umontreal.ca;Canada;University of Montreal;;✔
-85;Reyna;Gordon;reyna.gordon@vumc.org;United States;Vanderbilt University;;✔
-85;Barbara;Tillmann;barbara.tillmann@cnrs.fr;France;Lyon Neuroscience Research Center;;✔
-86;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
-86;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-86;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-86;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-87;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;UCL;;✔
-87;Kyle;Jasmin;k.jasmin@bbk.ac.uk;United Kingdom;Birbeck;;
-88;Troby Ka-Yan;Lui;kayan.lui@uni-luebeck.de;Germany;University of Lübeck;;✔
-88;Jonas;Obleser;jonas.obleser@uni-luebeck.de;Germany;University of Lübeck;;
-88;Malte;Wöstmann;malte.woestmann@uni-luebeck.de;Germany;University of Lübeck;;
-89;Ji Chul;Kim;jichulkim21@gmail.com;United States;University of Connecticut;;✔
-89;Edward W.;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
-90;Alexis;MacIntyre;a.macintyre.17@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;✔
-90;Ian;Cross;ic108@cam.ac.uk;United Kingdom;University of Cambridge;;
-90;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;
-91;Mari Romarheim;Haugen;m.r.haugen@imv.uio.no;Norway;University of Oslo;http://people.uio.no/marrh;✔
-91;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;http://people.uio.no/anneda;✔
-92;Alexis;Deighton MacIntyre;a.macintyre.17@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;✔
-92;Sophie;Scott;sophie.scott@ucl.ac.uk;United Kingdom;Institute of Cognitive Neuroscience;;
-93;Valentin;Begel;valentin.begel@mcgill.ca;Canada;McGill University;https://www.researchgate.net/;✔
-93;Alexander P.;Demos;ademos@uic.edu;United States;University of Illinois at Chicago;https://www.alexanderdemos.org/;
-93;Caroline;Palmer;caroline.palmer@mcgill.ca;Canada;McGill University;https://www.mcgill.ca/spl/palmer;✔
-94;Andrea;Ravignani;andrea.ravignani@gmail.com;Netherlands;Max Planck Institute for Psycholinguistics;;✔
-95;Anders;Friberg;afriberg@kth.se;Sweden;Speech, Music, and Hearing, EECS, Royal Institute of Technology (KTH);;✔
-95;Torbjörn;Gulz;gulz@kth.se;Sweden;Media Technology and Interaction Design, EECS, Royal Institute of Technology (KTH);;✔
-95;Claes;Wettebrandt;info@studioblue.se;Sweden;Studio Blue, Stockholm, Sweden;;✔
-96;Thomas;Wolf;wolft@ceu.edu;Austria;Central European University;;✔
-96;Natalie;Sebanz;sebanzn@ceu.edu;Austria;CEU;;
-96;Günther;Knoblich;knoblichg@ceu.edu;Austria;CEU;;
-97;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
-97;Ji Chul;Kim;jichulkim21@gmail.com;United States;University of Connecticut;https://www.tonaldynamics.com;✔
-98;Tristan;Loria;tristan.defrancesco.loria@mail.utoronto.ca;Canada;Music and Health Research Collaboratory;;✔
-98;Aiyun;Huang;aiyun.huang@utoronto.ca;Canada;University of Toronto Faculty of Music;;
-98;Tara;Henechowicz;tara.henechowicz@mail.utoronto.ca;Canada;Music and Health Research Collaboratory;;
-98;Michael;Thaut;michael.thaut@utoronto.ca;Canada;Music and Health Research Collaboratory;;✔
-99;Leigh;Vanhandel;leigh.vanhandel@ubc.ca;Canada;University of British Columbia;https://blogs.ubc.ca/drvan/;✔
-99;Zachary;Lookenbill;lookenb1@msu.edu;United States;Michigan State University;;
-99;Gerardo;Lopez;lopezge1@msu.edu;United States;Michigan State University;;
-99;J. Devin;McAuley;dmcauley@msu.edu;United States;Michigan State University;;
-100;Rebecca;Schaefer;r.s.schaefer@fsw.leidenuniv.nl;Netherlands;Leiden University;;✔
-100;Benjamin;Schultz;ben.schultz@unimelb.edu.au;Australia;University of Melbourne;;
-101;Tor;Halmrast;torhalm@online.no;Norway;University of Oslo/Musicology, and COWI, Oslo;https://tor.halmrast.no;✔
-102;Prisca;Hsu;phsu26@uwo.ca;Canada;Western University;;
-102;Emily;Ready;eready2@uwo.ca;Canada;Western University;;✔
-102;Jessica;Grahn;jgrahn@uwo.ca;Canada;Western University;;✔
-103;Tor;Halmrast;torhalm@online.no;Norway;University of Oslo/Musicology, and COWI, Oslo;https://tor.halmrast.no;✔
-104;Tor;Endestad;tendesta@uio.no;Norway;University of Oslo;https://www.sv.uio.no/psi/english/people/aca/tendesta/;✔
-104;Adrian Simen;Holm;a.s.holm@imv.uio.no;Norway;University of Oslo;;
-104;Sara;Nossen;saranossen@gmail.com;Norway;University of Oslo;;
-104;Emilie;Holte;emiliho@student.sv.uio.no;Norway;University of Oslo;;
-104;Anne Kristin;Solbakk;annesolbakk@gmail.com;Norway;University of Oslo;;
-104;Anne;Danielsen;anne.danielsen@imv.uio.no;Norway;University of Oslo;;✔
-105;Yi;Wei;yi.wei@uconn.edu;United States;University of Connecticut;;✔
-105;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;✔
-106;Emily A.;Wood;woode1@mcmaster.ca;Canada;McMaster University;;✔
-106;Dobromir;Dotov;dotovd@mcmaster.ca;Canada;McMaster University;;
-106;Andrew;Chang;ac8888@nyu.edu;United States;New York University;;
-106;Dan;Bosynak;bosnyak@mcmaster.ca;Canada;McMaster University;;
-106;Lucas;Klein;kleinl1@mcmaster.ca;Canada;McMaster University;;
-106;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
-107;Lana;Delasanta;lana.delasanta@uconn.edu;United States;University of Connecticut;https://musicdynamicslab.uconn.edu/graduate-students/;✔
-107;Dobri;Dotov;dobri.dotov@yandex.com;Canada;McMaster University;;
-107;Edward;Large;edward.large@uconn.edu;United States;University of Connecticut;;
-107;Laurel;Trainor;ljt@mcmaster.ca;Canada;McMaster University;;
-109;Sara;Nossen;sara.nossen@psykologi.uio.no;Norway;University of Oslo;;✔
-110;Signe;Hagner;signe@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;✔
-110;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Center for Music in the Brain, Aarhus University;;
-110;Peter;Vuust;petervuust@gmail.com;Denmark;Center for Music in the Brain, Aarhus University;;
-111;Harjo;de Poel;h.j.de.poel@umcg.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);http://www.rug.nl/staff/h.j.de.poel/;✔
-111;Dobri;Dotov;dotovd@mcmaster.ca;Canada;LIVElab, McMaster University;;
-111;Marije;Harmsen;m.harmsen.5@student.rug.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
-111;Liset;van der Hulst;e.g.van.der.hulst@student.rug.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
-111;Claudine;Lamoth;c.j.c.lamoth@umcg.nl;Netherlands;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;
-112;Dana;Swarbrick;dana.swarbrick@imv.uio.no;Norway;RITMO, University of Oslo;;✔
-112;Cagri;Erdem;cagri.erdem@imv.uio.no;Norway;RITMO, University of Oslo;;
-112;Finn;Upham;finn.upham@mail.mcgill.ca;Norway;RITMO, University of Oslo;;
-112;Kayla;Burnim;kayla.burnim@imv.uio.no;Norway;RITMO, University of Oslo;;
-112;Alexander;Refsum Jensenius;a.r.jensenius@imv.uio.no;Norway;RITMO, University of Oslo;;
-113;Torbjörn;Gulz;torbjorn.gulz@kmh.se;Sweden;Royal College of Music Stockholm;http://kmh.se;✔
-113;Andre;Holzapfel;holzap@kth.se;Sweden;KTH Royal Institute of Technology;http://kth.se;
-114;Tzu-Han Zoe;Cheng;tzcheng@ucsd.edu;United States;UC SanDiego;;✔
-114;John;Iversen;jiversen@ucsd.edu;United States;UC SanDiego;;
-115;Sami Vasileios;Amiris;sami.amiris@gmail.com;Greece;National and Kapodistrian University of Athens, American College of Greece;http://www.phosduo.com/sami-amiris/;✔
-116;Tomas;Lenc;tomas.lenc@uclouvain.be;Belgium;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;;✔
-116;Peter E.;Keller;p.keller@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;
-116;Manuel;Varlet;m.varlet@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;
-116;Sylvie;Nozaradan;sylvie.nozaradan@uclouvain.be;Belgium;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;;
-117;Olivia;Boorom;olivia.boorom@vumc.org;United States;Vanderbilt University Medical Center;;✔
-117;Valerie;Muñoz;valalmunoz@gmail.com;United States;Vanderbilt University Medical Center;;
-117;Camila;Alviar Guzman;malviarguzman@ucmerced.edu;United States;University of California, Merced;;
-117;Christopher;Kello;ckello@ucmerced.edu;United States;University of California, Merced;;
-117;Miriam;Lense;miriam.lense@vumc.org;United States;Vanderbilt University Medical Center;;✔
-118;Julien;Laroche;lajulienroche@gmail.com;Italy;CTNSC, Istituto Italiano di Tecnologia;;✔
-118;Alice;Tomassini;alice.tomassini@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
-118;Luciano;Fadiga;luciano.fadiga@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
-118;Antonio;Camurri;antonio.camurri@unige.it;Italy;DIBRIS, Universita degli studi di Genova;;
-118;Gualtiero;Volpe;gualtiero.volpe@unige.it;Italy;DIBRIS, Universita degli studi di Genova;;
-118;Alessandro;D'Ausilio;Alessandro.Dausilio@iit.it;Italy;CTNSC, Istituto Italiano di Tecnologia, Italy;;
-119;Olivier;Lartillot;olivier.lartillot@imv.uio.no;Norway;RITMO, University of Oslo;;✔
-119;Mats Sigvard;Johansson;Mats.S.Johansson@usn.no;Norway;University of South-Eastern Norway;;✔
-120;Ryan;Meidinger;rmeidinger@unomaha.edu;United States;University of Nebraska at Omaha;;✔
-120;Vivien;Marmelat;vivien.marmelat@gmail.com;United States;University of Nebraska at Omaha;;✔
-121;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Denmark;Aarhus University;;✔
-121;Cecilie;Møller;cecilie@clin.au.dk;Denmark;Aarhus University;;✔
-121;Jan;Stupacher;stupacher@clin.au.dk;Denmark;Aarhus University;;✔
-121;Peter;Vuust;pv@musikkons.dk;Denmark;Aarhus University;;✔
-122;Arild;Stenberg;as446@cam.ac.uk;United Kingdom;Centre for Music and Science, University of Cambridge;https://cms.mus.cam.ac.uk;✔
-122;Ian;Cross;ic108@cam.ac.uk;United Kingdom;Centre for Music and Science, University of Cambridge;https://cms.mus.cam.ac.uk;✔
-123;Reyna;Gordon;reyna.gordon@vanderbilt.edu;United States;Vanderbilt University Medical Center;;✔
-123;Else;Eising;else.eising@mpi.nl;Netherlands;Max Planck Institute for Psycholinguistics;;
-123;Maria;Niarchou;maria.niarchou@vumc.org;United States;Vanderbilt University Medical Center;;
-123;;Research Team;lnoblin@23andme.com;United States;23andMe, Inc.;;
-123;;Genlang Qtl-Gwas Working Group;martina.bernhard@mpi.nl;United States;GenLang Consortium;;
-123;Lea;Davis;lea.k.davis@gmail.com;United States;Vanderbilt University Medical Center;;
-123;Nancy;Cox;nancy.j.cox@vumc.org;United States;Vanderbilt University Medical Center;;
-123;Simon;Fisher;Simon.Fisher@mpi.nl;United States;Max Planck Institute for Psycholinguistics;;
-124;Joshua;Hoddinott;jhoddin@uwo.ca;Canada;University of Western Ontario;;✔
-124;Jessica;Grahn;jgrahn@uwo.ca;Canada;University of Western Ontario;;
-125;George;Sioros;georgios.sioros@imv.uio.no;Norway;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo;;✔
-126;Elizabeth;Acosta;eam.acosta24@gmail.com;United States;Independent;;✔
-127;Zachary;Lookenbill;lookenb1@msu.edu;United States;Michigan State University;;✔
-127;Leigh;Vanhandel;leigh.vanhandel@ubc.ca;Canada;University of British Columbia;;
-128;Kathryn;Franich;kfranich@udel.edu;United States;University of Delaware;http://katiefranich.com;✔
-129;Dobromir;Dotov;dotovd@mcmaster.ca;Canada;LIVELab, Psychology, Neuroscience and Behaviour, McMaster University;;✔
-129;Abraham;Betancourt;azahel90@gmail.com;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;
-129;Jorge;Gámez;jorge.gamez@gmail.com;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;
-129;Hugo;Merchant;hugomerchant@unam.mx;Mexico;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;✔
-130;Yuka;Saito;saito.yuka.l3@elms.hokudai.ac.jp;Japan;Hokkaido University;;✔
-130;Jun;Kawahara;jkawa@let.hokudai.ac.jp;Japan;Hokkaido University;;
-131;Niels Chr.;Hansen;nchansen@aias.au.dk;Denmark;Aarhus Institute of Advanced Studies & Center for Music in the Brain, Aarhus University;https://scholar.google.com/citations?user=8QK8HagAAAAJ;✔
-131;Carolyn;Ee;C.Ee@westernsydney.edu.au;Australia;NICM Health Research Institute, Western Sydney University;;
-131;Peter;Vuust;pv@musikkons.dk;Denmark;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg;http://www.petervuust.dk/;
-131;Peter;Keller;p.keller@westernsydney.edu.au;Australia;The MARCS Institute for Brain, Behaviour, and Development, Western Sydney University;http://pkpublications.weebly.com/#;✔
-132;Gunnar;Norrman;gunnar.norrman@biling.su.se;Sweden;Stockholm University;;✔
-133;Richard;Parncutt;parncutt@uni-graz.at;Austria;Centre for Systematic Musicology, University of Graz;https://homepage.uni-graz.at/de/richard.parncutt/;✔
+EasyChair #;first name;last name;email;affiliation;Bio;Web page;corresponding?
+129;Abraham;Betancourt;azahel90@gmail.com;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;;
+72;Adam;Attaheri;aa974@cam.ac.uk;University of Cambridge;;;
+7;Adam;Safron;asafron@gmail.com;Indiana University;;https://kinseyinstitute.org/about/profiles/asafron.php;✔
+84;Adrian Simen;Holm;adriansh@uio.no;University of Oslo;I am currently in my last year of the clinical psychology programme at the University of Oslo. In addition to the research being done at RITMO, I am particularly interested in the broader philosophical implications of neuroscience.;;✔
+104;Adrian Simen;Holm;a.s.holm@imv.uio.no;University of Oslo;;;
+72;Aine;Ni Choisdealbha;an552@cam.ac.uk;University of Cambridge;;;
+98;Aiyun;Huang;aiyun.huang@utoronto.ca;University of Toronto Faculty of Music;;;
+65;Alan;Wing;a.m.wing@bham.ac.uk;University of Birmingham;;;
+81;Alan;Wing;a.m.wing@bham.ac.uk;University of Birmingham;BSc (Hons) Psych (Edinburgh University), PhD (with A.B.Kristofferson, McMaster University, Ont), Postdoc (with S. Sternberg, Bell Labs, Murray Hill, NJ), MRC Scientist (Applied Psychology Unit, Cambridge), Professor in Human Movement (University of Birmingham). Current research projects: Aging touch (BBSRC), Augmented reality music ensemble (EPSRC).;https://scholar.google.co.uk/citations?user=JEihq_0AAAAJ&hl=en;✔
+16;Alejandro;Blenkmann;;University of Oslo;;;
+57;Alejandro;Blenkmann;;University of Oslo;;;
+63;Aleksander;Tidemann;aleksati@student.imv.uio.no;University of Oslo;I'm a master's student at the MCT program at UiO. My main interests are music, creative coding, running, and astrophotography.;https://github.com/AleksanderTidemann;
+68;Aleksandra;Koprowska;alkopro@dtu.dk;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;I come from Poland, where I studied audiology and acoustics, and I am interested in topics related to hearing loss, auditory training, speech and music perception, and hearing research in general.  Currently, I am working on my PhD project with an aim to investigate the effects of auditory training on speech intelligibility in hearing-impaired listeners. I my free time, I enjoy playing music and singing as well as hiking in the mountains.;;✔
+118;Alessandro;D'Ausilio;Alessandro.Dausilio@iit.it;CTNSC, Istituto Italiano di Tecnologia, Italy;;;
+19;Alex;Ludwig;aludwig@berklee.edu;Berklee College of Music;;http://alexludwig.net;✔
+23;Alexander;Chern;aychern@gmail.com;New York-Presbyterian/Weill Cornell Medical Center;;;
+18;Alexander;Demos;ademos@uic.edu;University of Illinois at Chicago;;;
+38;Alexander;Demos;ademos@uic.edu;University of Illinois at Chicago;;;
+45;Alexander;Demos;ademos@uic.edu;University of Illinois at Chicago;;;
+93;Alexander;Demos;ademos@uic.edu;University of Illinois at Chicago;;https://www.alexanderdemos.org/;
+112;Alexander Refsum;Jensenius;a.r.jensenius@imv.uio.no;RITMO, University of Oslo;;;
+42;Alexander Refsum;Jensenius;a.r.jensenius@imv.uio.no;RITMO, University of Oslo;;http://www.arj.no;
+73;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Center for Music in the Brain, Aarhus University;"I am Sànder, a postdoc researcher in the Center for Music in the Brain in Aarhus. My academic career moved from arts and humanities (BA in Catalan Philology; Music Professional degree) to the multidisciplinary field of cognitive science (M.A. in Cognitive Science and Language; M.Sc. in Brain and Cognition; International PhD in Biomedicine). My research interests include the neural responses to music and its metrical beat, the effect of musical training on perception and production, the processing of syntactic structures in music and language, and medical applications of neural entrainment and sensorimotor synchronization to certain dirsorders.";;
+86;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Center for Music in the Brain, Aarhus University;;;
+121;Alexandre;Celma-Miralles;a.celma.miralles@clin.au.dk;Center for Music in the Brain, Aarhus University;;;✔
+92;Alexis;Deighton MacIntyre;a.macintyre.17@ucl.ac.uk;Institute of Cognitive Neuroscience;;;✔
+90;Alexis;Deighton MacIntyre;a.macintyre.17@ucl.ac.uk;Institute of Cognitive Neuroscience;;;✔
+118;Alice;Tomassini;alice.tomassini@iit.it;CTNSC, Istituto Italiano di Tecnologia, Italy;;;
+23;Alyssa;Scartozzi;alyssa.scartozzi@vumc.org;Vanderbilt University Medical Center;;;
+8;Ana;Clemente;ana.c.magan@gmail.com;University of the Balearic Islands;Professional musician of extensive career and Ph.D. candidate in human evolution and cognition, I am mainly interested in creativity, performance and appreciation, hierarchical predictive processing, cognitive neuroscience, and biocultural evolution.;https://evocog.org/ana-clemente/;✔
+79;Anastasiya;Paltarzhitskaya;navukapobach@gmail.com;Institute for Cognitive Neuroscience, HSE University, Moscow;I graduated from the Faculty of Radiophysics in Minsk (Belarus). Now I am a first year phd student in psychology in Moscow. I study music and time perception and believe that it is amazing topic.;https://www.hse.ru/en/org/persons/225569396;✔
+95;Anders;Friberg;afriberg@kth.se;Speech, Music, and Hearing, EECS, Royal Institute of Technology (KTH);My research topics includes models for music performance, the connection between music and movement, music and emotion, music perception from an ecological perspective, and tools for music audio analysis. Recently, we investigated immanent accents in melodies.;https://www.kth.se/profile/afriberg;✔
+113;Andre;Holzapfel;holzap@kth.se;KTH Royal Institute of Technology;;http://kth.se;
+23;Andrea;Burgess;;Vanderbilt University;;;
+94;Andrea;Ravignani;andrea.ravignani@gmail.com;Max Planck Institute for Psycholinguistics;;;✔
+1;Andrea;Schiavio;andrea.schiavio@gmail.com;University of Graz;Andrea Schiavio is Principal Investigator at the Centre for Systematic Musicology of University of Graz (Austria). Here, he leads an interdisciplinary research projects that explores novel ways to study and enhance musical creativity through the lens of embodied cognitive science.;https://www.andreaschiavio.com/;✔
+29;Andrew;Chang;ac8888@nyu.edu;New York University;I am a postdoctoral researcher working with Professor David Poeppel at Department of Psychology, New York University. Currently, I am investigating the fundamental differences between speech and music at the acoustic, perceptual, and neural levels.;https://andrew-chang.org/;✔
+106;Andrew;Chang;ac8888@nyu.edu;New York University;;;
+9;Aniruddh;Patel;a.patel@tufts.edu;Tufts University;;;
+85;Anna;Fiveash;anna.fiveash@inserm.fr;Lyon Neuroscience Research Center;I'm a cognitive psychologist interested in the diverse connections, overlap, and shared resources between music and language, and how we can use the connections between these universally valuable domains to uncover underlying cognitive processes in the brain. I'm particularly interested in the intriguing similarities between music and language for hierarchical structure building, rhythm, prediction, and memory, and what these similarities (and differences) can tell us about the brain.;https://annafiveash.wixsite.com/website;✔
+23;Anna;Kasdan;anna.v.kasdan@vanderbilt.edu;Vanderbilt University;Anna is a third year PhD candidate in the Neuroscience Graduate Program at Vanderbilt University. Broadly, she studies the neural basis of rhythm through the lens of various clinical populations. She enjoys hiking, biking, and cheering on her hometown baseball team, the Boston Red Sox.;http://annakasdan.com;✔
+67;Anna;Niemand;niemand@mdw.ac.at;Department of Music Acoustics, University of Music and Performing Arts, Vienna;;http://www.mdw.ac.at;
+15;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+35;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+39;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+60;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+71;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+91;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+104;Anne;Danielsen;anne.danielsen@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://people.uio.no/anneda;✔
+104;Anne Kristin;Solbakk;a.k.solbakk@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;https://www.uio.no/ritmo/english/people/tenured/asolbakk/index.html;
+15;Anne-Kristin;Solbakk;a.k.solbakk@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;https://www.uio.no/ritmo/english/people/tenured/asolbakk/index.html;✔
+16;Anne-Kristin;Solbakk;a.k.solbakk@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;
+11;Anne-Marie;Bissonnette;;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;;
+3;Antonio;Baldassarre;antonio.baldassarre@hslu.ch;Hochschule Luzern - Musik;;;
+118;Antonio;Camurri;antonio.camurri@unige.it;DIBRIS, Universita degli studi di Genova;;;
+122;Arild;Stenberg;as446@cam.ac.uk;Centre for Music and Science, University of Cambridge;;https://cms.mus.cam.ac.uk;✔
+61;Arnaud;Zalta;arnaud.zalta@hotmail.fr;Aix-Marseille University;;;
+85;Barbara;Tillmann;barbara.tillmann@cnrs.fr;Lyon Neuroscience Research Center;;;✔
+61;Benjamin;Morillon;bnmorillon@gmail.com;Aix Marseille U., Inserm, Institut de Neurosciences des Systèmes;Dr. Morillon is a cognitive neuroscientist and academic researcher at Aix-Marseille University, interested in human auditory neurophysiology and how information is sequentially encoded in the human brain. His current research emphasizes the influence of the motor system in auditory perception and its close interdependency with temporal attention.;https://scholar.google.com/citations?user=lBwWtFUAAAAJ;✔
+100;Benjamin;Schultz;ben.schultz@unimelb.edu.au;University of Melbourne;;;
+31;Bernd;Härpfer;bernd@haerpfer.net;;;;✔
+54;Birgitta;Burger;birgitta.burger@uni-hamburg.de;University of Hamburg;Birgitta Burger is currently a postdoctoral researcher at the University of Hamburg, Germany, working in the SloMo Project (funded by the EU). She is interested in the role of the body in production, perception, and understanding of music as well as co-developing Mocap Toolbox, a Matlab Toolbox for visualising and analysing motion capture data.;https://www.slomo.uni-hamburg.de/team/burger.html;✔
+62;Birgitta;Burger;birgitta.burger@uni-hamburg.de;University of Hamburg;;https://www.slomo.uni-hamburg.de/team/burger.html;
+17;Björn;Herrmann;bherrmann@research.baycrest.org;Rotman Research Institute, University of Toronto;;;✔
+50;Bjørnar;Sandvik;bjornar.sandvik@imv.uio.no;University of Oslo;Bjørnar E. Sandvik is a Ph.D. student at RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion at the University of Oslo, Norway. His research concerns the relationship between technology and the politics and aesthetics of popular music, with a particular focus on the interface design of software and digital instruments. He is also part of Ragnhild Brøvig-Hanssen’s Remixing Time project, which investigates the aesthetics of musical fragmentation, and Anne Danielsen’s TIME project, which investigates how features of sound interact with timing at the micro level of auditory perception.;https://www.uio.no/ritmo/english/people/phd-fellows/bjoresan/;✔
+40;Brian;Ricks;bricks@unomaha.edu;University of Nebraska at Omaha;;;
+42;Bruno;Laeng;bruno.laeng@psykologi.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;
+51;Bruno;Laeng;bruno.laeng@psykologi.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;
+60;Bruno;Laeng;bruno.laeng@psykologi.uio.no;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;;✔
+112;Cagri;Erdem;cagri.erdem@imv.uio.no;RITMO, University of Oslo;;;
+117;Camila;Alviar Guzman;malviarguzman@ucmerced.edu;University of California, Merced;;;
+70;Carlos Eduardo;Cancino-Chacón;carlos_eduardo.cancino_chacon@jku.at;Johannes Kepler University Linz;Carlos Cancino-Chacón is an Assistant Professor at the Institute of Computational Perception, Johannes Kepler University Linz, Austria. His research focuses on studying  expressive music performance, music cognition and music theory with machine learning methods.;http://carloscancinochacon.com;✔
+38;Caroline;Palmer;caroline.palmer@mcgill.ca;McGill University;Dr. Palmer is a Canada Research Chair and Professor of Psychology at McGill University who studies the cognitive neuroscience of performance. She directs the NSERC-CREATE training network in Nonlinear Dynamics of Brain and Behaviour.;http://www.mcgill.ca/spl/palmer;✔
+82;Caroline;Palmer;caroline.palmer@mcgill.ca;McGill University;;;✔
+93;Caroline;Palmer;caroline.palmer@mcgill.ca;McGill University;;https://www.mcgill.ca/spl/palmer;✔
+131;Carolyn;Ee;C.Ee@westernsydney.edu.au;NICM Health Research Institute, Western Sydney University;;;
+46;Catherine;Bush;catherine.bush@vumc.org;Vanderbilt University Medical Center;;;
+28;Cecilie;Møller;cecilie@clin.au.dk;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg, Denmark;Postdoctoral researcher with a double educational background in music (Royal Danish Academy of Music) and psychology (Aarhus University). Main research interests are multimodal perception, musical skills, and rhythm perception and their neuroscientific aspects.;https://pure.au.dk/portal/en/persons/cecilie-moeller(a258614b-1c68-4026-a5b4-e79ba5f7c80f).html;
+73;Cecilie;Møller;cecilie@clin.au.dk;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg, Denmark;;;
+86;Cecilie;Møller;cecilie@clin.au.dk;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg, Denmark;;;✔
+110;Cecilie;Møller;cecilie@clin.au.dk;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg, Denmark;;;
+121;Cecilie;Møller;cecilie@clin.au.dk;Center for Music in the Brain, Aarhus University & Royal Academy of Music Aarhus/Aalborg, Denmark;;;✔
+69;Chantal;Carrillo;carrilcj@mcmaster.ca;McMaster University;;;
+55;Chris;Stover;chrisstover.718@gmail.com;Griffith University;;;✔
+28;Christian;Bech Christensen;cbc@ece.au.dk;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;;
+33;Christian;Graff;Christian.Graff@univ-grenoble-alpes.fr;Univ. Grenoble Alpes;I theorized irregular sequences of pulse intervals (SPIs) to study the rhythms of discharges that mormyrid weakly-electric fish generate for both signalling and navigation. I have used the models to investigate human finger-tapping and tooth-whale clicking. I currently work on sensory substitution devices for blind navigation.;;✔
+72;Christina;Grey;cg670@cam.ac.uk;University of Cambridge;;;
+26;Christopher;Corcoran;chris.c@gmx.de;University of Cambridge;Chris Corcoran is a German-Irish composer, guitarist and researcher. He recently completed a PhD in Music at the University of Cambridge and currently works as Editor for Classical Music at publisher Edition Wilhelm Hansen.;https://www.mus.cam.ac.uk/directory/christopher-corcoran;✔
+117;Christopher;Kello;ckello@ucmerced.edu;University of California, Merced;;;
+95;Claes;Wettebrandt;info@studioblue.se;Studio Blue, Stockholm, Sweden;;;✔
+111;Claudine;Lamoth;c.j.c.lamoth@umcg.nl;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;;
+54;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Institute for Systematic Musicology, Universität Hamburg;;;
+62;Clemens;Wöllner;clemens.woellner@uni-hamburg.de;Institute for Systematic Musicology, Universität Hamburg;;https://www.slomo.uni-hamburg.de/team/woellner.html;
+60;Connor;Spiech;connor.spiech@psykologi.uio.no;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;My doctoral studies aim to investigate predictive coding accounts of groove (the pleasurable compulsion to move to music) using methods from cognitive neuroscience like electroencephalography (EEG), pupillometry, and transcranial magnetic stimulation (TMS). Specifically, I manipulate rhythms' predictability using repetition and structural features like pickups and syncopation and observe changes in neurophysiological entrainment and evoked responses to expected and unexpected events in different contexts.;https://www.uio.no/ritmo/english/people/phd-fellows/connors/index.html;✔
+78;Courtney;Hilton;courtneyhilton@g.harvard.edu;Harvard University;Courtney Hilton is a Postdoctoral Fellow in the Department of Psychology at Harvard University, working in Sam Mehr’s Music Lab. His research asks about the nature of music and its relation to mind, culture, and other systems like language.;;✔
+32;Cyrille;Magne;cyrille.magne@mtsu.edu;Middle Tennessee State University;;;
+106;Dan;Bosynak;bosnyak@mcmaster.ca;McMaster University;;;
+112;Dana;Swarbrick;dana.swarbrick@imv.uio.no;RITMO, University of Oslo;Dana Swarbrick is a doctoral researcher in musicology at UiO's RITMO Centre for Interdisciplinary Research in Rhythm, Time and Motion. Her research examines the social and emotional outcomes of musicking, with particular interest on audiences at live musical events. During the coronavirus crisis, Dana's research focus has shifted to the burgeoning field of pandemusicology examining the social and emotional effects of virtual concerts and other coronamusicking.;https://www.uio.no/ritmo/english/people/phd-fellows/danasw/;✔
+69;Daniel;Cameron;camerd7@mcmaster.ca;McMaster University;"Dan studies the perception and cognitive neuroscience of musical rhythm: its development from infancy, cross-cultural differences, group dynamics in rhythmic behaviour, and the fundamental neural and cognitive mechanisms underlying rhythm's rich perceptual, social, and emotional phenomena.
+Dan has been fascinated and focused on rhythm throughout his education, studying percussion performance at University of Toronto (BMus 2007), cognitive neuroscience of music at Goldsmiths, University of London (MSc, 2011), and neuroscience at University of Western Ontario (PhD, 2016).";https://trainorlab.mcmaster.ca/people/camerondhttps://trainorlab.mcmaster.ca/people/camerond;✔
+32;Daniel;Gustavson;daniel.e.gustavson@vumc.org;Vanderbilt University Medical Center;;;
+5;Daniel;Müllensiefen;D.Mullensiefen@gold.ac.uk;Goldsmiths, University of London;;https://www.gold.ac.uk/psychology/staff/mullensiefen/;
+29;David;Poeppel;dp101@nyu.edu;New York University, Max Planck Institute for Empirical Aesthetics;;;
+3;Dawn;Rose;dawn.rose@hslu.ch;Lucerne University of Applied Sciences and Arts;;;
+5;Dawn;Rose;dawn.rose@hslu.ch;Lucerne University of Applied Sciences and Arts;;https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=4367;✔
+74;Dick;Botteldooren;dick.botteldooren@ugent.be;Ghent University;;;
+77;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;http://liaa.dc.uba.ar;
+80;Diego;Fernandez Slezak;dfslezak@dc.uba.ar;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;http://liaa.dc.uba.ar;
+31;Dirk;Handreke;mail@dirkhandreke.com;Institute for Musicology and Music Informatics, University of Music Karlsruhe;;;✔
+107;Dobromir;Dotov;dotovd@mcmaster.ca;McMaster University;;;
+111;Dobromir;Dotov;dotovd@mcmaster.ca;McMaster University;;;
+106;Dobromir;Dotov;dotovd@mcmaster.ca;McMaster University;;;
+129;Dobromir;Dotov;dotovd@mcmaster.ca;McMaster University;;;✔
+65;Dominic;Ward;dom@deeuu.me;Birmingham City University;;;
+25;Dongho;Kwak;d.d.kwak@imv.uio.no;RITMO, University of Oslo;As a music technologist, Dongho has experience in digital audio signal processing, live & studio recording, live sound engineering, and sound design. In terms of research, he is interested in the complexity of how the human body processes external information (e.g., external stimuli and/or environment). He is also a classically trained flautist and percussionist.;;✔
+21;Ece;Kaya;ece.kaya@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;"I am a researcher at Max Planck Institute for Empirical Aesthetics and a PhD candidate at Maastricht University. My research focuses on rhythm in general; rhythmic entrainment in specific. I am trained in psychology, linguistics, and philosophy.";;✔
+97;Edward;Large;edward.large@uconn.edu;University of Connecticut;Dr. Large directs the Music Dynamics Laboratory at University of Connecticut, where he is a Professor of Psychological Sciences and Professor of Physics. Dr. Large’s research areas include nonlinear dynamical systems, auditory neuroscience, and music psychology. He uses theoretical modeling in conjunction with behavioral, comparative, neurophysiological and neuroimaging techniques to understand how people respond to complex, temporally structured sequences of sound such as music and speech;https://musicdynamicslab.uconn.edu;✔
+105;Edward;Large;edward.large@uconn.edu;University of Connecticut;;;✔
+107;Edward;Large;edward.large@uconn.edu;University of Connecticut;;;
+89;Edward;Large;edward.large@uconn.edu;University of Connecticut;;;✔
+3;Elena;Alessandri;elena.alessandri@hslu.ch;Hochschule Luzern - Musik;;;
+12;Elias;Gram-Nilsen;eliasg@student.imv.uio.no;University of Oslo;;;✔
+126;Elizabeth;Acosta;eam.acosta24@gmail.com;Independent;;;✔
+82;Ella;Sahlas;ella.sahlas@mail.mcgill.ca;McGill University;;;
+33;Elodie;Augier;elodieaugier.neuropsychologue@live.fr;Cabinet de neuropsychologie Eolys - Puces du Canal;;;
+123;Else;Eising;else.eising@mpi.nl;Max Planck Institute for Psycholinguistics;;;
+104;Emilie;Holte;emiliho@student.sv.uio.no;University of Oslo;;;
+102;Emily;Ready;eready2@uwo.ca;Western University;;;✔
+106;Emily A.;Wood;woode1@mcmaster.ca;McMaster University;"Hello all, I am a Ph.D. student at McMaster University studying musical interactions. I'm using motion capture to understand body sway in small ensembles. 
+When I'm not working, I enjoy playing piano (fun fact: I have a degree in jazz performance!), exercising, and knitting.";;✔
+72;Emma;Macrae;ejm212@cam.ac.uk;University of Cambridge;;;
+70;Emmanouil;Karystinaios;emmanouil.karystinaios@jku.at;Johannes Kepler University Linz;;;✔
+46;Eniko;Ladanyi;eniko.ladanyi@vumc.org;Vanderbilt University Medical Center;I am a postdoctoral fellow at the Music Cognition Lab, Vanderbilt University Medical Center, Nashville. I'm studying the relationships between rhythm and grammar development with behavioral methods and EEG.;https://enikoladanyi.com;✔
+27;Erica;Flaten;flatene@mcmaster.ca;McMaster University;I'm a 2nd year PhD student interested in rhythm perception development, and temporal dynamics of caregiver-infant interactions. Aside from my research, I am a piano player and teacher, and aim to spend as much time in nature as possible.;https://trainorlab.mcmaster.ca/people;✔
+23;Fabrizio;Pizzagalli;fpizzagalli@gmail.com;Università di Torino;;;
+112;Finn;Upham;finn.upham@mail.mcgill.ca;RITMO, University of Oslo;;;
+6;Fiona;Manning;fiona.c.manning@gmail.com;McMaster University (alum);;;✔
+56;Fleur L.;Bouwer;fleurbouwer@hotmail.com;University of Amsterdam;Fleur is a postdoc in the Psychology Research Institute, interested in the cognitive neuroscience of music in general, and all things rhythmic in particular. Her current research is funded by an NWO Veni grant, and focuses on the perception and production of rhythmic patterns and a regular beat.;http://www.fleurbouwer.com;✔
+3;Florian;Hoesl;florian.hoesl@hslu.ch;Hochschule Luzern - Musik;;;
+8;Frances;Board;fran.board@thesoundagency.com;Goldsmiths University of London;;https://www.thesoundagency.com/team/fran-board/;
+39;Francesco;Ganis;fganis20@student.aau.dk;Aalborg University;I have a bachelor in Electronic Music from the Conservatory of Padova (Italy) and currently I am attending a MSc in Sound and Music Computing at Aalborg University of Copenhagen. I play drums since I was a kid.;;✔
+47;Fred;Hosken;fredhosken@u.northwestern.edu;Northwestern University;;;✔
+71;George;Sioros;georgios.sioros@imv.uio.no;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;"George Sioros is an interdisciplinary researcher at the interface of music information retrieval, automatic music generation, music cognition and music theory. 
+In his current Post-Doctoral research at the RITMO centre of the University of Oslo, he is investigating the complex relations between body movement and musical rhythm. As a member of the SMC research team of the University of Porto between 2010-2017, he worked on the experience of groove, and the algorithmic modeling of rhythm and syncopation. He has a background in natural sciences, classical music theory and piano.";people.uio.no/georgisi;✔
+125;George;Sioros;georgios.sioros@imv.uio.no;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo;;;✔
+60;George;Sioros;georgios.sioros@imv.uio.no;RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion, University of Oslo;;;✔
+99;Gerardo;Lopez;lopezge1@msu.edu;Michigan State University;;;
+70;Gerhard;Widmer;gerhard.widmer@jku.at;Johannes Kepler University Linz;;http://www.cp.jku.at/people/widmer;✔
+118;Gualtiero;Volpe;gualtiero.volpe@unige.it;DIBRIS, Universita degli studi di Genova;;;
+5;Guido;Orgs;G.Orgs@gold.ac.uk;Goldsmiths, University of London;;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
+8;Guido;Orgs;G.Orgs@gold.ac.uk;Goldsmiths University of London;;https://www.gold.ac.uk/psychology/staff/orgs-guido/;
+71;Guilherme Schmidt;Câmara;g.s.camara@imv.uio.no;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;"Guilherme Schmidt Câmara is a Doctoral Research Fellow at the RITMO Center for Interdisciplinary Studies in Rhythm, Time and Motion (University of Oslo). He has a background in Musicology from the Department of Musicology (IMV) at UiO, and his primary research interests are the Performance and Perception of Microrhythm in Groove-based music. He is also a professional musician, currently active as guitarist of the ensemble Baba Soul & The Professors of Funk, and in the house band of late-night talkshow ""Senkveld med Helene og Stian"" on Norwegian TV2.";;✔
+39;Guilherme Schmidt;Câmara;g.s.camara@imv.uio.no;RITMO Center for Interdisciplinary Studies in Time, Rhythm and Motion, University of Oslo;;;✔
+132;Gunnar;Norrman;gunnar.norrman@biling.su.se;Stockholm University;;;✔
+96;Günther;Knoblich;knoblichg@ceu.edu;CEU;;;
+36;Haley;Kragness;haley.kragness@utoronto.ca;University of Toronto;Haley is a postdoctoral fellow in the University of Toronto TEMPO Lab.;haleykragness.com;✔
+37;Haley;Kragness;haley.kragness@utoronto.ca;University of Toronto;;;✔
+111;Harjo;de Poel;h.j.de.poel@umcg.nl;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);I am assistant professor in human movement sciences and sports science. My research focuses on movement interaction, in particular in the context of cyclical movements, and mainly instigated by a nonlinear dynamical perspective.;http://www.rug.nl/staff/h.j.de.poel/;✔
+28;Heidi;Bliddal;heidi@bliddal.net;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;Heidi Bliddal is a Biomedical Engineering master student at Aarhus University. In her studies, she has specialized in electrophysiology and neuroscience. The results from her master thesis is presented at this conference.;;✔
+56;Heleen A.;Slagter;h.a.slagter@vu.nl;Vrije Universiteit Amsterdam;;http://www.heleenslagter.com;
+72;Helen;Olawole-Scott;hss34@cam.ac.uk;University of Cambridge;;;
+72;Henna;Ahmed;hka24@cam.ac.uk;University of Cambridge;;;
+129;Hugo;Merchant;hugomerchant@unam.mx;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;;✔
+90;Ian;Cross;ic108@cam.ac.uk;Centre for Music and Science, University of Cambridge;;;
+122;Ian;Cross;ic108@cam.ac.uk;Centre for Music and Science, University of Cambridge;;https://cms.mus.cam.ac.uk;✔
+36;Idila;Yogeswaran;idila.yogeswaran@mail.utoronto.ca;University of Toronto;;;✔
+72;Isabel;Williams;iw289@cam.ac.uk;University of Cambridge;;;
+11;Isabelle;Peretz;isabelle.peretz@umontreal.ca;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;;
+59;Ivana;Konvalinka;ivako@dtu.dk;SINe Lab, Technical University of Denmark;;;
+99;J. Devin;McAuley;dmcauley@msu.edu;Michigan State University;;;
+44;J. Riikka;Ahokas;j.riikka.ahokas@jyu.fi;University of Jyväskylä;;https://www.jyu.fi/hytk/fi/laitokset/mutku/henkilokunta/copy_of_tohtorikoulutettavat/ahokas-jenni-riikka;✔
+1;Jan;Stupacher;stupacher@clin.au.dk;Center for Music in the Brain, Aarhus University;Postdoc at the Center for Music in the Brain at Aarhus University in Denmark. Main research areas: Neural correlates of rhythm perception and production, sensorimotor synchronization, social interaction in musical contexts, concepts of groove and flow in music.;https://sites.google.com/view/stupacher;
+73;Jan;Stupacher;stupacher@clin.au.dk;Center for Music in the Brain, Aarhus University;;;✔
+86;Jan;Stupacher;stupacher@clin.au.dk;Center for Music in the Brain, Aarhus University;;;
+121;Jan;Stupacher;stupacher@clin.au.dk;Center for Music in the Brain, Aarhus University;;;✔
+32;Jennifer;Below;jennifer.e.below@vumc.org;Vanderbilt University Medical Center;;;
+22;Jeremy;Marozeau;jemaroz@dtu.dk;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;My research aims at improving music perception in people with a cochlear implant. I have been working in different places across the world (France, Switzerland, Italy, US, Australia, and now Denmark). I love music, specifically jazz!;https://www.healthtech.dtu.dk/english/Research/Research-Sections/Section-Hearing-Systems/Music-and-Cochlear-Implants;✔
+68;Jeremy;Marozeau;jemaroz@dtu.dk;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;;
+102;Jessica;Grahn;jgrahn@uwo.ca;Western University;;;✔
+124;Jessica;Grahn;jgrahn@uwo.ca;University of Western Ontario;;;
+89;Ji Chul;Kim;jichulkim21@gmail.com;University of Connecticut;I study the dynamics of music perception and performance with computational modeling. I am Co-Founder and Chief Science Officer of Oscillo Biosciences. https://www.oscillobiosciences.com;https://www.tonaldynamics.com;✔
+97;Ji Chul;Kim;jichulkim21@gmail.com;University of Connecticut;;https://www.tonaldynamics.com;✔
+56;Johannes J.;Fahrenfort;fahrenfort.work@gmail.com;University of Amsterdam;;http://www.fahrenfort.com;
+114;John;Iversen;jiversen@ucsd.edu;UC SanDiego;;;
+50;Jon Marius;Aareskjold-Drecker;jon.m.aareskjold-drecker@uia.no;"UiT The Arctic University of Norway; University of Agder";Jon Marius Aareskjold-Drecker is an associate professor in Electronic Music at UiT - the Arctic University of Norway and the University of Agder. He has collaborated extensively with the US-based Norwegian production teams Stargate and Espionage, working with productions for artists such as Beyoncé, Train, and Rihanna, and as an engineer, producer, and mixer, he has worked on a long range of Grammy-winning productions within pop, rock, electronic music, urban, and jazz genres.;https://uit.no/ansatte/person?p_document_id=93949;✔
+88;Jonas;Obleser;jonas.obleser@uni-luebeck.de;University of Lübeck;;;
+9;Jonathan;Cannon;jcan@mit.edu;MIT;Jonathan Cannon is a postdoc researching autism and predictive timing at MIT. His graduate training is in dynamical systems and neural modeling, focusing specifically on neural oscillations. He is also a semi-professional traditional fiddler and rhythm guitarist.;https://joncannon.net;✔
+10;Jonathan;Cannon;jcan@mit.edu;MIT;;https://joncannon.net;✔
+24;Jonathan;Cannon;jcan@mit.edu;MIT;;;
+12;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+51;Jonna;Vuoskoski;j.k.vuoskoski@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;
+74;Jorg;De Winne;jorg.dewinne@ugent.be;Ghent University;;;✔
+129;Jorge;Gámez;jorge.gamez@gmail.com;Instituto de Neurobiología, UNAM, Campus Juriquilla, México;;;
+124;Joshua;Hoddinott;jhoddin@uwo.ca;University of Western Ontario;I am a PhD candidate in the Music and Neuroscience lab at Western University. My main research interests include neural mechanisms of rhythm and beat perception, and how predictability or familiarity with music may influence neural responses to rhythm.;;✔
+118;Julien;Laroche;lajulienroche@gmail.com;CTNSC, Istituto Italiano di Tecnologia;I am a musician~scientist, thinking and performing accross disciplines and genres, and currently a postdoc researcher at the Italian Institute of Technology in Ferrara. My main focus is  on the embodied, temporal and interpersonal aspects of behavioral coordination, which I study in contexts ranging from motor control to creativity and improvisation in music and dance.;;✔
+130;Jun;Kawahara;jkawa@let.hokudai.ac.jp;Hokkaido University;;;
+13;Justin;London;jlondon@carleton.edu;Carleton College;Justin London is the Andrew W. Mellon Professor of Music, Cognitive Science, and the Humanities at Carleton College. He served as President of the Society for Music Theory in 2007–2009, and as President of the Society for Music Perception and Cognition in 2017–2018.  He is also the guitarist in the “Spare Niche” jazz trio.;https://people.carleton.edu/~jlondon/;✔
+35;Justin;London;jlondon@carleton.edu;Carleton College;;;✔
+128;Kathryn;Franich;kfranich@udel.edu;University of Delaware;I am a linguist and cognitive science working on interactions between rhythm and grammar, both in spoken language and co-speech gesture. I am especially interested in how speech is coordinated with the body in language and music.;http://katiefranich.com;✔
+112;Kayla;Burnim;kayla.burnim@imv.uio.no;RITMO, University of Oslo;;;
+45;Kayleigh;Kangas-Dick;kmk2219@tc.columbia.edu;Teacher's College Columbia University;;;
+45;Kerry;Marsh;kerry.l.marsh@uconn.edu;University of Connecticut;;;
+14;Kjell Andreas;Oddekalv;k.a.oddekalv@imv.uio.no;University of Oslo;Kjell Andreas researches rap flows at RITMO. He is also an active recording, producing and performing Hip hop artist.;https://www.uio.no/ritmo/english/people/phd-fellows/kjellaod/;✔
+26;Klaus;Frieler;kgf@omniversum.de;Hochschule für Musik “Franz Liszt” Weimar;Klaus Frieler is a systematic musicologist with a focus on computational methods in music psychology as well as jazz and creativity research.;http://www.mu-on.org/frieler/;✔
+35;Kristian;Nymoen;krisny@ifi.uio.no;Department of Informatics, University of Oslo, Norway;;;
+87;Kyle;Jasmin;k.jasmin@bbk.ac.uk;Birbeck;;;
+107;Lana;Delasanta;lana.delasanta@uconn.edu;University of Connecticut;Lana Delasanta is a 3rd year graduate student at the University of Connecticut studying ecological psychology and dynamical systems as it applies to interpersonal relationships and group synchrony. She is also passionate about social systems research and how to utilize nonlinear methodology to better understand the dynamics of political division in the U.S.;https://musicdynamicslab.uconn.edu/graduate-students/;✔
+42;Laura;Bishop;laura.bishop@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;Laura Bishop is a Postdoctoral Fellow at RITMO and the Dept. of Musicology, University of Oslo, and Principal Investigator of an Austrian Science Fund project on togetherness in music ensemble performance. Her research focuses on expressive body-based interaction in music ensembles, attention during music performance, and collaborative musical creativity.;http://lbishop.ca;✔
+51;Laura;Bishop;laura.bishop@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;
+67;Laura;Bishop;laura.bishop@imv.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;http://www.uio.no;
+36;Laura;Cirelli;laura.cirelli@utoronto.ca;University of Toronto;Dr. Laura Cirelli directs the TEMPO lab at the University of Toronto. Her research explores how infants and young children perceive and engage with music.;https://www.utsc.utoronto.ca/labs/cirelli/;✔
+37;Laura;Cirelli;laura.cirelli@utoronto.ca;University of Toronto;;;✔
+69;Laurel;Trainor;ljt@mcmaster.ca;McMaster University;;;
+106;Laurel;Trainor;ljt@mcmaster.ca;McMaster University;;;
+107;Laurel;Trainor;ljt@mcmaster.ca;McMaster University;;;
+27;Laurel;Trainor;ljt@mcmaster.ca;McMaster University;;https://trainorlab.mcmaster.ca/;✔
+30;Lauren;Fink;lauren.fink@ae.mpg.de;"University of California, Davis; Max Planck Institute for Empirical Aesthetics";Lauren is a postdoctoral researcher in the Music Department at the Max Planck Institute for Empirical Aesthetics. She holds a PhD in Neuroscience, an MPhil in Music Studies, and a BM in Percussion Performance. Lauren's research interests center around time and synchrony.;https://lkfink.github.io/;✔
+123;Lea;Davis;lea.k.davis@gmail.com;Vanderbilt University Medical Center;;;
+99;Leigh;VanHandel;leigh.vanhandel@ubc.ca;University of British Columbia;Leigh VanHandel is Associate Professor of Music Theory at the University of British Columbia. Prior to moving to UBC, she was Associate Professor of Music Theory at Michigan State University. Her research primarily focuses on aspects of rhythm, meter, and tempo.;https://blogs.ubc.ca/drvan/;✔
+127;Leigh;VanHandel;leigh.vanhandel@ubc.ca;University of British Columbia;;;
+111;Liset;van der Hulst;e.g.van.der.hulst@student.rug.nl;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;;
+3;Lorenz;Kilchenmann;lorenz.kilchenmann@hslu.ch;Hochschule Luzern - Musik;;;
+24;Lorenzo;Jamone;l.jamone@qmul.ac.uk;Cognitive Science Research Group, Queen Mary University of London;;;
+52;Lousin;Moumdijan;lousin.moumdjan@ugent.be;IPEM Institute for Systematic Musicology;;;✔
+106;Lucas;Klein;kleinl1@mcmaster.ca;McMaster University;;;
+118;Luciano;Fadiga;luciano.fadiga@iit.it;CTNSC, Istituto Italiano di Tecnologia, Italy;;;
+29;M. Florencia;Assaneo;fassaneo@gmail.com;Universidad Nacional Autónoma de México;;;
+16;Maja;Foldal;maja.foldal@gmail.com;University of Oslo;;;✔
+68;Maja;Serman;maja.serman@wsa.com;WSAudiology;;;
+84;Maja;Foldal;maja.foldal@gmail.com;University of Oslo;During my time as a PhD-candidate I have investigated neural mechanisms underlying our ability to extract and utilize regularities in our surroundings. In general, I am fascinated by cognitive processing related to timing.;;✔
+88;Malte;Wöstmann;malte.woestmann@uni-luebeck.de;University of Lübeck;;;
+43;Manuel;Anglada-Tort;manuel.anglada-tort@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;I am interested in how humans process, create, experience, and respond to aesthetic and auditory stimuli. To address this, my work combines novel methods including massive online experiments and cross-cultural research.;https://www.aesthetics.mpg.de/en/the-institute/people/manuel-anglada-tort.html;✔
+116;Manuel;Varlet;m.varlet@westernsydney.edu.au;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;;
+52;Marc;Leman;marc.leman@ugent.be;Ghent University;Marc Leman is Methusalem research professor at Ghent University, head of department and director of IPEM, working in the domain of embodied music interactions.;;
+74;Marc;Leman;marc.leman@ugent.be;Ghent University;;https://research.flw.ugent.be/en/marc.leman;
+75;Marc;Leman;marc.leman@ugent.be;Ghent University;;;✔
+24;Marcus;Pearce;marcus.pearce@qmul.ac.uk;Cognitive Science Research Group, Queen Mary University of London;;;
+8;Marcus;Pearce;marcus.pearce@qmul.ac.uk;Queen Mary University of London;;http://webprojects.eecs.qmul.ac.uk/marcusp/;
+91;Mari Romarheim;Haugen;m.r.haugen@imv.uio.no;University of Oslo;Mari Romarheim Haugen is a postdoctoral fellow at the RITMO Center for Interdisciplinary Studies in Rhythm, Time and Motion at the University of Oslo, Norway. Her research interests include music and motion, rhythm and groove, music culture, motion capture, motion analysis, and music and dance.;http://people.uio.no/marrh;✔
+123;Maria;Niarchou;maria.niarchou@vumc.org;Vanderbilt University Medical Center;;;
+81;Maria;Witek;m.a.g.witek@bham.ac.uk;University of Birmingham, United Kingdom;;;
+53;Maria;Witek;m.a.g.witek@bham.ac.uk;University of Birmingham, United Kingdom;;;
+11;Marie-Élaine;Lagrois;;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;;
+111;Marije;Harmsen;m.harmsen.5@student.rug.nl;Department of Human Movement Sciences, University Medical Center Groningen (UMCG);;;
+41;Mariusz;Kozak;m.kozak@columbia.edu;Columbia University;;;✔
+81;Mark;Elliott;m.t.elliott@warwick.ac.uk;University of Warwick;;;
+35;Martin;Langerød;martin.langerod@gmail.com;RITMO Center for Interdisciplinary Studies of Rhythm, Time, and Motion, University of Oslo, Norway;;;
+77;Martin;Miguel;mmiguel@dc.uba.ar;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";Computer Scientist from Argentina. Interested in modeling rhythmic expectations and how they relate to surprise an affect. All this coming from tap dancing.;http://mmiguel.liaa.dc.uba.ar;✔
+80;Martin;Miguel;mmiguel@dc.uba.ar;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;http://mmiguel.liaa.dc.uba.ar;✔
+81;Massimiliano;Di Luca;M.DiLuca@bham.ac.uk;University of Birmingham;;;
+63;Mats;Johansson;mats.s.johansson@usn.no;University of South-Eastern Norway;"Mats Johansson is professor at the Department of Traditional Arts and Traditional Music, University of South-Eastern Norway. Currently, he leads the Arts Council Norway funded research project Participatory Aesthetic Practices, as well as participating as a senior researcher in the Norwegian Research Council funded project TIME: Timing and Sound in Musical Microrhythm led by Anne Danielsen. Johansson’s research spans several areas, including rhythmic performance and microrhythm; musical learning and embodiment; representations of gender in musical performance and historiography; and authorship, copyrights and cultural ownership.";https://www.usn.no/om-usn/kontakt-oss/ansatte/mats-sigvard-johansson;✔
+119;Mats;Johansson;mats.s.johansson@usn.no;University of South-Eastern Norway;;;✔
+64;Matt;Moore;matt.d.moore@outlook.com;Max Planck Institute for Empirical Aesthetics;I'm a 2nd year PhD student in Dr Molly Henry's research group 'Neural and Environmental Rhythms', where we investigate how neural entrainment to rhythmic stimuli affects our ability to handle challenging listening situations (the 'cocktail party problem'). My main research interests are entrainment and perception of musical time, particularly regarding polyrhythms. I previously studied music at Durham University (MA) and City, University of London (BMus).;;✔
+52;Mattia;Rosso;mattia.rosso@ugent.be;IPEM Institute for Systematic Musicology;I have always been passionate about music, and fascinated by its power to bring people together. After my master's in Body and Mind Sciences, I joined the enterprise to bring neuroscience into IPEM's research program. My PhD project is ongoing, and has at its core human rhythmic interactions in healthy and clinical populations.;https://research.flw.ugent.be/nl/mattia.rosso;✔
+4;Mehrdad;Bahadori;mehrdad.bahadori@univr.it;University of Verona;;;✔
+78;Micah;Goldwater;micah.goldwater@sydney.edu.au;The University of Sydney;;;✔
+6;Michael;Schutz;schutz@mcmaster.ca;McMaster University;"Michael Schutz is Associate Professor of Music Cognition/Percussion at McMaster University.  Drawing on his interdisciplinary training in music, psychology, and computer science, he directs the MAPLE Lab researching Music, Acoustics, Perception, and LEarning (www.maplelab.net).   Designated a ""University Scholar"" in recognition of his innovative merging of music performance and perception, he also conducts the McMaster Percussion Ensemble and performs regularly at festivals and conventions.";http://www.maplelab.net;✔
+98;Michael;Thaut;michael.thaut@utoronto.ca;Music and Health Research Collaboratory;;;✔
+11;Michael;Weiss;;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;;
+65;Min;Li;susanlee029@gmail.com;University of Birmingham;My research interest is the computational understanding of expectations and predictions, with a focus on processing spatiotemporal properties of multisensory stimuli. I'm currently a post-doc working on the BBSRC-funded Aging Touch project that investigates the aging effects on multisensory texture perception.;;✔
+117;Miriam;Lense;miriam.lense@vumc.org;Vanderbilt University Medical Center;;;✔
+46;Miriam;Lense;miriam.lense@vumc.org;Vanderbilt University Medical Center;;;
+21;Molly;Henry;molly.henry@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;;;✔
+64;Molly;Henry;molly.henry@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;;;✔
+76;Molly;Henry;molly.henry@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;;;
+59;Morten L.;Kringelbach;morten.kringelbach@psych.ox.ac.uk;Center for Music in the Brain, Aarhus University & Center for Eudaimonia and Human Flourishing, University of Oxford;;;
+33;Naila;Boudiaf;naila.boudiaf@gmail.com;Philips France;;;
+123;Nancy;Cox;nancy.j.cox@vumc.org;Vanderbilt University Medical Center;;;
+96;Natalie;Sebanz;sebanzn@ceu.edu;CEU;;;
+72;Natasha;Mead;nf262@cam.ac.uk;University of Cambridge;;;
+58;Nicholas;Browitt;nicholjb@student.sv.uio.no;University of Oslo;;;✔
+77;Nicolas;Pironio;npironio@dc.uba.ar;"Applied Artificial Intelligence Lab, University of Buenos Aires; Computer Science Institute. Buenos Aires, Argentina.";;;✔
+131;Niels Chr.;Hansen;nchansen@aias.au.dk;Aarhus Institute of Advanced Studies & Center for Music in the Brain, Aarhus University;"NIELS CHR. HANSEN is Assistant Professor at Aarhus Institute of Advanced Studies & Center for Music in the Brain, Aarhus University, working on the project ""Why humans make music: uncovering missing links in the behavioural and neurohormonal underpinnings of musical evolution."" He is a member of the Danish Young Academy, co-founded the MUSICOVID research network, and has held postdoctoral positions at Ohio State University & The MARCS Institute.";https://aias.au.dk/aias-fellows/niels-chr-hansen/;✔
+83;Noam;Lederman;noam.lederman@open.ac.uk;The Open University;Noam is a professional musician and a passionate educator speciliasing in popular music drumming. His PhD research focuses on creativity in drumming and technology enhaced learning.;http://www.noamlederman.com;✔
+13;Nori;Jacoby;nori.jacoby@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;"I am currently a Research Group Leader at the Max Planck Institute for Empirical Aesthetics in Frankfurt, where I direct the ""Computational Auditory Perception"" group.";;✔
+43;Nori;Jacoby;nori.jacoby@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;;https://www.aesthetics.mpg.de/en/the-institute/people/nori-jacoby.html;
+59;Ole Adrian;Heggli;oleheggli@gmail.com;Center for Music in the Brain, Aarhus University;Ole Adrian Heggli is an Assistant Professor at Center for Music in the Brain, Aarhus University, where he researches the brain dynamics involved in interpersonal synchronization.;;✔
+117;Olivia;Boorom;olivia.boorom@vumc.org;Vanderbilt University Medical Center;Olivia Boorom is a licensed speech-language pathologist working in the Music Cognition Lab at Vanderbilt University Medical Center. She is primarily interested in how music engagement supports communication outcomes in children with developmental language disorder and autism.;;✔
+48;Olivia;Lucas;olivialucas1@lsu.edu;Louisiana State University;;;✔
+76;Olivia Xin;Wen;olivia.wen@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;I received my Ph.D. and Bachelor's training in Psychology and Music, specifically, perception of musical features and structures. My current research focuses on rhythm production, rate perception across sound categories, and oscillator flexibility.;;✔
+63;Olivier;Lartillot;olivier.lartillot@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;Olivier is a researcher in computational musicology at RITMO. He leads the MIRAGE project, funded by the Research Council of Norway, dedicated to the development of a computational framework for music analysis, cognition and visualisation.;https://www.hf.uio.no/imv/english/people/aca/temporary/oliviel/;✔
+119;Olivier;Lartillot;olivier.lartillot@imv.uio.no;RITMO Interdisciplinary Centre for Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+3;Olivier;Senn;olivier.senn@hslu.ch;Hochschule Luzern - Musik;Olivier Senn studied musicology and philosophy and the University of Zurich (Switzerland) and applied mathematics at the Open University (UK). His research interests include the study of groove and the perception of musical/rhythmic complexity.;https://www.hslu.ch/en/lucerne-university-of-applied-sciences-and-arts/about-us/people-finder/profile/?pid=496;✔
+72;Panagiotis;Boutris;pb698@cam.ac.uk;University of Cambridge;;;
+4;Paola;Cesari;paola.cesari@univr.it;University of Verona;;;
+74;Paul;Devos;p.devos@ugent.be;Ghent University;;;
+83;Paul;Mulholland;paul.mulholland@open.ac.uk;The Open University;;;
+72;Perrine;Brusini;P.Brusini@liverpool.ac.uk;University of Liverpool;;;
+43;Peter;Harrison;peter.harrison@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;;https://www.aesthetics.mpg.de/en/the-institute/people/dr-peter-harrison.html;
+131;Peter;Keller;p.keller@westernsydney.edu.au;The MARCS Institute for Brain, Behaviour, and Development, Western Sydney University;;http://pkpublications.weebly.com/#;✔
+5;Peter;Lovatt;peter.lovatt@movementinpractice.com;Movement In Practice;;https://www.peterlovatt.com/dr-dance/;
+28;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;
+59;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;
+73;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;
+86;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;
+110;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;
+121;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;;✔
+131;Peter;Vuust;pv@musikkons.dk;Center for Music in the Brain, Aarhus University;;http://www.petervuust.dk/;
+116;Peter E.;Keller;p.keller@westernsydney.edu.au;The MARCS Institute for Brain, Behaviour and Development, Western Sydney University, Australia;;;
+30;Petr;Janata;pjanata@ucdavis.edu;University of California, Davis;;https://atonal.ucdavis.edu/;
+28;Preben;Kidmose;pki@ece.au.dk;Department of Engineering, Biomedical engineering, Aarhus University, Denmark;;;
+30;Prescott;Alexander;pcalexander@ucdavis.edu;University of California, Davis;;;
+102;Prisca;Hsu;phsu26@uwo.ca;Western University;My name is Prisca and I am a 4th-year honors thesis student in Dr. Jessica Grahn's lab at Western University. My thesis focuses on the effects of previous music and dance training experience on beat perception and production abilities in both healthy and Parkinson's Disease populations.;;
+3;Rafael;Jerjen;rafael.jerjen@hslu.ch;Hochschule Luzern - Musik;;;
+50;Ragnhild;Brøvig-Hanssen;ragnhiba@imv.uio.no;University of Oslo;Ragnhild Brøvig-Hanssen is Associate Professor in Popular Music Studies in the Department of Musicology and RITMO at the University of Oslo, Norway. She has published articles and book chapters on music production, digital media, rhythm and groove, sound studies, and sample-based music and is the author of Digital Signatures: The Impact of Digitization on Popular Music Sound (MIT Press, 2016, with Anne Danielsen).;https://www.uio.no/ritmo/english/people/tenured/ragnhiba/;✔
+13;Rainer;Polak;rainer.polak@ae.mpg.de;Max Planck Institute for Empirical Aesthetics;Rainer Polak is a senior postdoctoral researcher at the Max Planck Institute for Empirical Aesthetics and previously was lead researcher at Cologne University for Music and Dance, and research fellow at Durham University and Bayreuth University. His work focuses on West African drumming and dance, including perspectives from social/cultural anthropology and ethnomusicology/choreology as well as from music theory, empirical musicology, and music cognition.;"https://www.aesthetics.mpg.de/en/the-institute/people/rainer-polak.html
+";✔
+49;Randall;Harlow;randallharlow@hotmail.com;University of Northern Iowa;;http://randallharlow.net;✔
+100;Rebecca;Schaefer;r.s.schaefer@fsw.leidenuniv.nl;Leiden University;Rebecca Schaefer is an Associate Professor at the Health, Medical and Neuropsychology unit at Leiden University, and heads the Music, Brain, Health, Technology lab there. Her work focuses on health-related applications of music neuroscience, specifically rhythmically cued movement.;www.rebeccaschaefer.net;✔
+82;Rebecca;Scheurich;rebecca.scheurich@mail.mcgill.ca;McGill University;Rebecca Scheurich is a PhD candidate in the Experimental Psychology program at McGill University under the supervision of Professor Caroline Palmer. Her current research examines the behavioural and neural mechanisms supporting auditory-motor synchronization flexibility.;;
+1;Renee;Timmers;r.timmers@sheffield.ac.uk;The University of Sheffield;;;
+23;Reyna;Gordon;reyna.gordon@vanderbilt.edu;Vanderbilt University Medical Center;Reyna L. Gordon, PhD is an Assistant Professor in the Department of Otolaryngology - Head & Neck Surgery at Vanderbilt University Medical Center, where she co-directs the Music Cognition Lab. Her primary research interest is the biological basis of music and language.;;
+32;Reyna;Gordon;reyna.gordon@vanderbilt.edu;Vanderbilt University Medical Center;;;
+85;Reyna;Gordon;reyna.gordon@vanderbilt.edu;Vanderbilt University Medical Center;;;✔
+123;Reyna;Gordon;reyna.gordon@vanderbilt.edu;Vanderbilt University Medical Center;;;✔
+46;Reyna;Gordon;reyna.gordon@vanderbilt.edu;Vanderbilt University Medical Center;;;
+133;Richard;Parncutt;parncutt@uni-graz.at;Centre for Systematic Musicology, University of Graz;;https://homepage.uni-graz.at/de/richard.parncutt/;✔
+34;Robert;Hofmann;hofmann@mdw.ac.at;mdw – University of Music and Performing Arts Vienna;;;✔
+45;Roger;Chaffin;roger.chaffin@uconn.edu;University of Connecticut;;;
+66;Rolf Inge;Godøy;r.i.godoy@imv.uio.no;RITMO, University of Oslo;I'm professor of music theory at the Department of Musicology, University of Oslo, and a researcher at RITMO. My main interest is in phenomenological approaches to music theory, now also including music-related body motion in performance and listening.;https://www.uio.no/ritmo/english/people/tenured/rolfig/index.html;✔
+20;Rui;Ma;13661384500@163.com;Beijing City University;;;✔
+40;Ryan;Meidinger;rmeidinger@unomaha.edu;University of Nebraska at Omaha;;;
+120;Ryan;Meidinger;rmeidinger@unomaha.edu;University of Nebraska at Omaha;;;✔
+65;Ryan;Stables;Ryan.Stables@bcu.ac.uk;Birmingham City University;;;
+81;Ryan;Stables;Ryan.Stables@bcu.ac.uk;Birmingham City University;;;
+16;Sabine;Leske;;University of Oslo;;;
+57;Sabine;Leske;;University of Oslo;;;
+115;Sami Vasileios;Amiris;sami.amiris@gmail.com;National and Kapodistrian University of Athens, American College of Greece;;http://www.phosduo.com/sami-amiris/;✔
+72;Samuel;Gibbon;sg853@cam.ac.uk;University of Cambridge;;;
+15;Sandra;Solli;sandra.solli@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;Sandra Solli is a PhD Fellow in Cognitive Neuroscience at RITMO Center for Interdisciplinary Studies in Rhythm, Time, and Motion. She has a background in Acoustics (MSc), Musicology (BA), and Cognitive Psychology (BA). In her current project, she is interested in the neural mechanisms underlying temporal prediction.;https://www.uio.no/ritmo/english/people/phd-fellows/sandrso/;✔
+67;Sara;D'Amario;damario@mdw.ac.at;Department of Music Acoustics, University of Music and Performing Arts, Vienna;Sara D’Amario is a post-doctoral researcher at the Department of Music Acoustics of the University of Music and Performing Arts Vienna. She earned a PhD in Music Technology at the University of York (UK), an MA in Psychology of Music at the University of Sheffield (UK), and degrees in Piano Performance and Musicology both from the Conservatory of Music of Milan (Italy). Her research interests center on music synchronization and expressiveness, interpersonal communications and interactions, and musicians’ body motion.;http://www.mdw.ac.at;✔
+104;Sara;Nossen;saranossen@gmail.com;University of Oslo;;;
+109;Sara;Nossen;sara.nossen@psykologi.uio.no;University of Oslo;;;✔
+72;Sheila;Flanagan;saf31@cam.ac.uk;University of Cambridge;;;
+2;Siamak;Haj Azim Zanjani;siamak.h.a.z@gmail.com;Shahid Rajaee university;;https://siamakhajazim.ir/;
+110;Signe;Hagner;signe@clin.au.dk;Center for Music in the Brain, Aarhus University;With a background in musicology and psychology, Signe Hagner is currently working on her PhD project in the interdisciplinary field between musicology and neuroscience. Here she studies the neural correlates of rhythmic tension created by intrapersonal coordination of rhythm and meter.;;✔
+70;Silvan;Peter;silvan.peter@jku.at;Johannes Kepler University Linz;;;✔
+123;Simon;Fisher;Simon.Fisher@mpi.nl;Max Planck Institute for Psycholinguistics;;;
+83;Simon;Holland;simon.holland@open.ac.uk;The Open University;;;
+85;Simone;Dalla Bella;simone.dalla.bella@umontreal.ca;University of Montreal;;;✔
+72;Sinead;Rocha;sineadrocha@gmail.com;University of Cambridge;Postdoc working on a large longitudinal study of infant rhythm perception and production. Interested in links between variability in the motor system and sensorimotor synchronisation through development.;;✔
+39;Sofia;Dahl;sof@create.aau.dk;Aalborg University;;;✔
+23;Sonja;Kotz;sonja.cimon@googlemail.com;Maastricht University;;;
+87;Sophie;Scott;sophie.scott@ucl.ac.uk;University College London;I’m a cognitive neuroscientist, and I study speech, sound and the human brain. I have been interested in rhythm since my PhD on perceptual centres in speech and music in 1994.;https://www.ucl.ac.uk/icn/;✔
+90;Sophie;Scott;sophie.scott@ucl.ac.uk;University College London;;;
+92;Sophie;Scott;sophie.scott@ucl.ac.uk;University College London;;;
+32;Srishti;Nayak;srishti.nayak@vumc.org;Vanderbilt University Medical Center;I'm a postdoctoral research fellow investigating the genetic and neural underpinnings of speech prosody, musical rhythm, and reading (and how they relate to each other!). I have a special interest in how these skills develop and function over the lifespan of multilingual speakers, building on my PhD research on bilingual neurocognitive development.;https://www.vumc.org/music-cognition-lab/person/srishti-nayak;✔
+23;Stephen;Wilson;smwilsonau@gmail.com;Vanderbilt University Medical Center;;;
+116;Sylvie;Nozaradan;sylvie.nozaradan@uclouvain.be;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;;;
+22;Tanmayee;Pathre;t.u.pathre@tue.nl;Eindhoven University of Technology;;;
+98;Tara;Henechowicz;tara.henechowicz@mail.utoronto.ca;Music and Health Research Collaboratory;;;
+18;Teresa;Borowski;borowsk1@uic.edu;University of Illinois - Chicago;;;✔
+24;Thomas;Kaplan;t.m.kaplan@qmul.ac.uk;Queen Mary University of London;PhD student at Queen Mary University of London (Music Cognition Lab & CRISP group), studying computational models of rhythm perception and production.;https://kappers.github.io/;✔
+96;Thomas;Wolf;wolft@ceu.edu;Central European University;I am working at the intersection of musicology and cognitive science to study how we coordinate in joint actions.;https://scholar.google.com/citations?hl=en&user=-TdraGkAAAAJ&view_op=list_works;✔
+46;Tiffany G.;Woynaroski;tiffany.g.woynaroski@vumc.org;Vanderbilt University Medical Center;;;
+18;Timothy;Carsel;timothy.carsel@gmail.com;TopBloc;;;
+116;Tomas;Lenc;tomas.lenc@uclouvain.be;Institute of Neuroscience (IONS), Université catholique de Louvain (UCL), Belgium;Tomas is a postdoctoral researcher at the Rhythm&Brains lab (UCLouvain, Belgium). He uses EEG and motion recordings to investigate the neural underpinnings of musical rhythm perception and sensory-motor coordination in humans.;;✔
+3;Toni Amadeus;Bechtold;toni.bechtold@hslu.ch;"Department of Music, Lucerne University of Applied Sciences and Arts, Switzerland
+Department of Music, University of Birmingham, UK";Music researcher, jazz saxophone player and teacher. Living and working in Switzerland, PhD Student in Birmingham.;www.tonibechtold.de;
+53;Toni Amadeus;Bechtold;toni.bechtold@hslu.ch;"Department of Music, Lucerne University of Applied Sciences and Arts, Switzerland
+Department of Music, University of Birmingham, UK";;;✔
+15;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+16;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;
+58;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+60;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+84;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;;✔
+104;Tor;Endestad;tor.endestad@psykologi.uio.no;RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, University of Oslo;;https://www.sv.uio.no/psi/english/people/aca/tendesta/;✔
+101;Tor;Halmrast;torhalm@online.no;University of Oslo/Musicology, and COWI, Oslo;;https://tor.halmrast.no;✔
+103;Tor;Halmrast;torhalm@online.no;University of Oslo/Musicology, and COWI, Oslo;;https://tor.halmrast.no;✔
+95;Torbjörn;Gulz;gulz@kth.se;Media Technology and Interaction Design, EECS, Royal Institute of Technology (KTH);;https://tgulz.weebly.com/;✔
+113;Torbjörn;Gulz;torbjorn.gulz@kmh.se;Royal College of Music Stockholm;;http://kmh.se;✔
+68;Torsten;Dau;tdau@dtu.dk;1) Technical University of Denmark, 2) Copenhagen Hearing and Balance Center;;;
+98;Tristan;Loria;tristan.defrancesco.loria@mail.utoronto.ca;Music and Health Research Collaboratory;Tristan's work examines motor learning in music using behavioral and neurophysiological approaches. The knowledge generated by this research focus is subsequently applied within musical pedagogy and  motor relearning using music-based interventions in chronic stroke.;http://mahrc.music.utoronto.ca/;✔
+88;Troby Ka-Yan;Lui;kayan.lui@uni-luebeck.de;University of Lübeck;I am a PhD student in the Obleser Lab from the University of Lübeck. I am interested in how attentional filtering unfolds in time. In particular, I want to understand the rhythmic process underlying distraction suppression.;;✔
+17;Tysen;Dauer;tdauer@research.baycrest.org;Rotman Research Institute;;;✔
+114;Tzu-Han Zoe;Cheng;tzcheng@ucsd.edu;UC SanDiego;Hi everyone, I am Zoe Cheng from UC San Diego. My research interest is about how human brains process timing and rhythm, focusing on the dynamic interaction between auditory and motor system.;;✔
+72;Usha;Goswami;ucg10@cam.ac.uk;University of Cambridge;;;
+93;Valentin;Begel;valentin.begel@mcgill.ca;McGill University;I am a postdoctoral fellow at the Sequence Production Lab (McGill University, Department of Psychology) with Pr. Caroline Palmer. My broad research interests are humans' rhythm perception and production skills. I am currently studying non-linear dynamics properties of auditory-motor synchronization.;https://www.mcgill.ca/spl/;✔
+117;Valerie;Muñoz;valalmunoz@gmail.com;Vanderbilt University Medical Center;;;
+11;Véronique;Martel;veronique.martel.6@umontreal.ca;Department of Psychology, University of Montreal, International Laboratory for Brain, Music and Sound Research (BRAMS);;;✔
+40;Vivien;Marmelat;vivien.marmelat@gmail.com;University of Nebraska at Omaha;;;✔
+120;Vivien;Marmelat;vivien.marmelat@gmail.com;University of Nebraska at Omaha;;;✔
+67;Werner;Goebl;goebl@mdw.ac.at;Department of Music Acoustics, University of Music and Performing Arts, Vienna;;http://www.mdw.ac.at;
+29;Xiangbin;Teng;xiangbin.teng@gmail.com;Max Planck Institute for Human Development;;;
+62;Xinyue;Wang;xinyue.wang@uni-hamburg.de;Institute for Systematic Musicology, Universität Hamburg;Xinyue Wang, a PhD candidate with a research interest primarily on multisensory time perception, as well as timing with music and biological motions.;https://www.slomo.uni-hamburg.de/team/wang.html;✔
+105;Yi;Wei;yi.wei@uconn.edu;University of Connecticut;PhD candidate at UCONN Language and Cognition Program.;;✔
+32;Youjia;Wang;youjia.wang.1@vumc.org;Vanderbilt University Medical Center;;;
+46;Youjia;Wang;youjia.wang.1@vumc.org;Vanderbilt University Medical Center;;;
+130;Yuka;Saito;saito.yuka.l3@elms.hokudai.ac.jp;Hokkaido University;Yuka Saito is a Master's student in Japan. Graduate school of Humanities and Human Sciences at Hokkaido University where she has been a member of department of Psychology since 2020. She completed undergraduate studies at Nihon University, Japan and exchange progeramme at The Education University of Hong Kong. My research interest focus around Experimental Psychology, specialising movement and synchrony.;;✔
+99;Zachary;Lookenbill;lookenb1@msu.edu;Michigan State University;;;
+127;Zachary;Lookenbill;lookenb1@msu.edu;Michigan State University;Zachary is finishing his master's degree in music theory at Michigan State University and will continue with his PhD in music theory at the Ohio State University. Outside of his work on music theory and music theory pedagogy, his music cognition research is focused on rhythm and meter perception, specifically concerning rhythmic complexity.;;✔
+45;Zachary;Melton;zmelto2@uic.edu;University of Illinois-Chicago;Zach Melton is a graduate student in the Social and Personality Psychology program at the University of Illinois-Chicago, where he primarily studies how moving together to music drives behavior. More specifically, Zach is interested in how people with similar musical identities bond through music and how this process can lead to behaviors that benefit their shared group.;;✔
+2;Zohreh;Vaziri;zova137@gmail.com;Kerman medical university;;http://www.zova.ir;✔
+65;W.;Chua;W.Chua.1@bham.ac.uk;University of Birmingham;;;
+65;Joanne;Howe;Joanne.Howe@nottingham.ac.uk;University of Nottingham;;;
+65;K.;Quinn;k.quinn@depaul.edu;DePaul University;;;
