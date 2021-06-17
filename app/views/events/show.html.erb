@@ -6,23 +6,41 @@
   </div>
   <div class='bottom-half p-sm-5 p-3'>
     <% if @event.youtube_link || @event.vortex_link %>
-      <div class='ratio ratio-16x9'>
-        <% if @event.youtube_link %>
-          <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <% elsif @event.vortex_link %>
-          <iframe src=<%= vortex_embed(@event) %> frameBorder="0" allowfullscreen></iframe>
+      <% if @event.youtube_link %>
+        <% if @event.youtube_link.include?("youtu.be") %>
+          <div class='ratio ratio-16x9'>
+            <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         <% end %>
+      <% elsif @event.vortex_link %>
+        <div class='ratio ratio-16x9'>
+          <iframe src=<%= vortex_embed(@event) %> frameBorder="0" allowfullscreen></iframe>
+        </div>
+      <% end %>
+    <% end -%>
+
+    <% if !@event.youtube_link.blank? && !@event.youtube_link.include?("youtu.be") %>
+      <div class='row'>
+        <div class='col text-center'>
+          <%= link_to @event.youtube_link, class:'btn-join me-sm-3', target: '_blank' do %>
+            Watch it here
+          <% end %>
+        </div>
       </div>
     <% end -%>
+
     <br>
-    <div class='row mt-4'>
-      <div class='col-sm-4'>
-        <h3>ZOOM</h3>
+
+    <% if @event.zoom_link %>
+      <div class='row mt-4'>
+        <div class='col-sm-4'>
+          <h3>ZOOM</h3>
+        </div>
+        <div class='col-sm-8'>
+          <strong><%= link_to @event.zoom_link, @event.zoom_link, target: '_blank' %></strong>
+        </div>
       </div>
-      <div class='col-sm-8'>
-        <strong><%= link_to @event.zoom_link, @event.zoom_link, target: '_blank' %></strong>
-      </div>
-    </div>
+    <% end -%>
     <div class='row mt-4'>
       <div class='col-sm-4'>
         <h3>AUTHORS</h3>

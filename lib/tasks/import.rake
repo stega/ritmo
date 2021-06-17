@@ -136,7 +136,8 @@ namespace :import do
     event              = Event.new
     event.title        = "Fibres Out of Line"
     event.abstract     = "Fibres Out of Line is an interactive art installation and performance for the 2021 Rhythm Perception and Production Workshop (RPPW). Visitors can watch the performance, and subsequently interact with the installation, all remotely via Zoom."
-    event.youtube_link = ""
+    event.youtube_link = "https://michaelkrzyzaniak.com/Fibers_Out_Of_Line/"
+    event.zoom_link    = "https://uio.zoom.us/s/61075841243"
     event.event_type   = "concert"
     event.conference_session = ConferenceSession.find_by(name: "Concert 1")
     event.save!
@@ -172,7 +173,7 @@ namespace :import do
       event              = Event.new
       event.title        = "Social event"
       event.event_type   = "social"
-      event.zoom_link    = ""
+      event.zoom_link    = "https://uio.zoom.us/j/64601680538?pwd=djFIRWhuNHBORXcrQjk1bXo2UUg1UT09"
       event.conference_session = ConferenceSession.where(name: 'Zoom social')[num]
       event.save!
     end
