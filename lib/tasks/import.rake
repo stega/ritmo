@@ -230,7 +230,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-22 18:30'),
       end:          Time.zone.parse('2021-06-22 19:30'))
     ConferenceSession.create(
-      name:         "Poster blitz",
+      name:         "Poster blitz 1",
       chair:        "",
       session_type: "PosterBlitz",
       start:        Time.zone.parse('2021-06-22 19:45'),
@@ -282,7 +282,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-23 18:30'),
       end:          Time.zone.parse('2021-06-23 19:30'))
     ConferenceSession.create(
-      name:         "Poster blitz",
+      name:         "Poster blitz 2",
       chair:        "",
       session_type: "PosterBlitz",
       start:        Time.zone.parse('2021-06-23 19:45'),
@@ -328,7 +328,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-24 18:30'),
       end:          Time.zone.parse('2021-06-24 19:30'))
     ConferenceSession.create(
-      name:         "Poster blitz",
+      name:         "Poster blitz 3",
       chair:        "",
       session_type: "PosterBlitz",
       start:        Time.zone.parse('2021-06-24 19:45'),
@@ -380,7 +380,7 @@ namespace :import do
       start:        Time.zone.parse('2021-06-25 18:30'),
       end:          Time.zone.parse('2021-06-25 19:30'))
     ConferenceSession.create(
-      name:         "Poster blitz",
+      name:         "Poster blitz 4",
       chair:        "",
       session_type: "PosterBlitz",
       start:        Time.zone.parse('2021-06-25 19:45'),

@@ -67,4 +67,24 @@ module EventsHelper
   def vortex_embed(event)
     event.vortex_link.gsub('view-as-webpage', 'video-embed')
   end
+
+  def link_to_zoom(session)
+    if session.session_type == 'Concert'
+      youtube_link = session.events.first.youtube_link
+      return link_to('Watch it here', youtube_link, class:'btn-join me-sm-3', target: '_blank')
+    else
+      return link_to('Join on Zoom', zoom_link(session), class:'btn-join me-sm-3', target: '_blank')
+    end
+  end
+
+  def zoom_link(session)
+    if session.events.size > 0
+      session.events.first.zoom_link
+    elsif session.name.include? 'Poster blitz'
+      s = ConferenceSession.find_by name: "Posters #{session.name[-1]}"
+      return s.events.first.zoom_link
+    else
+      'https://uio.zoom.us/j/68066232139'
+    end
+  end
 end

@@ -1,36 +1,23 @@
 <div class='session'>
   <div class='row'>
-      <div class='col-sm-2 pb-2'>
-        <%= session_time(conf_session) %>
-      </div>
-      <div class='col-sm-6'>
-        <h2 class='session_name'>
-          <% if conf_session.session_type == 'Talks' %>
-            Talks:
-          <% end %>
-          <%= conf_session.name %>
-        </h3>
-        <% if !conf_session.chair.empty? %>
-          <p class='chair'>Chair - <%= conf_session.chair %>
+    <div class='col-sm-2 pb-2'>
+      <%= session_time(conf_session) %>
+    </div>
+    <div class='col-sm-6'>
+      <h2 class='session_name'>
+        <% if conf_session.session_type == 'Talks' %>
+          Talks:
         <% end %>
-        </p>
-      </div>
-      <% if conf_session.events.first %>
-        <% if conf_session.session_type == 'Talks' || conf_session.session_type == 'Posters' || conf_session.session_type == 'Social' || conf_session.session_type == 'Keynote' %>
-          <div class='col-sm-4 pt-4 pb-4 text-sm-end'>
-            <%= link_to conf_session.events.first.zoom_link, class:'btn-join me-sm-3', target: '_blank' do %>
-              Join on Zoom
-            <% end %>
-          </div>
-        <% end -%>
-        <% if conf_session.session_type == 'Concert' %>
-          <div class='col-sm-4 pt-4 pb-4 text-sm-end'>
-            <%= link_to conf_session.events.first.youtube_link, class:'btn-join me-sm-3', target: '_blank' do %>
-              Watch it here
-            <% end %>
-          </div>
-        <% end -%>
+        <%= conf_session.name %>
+      </h3>
+      <% if !conf_session.chair.empty? %>
+        <p class='chair'>Chair - <%= conf_session.chair %>
       <% end %>
+      </p>
+    </div>
+    <div class='col-sm-4 pt-4 pb-4 text-sm-end'>
+      <%= link_to_zoom(conf_session) %>
+    </div>
   </div>
 </div>
 
