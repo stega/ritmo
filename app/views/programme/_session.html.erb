@@ -16,7 +16,7 @@
         </p>
       </div>
       <% if conf_session.events.first %>
-        <% if conf_session.session_type == 'Talks' || conf_session.session_type == 'Posters' || conf_session.session_type == 'Social'%>
+        <% if conf_session.session_type == 'Talks' || conf_session.session_type == 'Posters' || conf_session.session_type == 'Social' || conf_session.session_type == 'Keynote' %>
           <div class='col-sm-4 pt-4 pb-4 text-sm-end'>
             <%= link_to conf_session.events.first.zoom_link, class:'btn-join me-sm-3', target: '_blank' do %>
               Join on Zoom
