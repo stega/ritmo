@@ -22,7 +22,7 @@
 </div>
 
   <div class='events'>
-    <% conf_session.events.each do |event| %>
+    <% conf_session.events.order(:id).each do |event| %>
       <div class='row'>
         <div class='col-sm-10 offset-sm-2 pb-3'>
           <div class='row'>
