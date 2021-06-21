@@ -1,4 +1,64 @@
 namespace :import do
+
+  desc "Re-link authors to events"
+  task :link_authors => :environment do
+    require 'csv'
+    AuthorEvent.delete_all
+    # TALKS
+    CSV.foreach("ritmo_data/talks.csv", {:col_sep => ";"}) do |row|
+      next if row[2].blank? || row[2] == 'Session name'
+      event = Event.find_by easy_chair: row[1].strip
+      as = row[4]
+      as.gsub!(' and ', ', ')
+      order_num = 1
+      as.split(', ').each do |a|
+        author = Author.find_by name: a
+        if !author.nil?
+          ae = AuthorEvent.new
+          ae.author_id = author.id
+          ae.event_id = event.id
+          ae.order = order_num
+          ae.save
+          order_num += 1
+        end
+      end
+    end
+    # POSTERS
+    CSV.foreach("ritmo_data/posters.csv", {:col_sep => ";"}) do |row|
+      next if row[1].blank? || row[1] == 'Poster Session'
+      event = Event.find_by easy_chair: row[0].strip
+      # add authors to event
+      as = row[3]
+      as.gsub!(' and ', ', ')
+      order_num = 1
+      as.split(', ').each do |a|
+        author = Author.find_by name: a
+        if !author.nil?
+          ae = AuthorEvent.new
+          ae.author_id = author.id
+          ae.event_id = event.id
+          ae.order = order_num
+          ae.save
+          order_num += 1
+        end
+      end
+    end
+
+    # KEYNOTES
+    e = Event.find_by title: "In the wake of Henry Shaffer: approaches, events, togetherness"
+    a = Author.find_by(name: "Eric F. Clarke")
+    e.authors << a
+
+    e = Event.find_by title: "Mapping between sound, brain and behavior for understanding musical meter"
+    a = Author.find_by(name: "Sylvie Nozaradan")
+    e.authors << a
+
+    # CONCERTS
+    e = Event.find_by title: "Scandinavian fiddle music"
+    a = Author.find_by name: "Anne Hytta"
+    e.authors << a
+  end
+
   desc "Import everything"
   task :all => :environment do
     Event.delete_all
