@@ -6,7 +6,7 @@
   </div>
   <div class='bottom-half p-sm-5 p-3'>
     <% if @event.youtube_link || @event.vortex_link %>
-      <% if @event.youtube_link %>
+      <% if @event.youtube_link.present? %>
         <% if @event.youtube_link.include?("youtu.be") %>
           <div class='ratio ratio-16x9'>
             <iframe src="https://www.youtube.com/embed/<%= extract_yt_id(@event) %>?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
